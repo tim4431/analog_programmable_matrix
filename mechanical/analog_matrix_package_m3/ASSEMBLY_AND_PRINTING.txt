@@ -1,0 +1,125 @@
+ANALOG MATRIX 4x4 - PCB REV D / ENCLOSURE M3
+
+WHAT CHANGED
+PCB Rev D is 160 x 170 mm versus Rev C 180 x 210: 28.04% less board area.
+Enclosure M3 is 180 x 192 x 60 mm versus M2 200 x 232 x 60: 25.52% less
+footprint. Four 2.5 mm feet make overall nominal body height 62.5 mm.
+Eight upward-facing 50-ohm BNCs retain 30 mm row spacing and accessible
+coupling sleeves. Amphenol 031-5329-52RFX centers: PCB X=7 / 154,
+Y=20,50,80,110. Inputs remain high impedance unless optional shunts are fitted.
+Outputs retain 49.9-ohm series source termination and require external loads.
+Power J9 faces +X at the right board edge, with a matching 20 x 13 mm opening.
+The PCB control/power bay is rearranged and the four analog rows are closer.
+The sink envelopes remain 35 x 13 x 38.1 mm; temperature qualification must
+use this smaller enclosure and the final purchased heatsinks.
+
+OPEN THESE FILES
+cad/complete_assembly.step     PCB, enclosure and heatsink clearance models
+cad/populated_pcb.step         Actual drilled PCB plus all 424 fitted parts
+analog_matrix_4x4_3d.kicad_pcb Portable KiCad PCB with local models
+analog_matrix_package.blend    Editable render scene, saved assembled
+print/*.stl                    Three printable enclosure parts, in mm
+cad/G10_heatsink_retainer.dxf  1:1 machining profile for 3 mm G10
+mechanical_dimensions.svg      Dimensioned overview
+panel_graphics_1to1.svg        Signal-cover labels at 1:1
+THERMAL_CALCULATION.txt        Heat budget and smaller-sink acceptance
+
+COORDINATES AND HEIGHTS
+CAD X = PCB X; CAD Y = 170 - KiCad Y. Z=0 is the tray underside.
+PCB underside Z=9; actual native stack thickness 1.62; PCB top Z=10.62.
+Fabrication remains nominal 1.6 mm. Use this native stack for mechanical fit.
+Tray floor 3; insulating bosses 6 above floor. Walls nominally 3 mm thick.
+Signal lid top Z=19; ribs extend to Z=13.5. Hood roof top Z=60, inside Z=57.
+Eight BNC apertures are diameter 18. Nominal connector ends are Z=27.22,
+8.22 mm above the lid. Cable envelopes allow <=17 mm coupling-sleeve OD.
+Power window is CAD Y=22..42, Z=12.5..25.5 in the right wall.
+The three screw heads are accessed from above with the power hood removed.
+USB opening remains 20 x 12 mm; use cable overmould <=18 x 10 mm.
+
+POWER POLARITY - DO NOT INFER FROM THE OLD RENDER
+J9 pin 1: +15 V, PCB (155,143), CAD Y=27.
+J9 pin 2: GND, PCB (155,137.92), CAD Y=32.08.
+J9 pin 3: -15 V, PCB (155,132.84), CAD Y=37.16.
+The terminal pin pitch is 5.08 mm. Use the PCB markings and pin numbers.
+Disconnect power before wiring. Remove the hood to tighten the top screws.
+Use insulated leads up to 3 mm OD in the checked access envelopes and add
+external cable strain relief so cable pulls are not carried by solder joints.
+The former M12 gland is removed; this is a dry, indoor laboratory enclosure.
+
+PRINT AND ASSEMBLE
+Use PA12 SLS/MJF as an initial material/process candidate. Qualify its actual
+temperature rating and creep against measured internal temperatures.
+The files are mm, 100% scale; largest printed part is 180 x 192 mm.
+Covers are supplied roof-down and tray floor-down. For FDM, assess supports
+and screw-boss strength. First inspect connector/mount centers to +/-0.25 mm.
+16 insert pilots are diameter 4.2. Select matching M3 inserts, about 4.6 OD
+and 4 mm length; establish the fit with a printed coupon before assembly.
+Recess the PCB-mount inserts 0.5 mm and cover inserts approximately 0.3 mm.
+Trim all soldered leads to <=2.5 mm below the board; TO-220 models show this.
+Use the original Pico with 8.5 mm female sockets and 2.5 mm male spacers.
+Pico PCB underside is 11 mm above the carrier top; do not change that stack
+without checking the USB opening and hood fit.
+
+HARDWARE PER UNIT
+3 printed parts: base tray, signal lid, independent rear hood
+1 G10/FR4 retaining bridge: 85.6 x 14 x 3, no copper, two diameter 3.4 holes
+  at 78.0 pitch. Use supplied STEP/DXF. Do not print this hot restraint.
+2 M3 female/female aluminum spacers, length 50, hex <=6 mm across flats
+2 temperature-rated soft silicone pads, nominal 14 x 6 x 4.5 mm
+  CAD compressed thickness 3.78; set actual preload to the selected sink.
+16 M3 inserts, 4 mm long, matching the printed pilots
+12 M3 x 6 low-profile screws: 6 PCB mounts + 6 signal-cover fasteners
+6 insulating PCB washers, about 0.5-0.8 mm thick
+8 M3 x 8 screws: 4 hood fasteners + 4 retainer/post fasteners
+  Under-tray screw heads must be <=2 mm high to clear the 2.5 mm feet.
+4 adhesive feet, approximately 12 x 12 x 2.5
+2 bolted TO-220 heatsinks fitting 35 x 13 x 38.1 envelopes
+2 TO-220 insulation/interface kits with screws and insulating shoulder bushes
+2 1x20 Pico sockets and 2 matching 1x20 headers as specified above
+1 external strain-relief anchor for the power leads, appropriate to the bench
+
+HEATSINK INSTALLATION
+Sink X centers 102.46 and 140.46. Mounting front plane CAD Y=13.54 includes
+a nominal 0.30 mm interface behind the modeled TO-220 rear tab surface.
+Sinks start at Z=11.12, end Z=49.22. G10 bridge bottom Z=53, top Z=56.
+Post centers CAD (78,-4) and (156,-4), bottom Z=3, top Z=53.
+Fit inserts/posts first, mount PCB with insulating washers, bolt the sinks
+to regulator tabs, then fit compliant pads and the G10 bridge. Do not preload
+the bridge enough to bend the PCB or stress the regulator leads.
+L7805 tab is GND; L7905 tab is -15 V. Prevent conductive coupling through
+sinks, screws, or support hardware. Qualify the electrical isolation.
+The sink fin shapes are reserved envelopes, not a released supplier part.
+There are no heatsink locating-pin holes; select a pinless bolted type or
+have the supplier provide a compatible mounting arrangement.
+
+VERIFICATION AND LIMITS
+KiCad Rev D: zero DRC violations, zero unrouted nets, zero schematic mismatch.
+All 1501 electrical pads match the exported schematic. The 36 protected
+inverting-node copper geometries retain shape/layers/length after rigid
+translation from Rev C. Other routing and placements changed; circuit values
+and firmware are unchanged. This does not establish unchanged parasitics.
+CAD solid-validity and nominal interference checks pass for the case, PCB,
+components, sinks and support hardware. Added checks cover all nine connectors
+against neighboring parts, BNC coupling sleeves, and the three power wires.
+All three STL files are watertight, single-shell meshes with positive volume.
+No prototype print, measured temperature, or post-layout SPICE extraction has
+been performed. The inherited A2 SPICE report remains a circuit-level study.
+Check actual BNC pin fit and bayonet/cable clearances before a production run.
+Do not claim the 38.1 mm sink arrangement thermally qualified until measured.
+
+FILES TO MANUFACTURE
+Use Rev D PCB/Gerber/BOM/CPL with M3 mechanics. Earlier revisions are omitted from the public repository.
+The Rev D JLCPCB handoff still needs 24 BOM row supplier matches, selected-part
+rotation review and via-fill CAM acceptance before an assembly order.
+Do not fill electrical connector holes. Follow the via drill rules in the
+fabrication notes, including the embedded 0.20 mm thermal holes.
+
+EDITABLE SOURCES / ATTRIBUTION
+build_package.py rebuilds CAD with CadQuery 2.8 and the included geometry/models.
+render_package.py rebuilds the Blender 4.3 scene from the CAD tessellations.
+Standard component models: KiCad library; retain KiCad_models_LICENSE.md.
+BNC, Pico and sink clearance models are locally authored, simplified envelopes.
+BNC footprint dimensions: Amphenol catalog page 118, Fig 2 / pattern F:
+https://www.farnell.com/datasheets/1942962.pdf
+Active 50-ohm BNC product:
+https://www.amphenolrf.com/en-us/part/031-5329-52rfx/1877/

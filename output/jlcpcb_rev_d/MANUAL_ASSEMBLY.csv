@@ -1,0 +1,19 @@
+﻿Designator,Quantity,Part/value,Footprint,Rating
+C193,1,47 uF / 35 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,35V polarized
+C195,1,10 uF / 16 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,16V polarized
+C197,1,47 uF / 35 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,35V polarized
+C199,1,10 uF / 16 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,16V polarized
+D1,1,1N4002,D_DO-41_SOD81_P10.16mm_Horizontal,
+D2,1,1N4002,D_DO-41_SOD81_P10.16mm_Horizontal,
+J1,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J2,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J3,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J4,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J5,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J6,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J7,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J8,1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J9,1,3-pin terminal,"TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+U120,1,Raspberry Pi Pico,Pico_2x20_Socket_17.78mm,
+U130,1,L7805CV,TO-220-3_Vertical,
+U131,1,L7905CV,TO-220-3_Vertical,

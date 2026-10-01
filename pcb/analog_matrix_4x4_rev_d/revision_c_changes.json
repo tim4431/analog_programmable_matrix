@@ -1,0 +1,95 @@
+{
+  "changes": [
+    {
+      "ref": "J1",
+      "x": 7,
+      "y": 26.0,
+      "orientation": 0
+    },
+    {
+      "ref": "J2",
+      "x": 7,
+      "y": 62.0,
+      "orientation": 0
+    },
+    {
+      "ref": "J3",
+      "x": 7,
+      "y": 98.0,
+      "orientation": 0
+    },
+    {
+      "ref": "J4",
+      "x": 7,
+      "y": 134.0,
+      "orientation": 0
+    },
+    {
+      "ref": "J5",
+      "x": 174,
+      "y": 26.0,
+      "orientation": 0
+    },
+    {
+      "ref": "J6",
+      "x": 174,
+      "y": 62.0,
+      "orientation": 0
+    },
+    {
+      "ref": "J7",
+      "x": 174,
+      "y": 98.0,
+      "orientation": 0
+    },
+    {
+      "ref": "J8",
+      "x": 174,
+      "y": 134.0,
+      "orientation": 0
+    },
+    {
+      "ref": "R2",
+      "dy": 2.5
+    },
+    {
+      "ref": "R3",
+      "dy": 2.5
+    },
+    {
+      "ref": "R11",
+      "dy": 2.5
+    },
+    {
+      "ref": "R12",
+      "dy": 2.5
+    },
+    {
+      "ref": "R20",
+      "dy": 2.5
+    },
+    {
+      "ref": "R21",
+      "dy": 2.5
+    },
+    {
+      "ref": "R29",
+      "dy": 2.5
+    },
+    {
+      "ref": "R30",
+      "dy": 2.5
+    },
+    {
+      "ref": "J9",
+      "x": 175,
+      "y": 181,
+      "orientation": 90,
+      "wire_entry": "right / +X"
+    }
+  ],
+  "removed_conflicting_routes": [
+    "7da59214-eefa-4eeb-952b-94489a77a65a"
+  ],
+  "bnc_source": "https://www.farnell.com/datasheets/1942962.pdf, Amphenol catalog p118"
+}

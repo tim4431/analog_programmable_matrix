@@ -1,0 +1,5 @@
+{
+  "file": "a2_row_step_capload_rc.cir",
+  "error": "Command '['C:\\\\Users\\\\Tim\\\\AppData\\\\Local\\\\Programs\\\\ADI\\\\LTspice\\\\LTspice.exe', '-b', 'C:\\\\Users\\\\Tim\\\\Desktop\\\\codex\\\\analog_adder\\\\spice\\\\benches\\\\a2_row_step_capload_rc.cir']' timed out after 65 seconds",
+  "netlist_sha256": "1b557fac49f66b722bcb0ac7c94a5a9bbeba00d80822491110c6a76381534603"
+}

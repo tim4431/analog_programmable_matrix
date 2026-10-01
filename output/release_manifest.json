@@ -1,0 +1,12 @@
+{
+  "release": "v0.1.0",
+  "pcb": "D",
+  "enclosure": "M3",
+  "added_power_led": false,
+  "archives": {
+    "analog_matrix_4x4_rev_d_pcb.zip": "dbcc8b6e47a00859a56733c033397574a219a60465e322402b99cfb3719012c1",
+    "analog_matrix_4x4_rev_d_fabrication.zip": "eafa0c28792a7a0071851980a2872bb979821384209b686ad94741ec3b1d965d",
+    "analog_matrix_rev_d_JLCPCB_handoff.zip": "14aafb63b4edc7922fe932c573bdf8353ad4b9476b43232cb8c6b55ca80bece4",
+    "analog_matrix_3d_and_enclosure_M3.zip": "509838dc0a67d03ff3b579a3e79cce99684f14d198e86776e715845000628815"
+  }
+}

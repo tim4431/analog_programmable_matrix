@@ -1,0 +1,17 @@
+# Preserve exact bytes: KiCad, CAM, CAD and simulation evidence carry hashes.
+* -text
+*.kicad_pcb -text
+*.kicad_sch -text
+*.kicad_sym -text
+*.kicad_mod -text
+*.kicad_pro -text
+*.json -text
+*.cir -text
+*.lib -text
+*.step -text
+*.stl -text
+*.raw -text
+*.pdf -text
+*.png -text
+*.blend -text
+*.zip -text

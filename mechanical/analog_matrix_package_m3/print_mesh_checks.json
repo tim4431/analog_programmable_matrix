@@ -1,0 +1,32 @@
+{
+  "base_tray.stl": {
+    "watertight": true,
+    "positive_volume": true,
+    "shells": 1,
+    "dimensions_mm": [
+      180.0,
+      192.0,
+      16.0
+    ]
+  },
+  "power_hood.stl": {
+    "watertight": true,
+    "positive_volume": true,
+    "shells": 1,
+    "dimensions_mm": [
+      180.0,
+      59.7,
+      44.0
+    ]
+  },
+  "signal_cover.stl": {
+    "watertight": true,
+    "positive_volume": true,
+    "shells": 1,
+    "dimensions_mm": [
+      180.0,
+      132.0,
+      5.5
+    ]
+  }
+}

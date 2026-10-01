@@ -1,0 +1,18 @@
+{
+  "file": "a2_input_buffer_loop.cir",
+  "exitcode": 0,
+  "seconds": 11.526,
+  "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_input_buffer_loop.cir\nStart Time: Wed Sep 30 18:25:34 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration for .op point succeeded.\nTotal elapsed time: 10.944 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_input_buffer_loop.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+  "measurements": [
+    {
+      "crossings": [
+        {
+          "crossover_Hz": 66538249.18496836,
+          "phase_margin_deg": 58.99506483880889
+        }
+      ],
+      "min_phase_margin_deg": 58.99506483880889
+    }
+  ],
+  "netlist_sha256": "e2c56399062226389694119c88240ef712ea673082abf85c7c3e4a0028b3e237"
+}

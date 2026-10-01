@@ -1,0 +1,14 @@
+{
+  "AD5544_count": 5,
+  "assigned_footprint": "AnalogMatrix:SSOP-28_5.3x10.2mm_P0.65mm",
+  "fabrication_outline_body_mm": [
+    5.3,
+    10.2
+  ],
+  "pitch_mm": 0.65,
+  "source": "ADI AD5544/AD5554 RS-28 package drawing; KiCad SSOP-28 footprint",
+  "branch_isolation_count": 32,
+  "branch_value": "150 ohm, 0.1%",
+  "branch_values_match_full_matrix_SPICE": true,
+  "footprint_sha256": "46922d16da08de0eee488b6e88f588d49400b128ae22257b9e8bbf65cd2015cc"
+}

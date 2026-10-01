@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T00:34:25-0700",
+    "kicad_version": "8.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77",
+            "violations": []
+        },
+        {
+            "path": "/Inputs/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/b37a37f0-ef2c-59e5-b5a1-753e10138861",
+            "violations": []
+        },
+        {
+            "path": "/Row 0/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/0a162ef3-dbd3-5449-a65b-c524286805f7",
+            "violations": []
+        },
+        {
+            "path": "/Row 1/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/c70585bf-3153-5a0a-8741-65d9c92ef9dc",
+            "violations": []
+        },
+        {
+            "path": "/Row 2/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/d91b9b11-f0a8-5b6e-84b0-d9bdd345d752",
+            "violations": []
+        },
+        {
+            "path": "/Row 3/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/f226acee-ec45-5360-97c5-a38151653d5b",
+            "violations": []
+        },
+        {
+            "path": "/Offset Trim/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/22a21d41-90ce-5baf-ba9e-24cbe2b03d34",
+            "violations": []
+        },
+        {
+            "path": "/Control/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/8f0c859e-622a-598c-92c2-1eb4ec3034d4",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/6f7bd045-92fa-5ca8-85cb-d97554976b77/76adb4fa-6d01-5a55-9039-37eca9a16b51",
+            "violations": []
+        }
+    ],
+    "source": "analog_matrix_4x4.kicad_sch"
+}

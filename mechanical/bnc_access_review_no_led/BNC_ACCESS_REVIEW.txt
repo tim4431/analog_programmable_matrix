@@ -1,0 +1,49 @@
+BNC CABLE ACCESS REVIEW - PCB D / ENCLOSURE M3
+
+RESULT
+All eight straight BNC plug envelopes pass the nominal CAD insertion and
+rotation clearance check. No PCB or enclosure geometry was changed.
+The tightest ports are a3 (J4) and b3 (J8), adjacent to the raised hood.
+
+DIMENSIONS
+Connector pitch: 30 mm. Cover aperture: 18 mm diameter.
+Jack mouth: 8.22 mm above the cover.
+Typical reference collar: 14.5 mm diameter (Amphenol 31-320-RFX, p108).
+With that collar: 15.5 mm plug-to-plug gap, 5.05 mm rear hood gap,
+1.75 mm nominal radial clearance in the cover opening.
+With the larger 17 mm check envelope: 13 mm plug-to-plug gap,
+3.8 mm rear hood gap, and 0.5 mm radial opening clearance.
+
+METHOD
+Eight 17 mm diameter cylinders extend from 10 mm below the jack mouth
+through a 100 mm vertical insertion/withdrawal sweep. All case solids,
+and simultaneous neighboring plug envelopes were checked.
+A rotationally symmetric collar retains the same envelope during locking.
+The 10 mm overlap is a conservative working assumption, not a vendor mated
+CAD measurement; verify mating depth against the actual cable and jack.
+
+HAND ACCESS
+There is limited room behind the rear collars. Grip them from the sides.
+An illustrative two-finger screen (10 mm diameter x 20 mm tall fingertips,
+0.5 mm collar gap, fingertips 1 mm above the cover) clears in two 45-degree
+twists with regripping. A continuous 90-degree sweep of the same rigid
+finger model intersects the hood at a3 and b3. This is a usability warning,
+not a claim that a real hand cannot perform the turn in one movement.
+No anthropometric assessment or physical hand trial has been performed.
+
+ASSEMBLY LIMITS
+The 17 mm case has only 0.5 mm radial margin before printing/alignment
+tolerances; use standard 14-15 mm collars where practical. Measure actual
+printed holes and connector alignment. Large moulded boots, BNC tees and
+right-angle plugs are not qualified by this check. Let cables rise or
+leave toward the open sides; observe the selected cable's minimum bend
+radius instead of forcing a bend against the hood.
+
+FILES
+bnc_access_checks.json: measured nominal clearances and collision results.
+bnc_clearances.png / .svg: dimensioned explanation.
+check_access.py: reproducible CadQuery check of the released M3 solids.
+
+SOURCE
+Amphenol BNC catalog, p108 (31-320-RFX: 14.5 mm diameter, 29.8 mm length)
+https://www.farnell.com/datasheets/1942962.pdf

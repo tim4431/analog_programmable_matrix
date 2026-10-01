@@ -1,0 +1,274 @@
+[
+  {
+    "file": "a2_matrix_signal_positive.cir",
+    "exitcode": 0,
+    "seconds": 163.901,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_matrix_signal_positive.cir\nStart Time: Wed Sep 30 18:23:54 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 163.154 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_matrix_signal_positive.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 1.0208614451503946,
+        "gain_1MHz": 1.0131229746420216,
+        "normalized_1MHz": 0.992419666209225,
+        "phase_1MHz_deg": -19.888289439885817,
+        "max_band_amplitude_error_percent": 0.7580333790774829,
+        "minus3dB_Hz": 7244359.600749768
+      },
+      "v(b1)": {
+        "dc_gain": 1.0208614451566775,
+        "gain_1MHz": 1.013122974642016,
+        "normalized_1MHz": 0.9924196662031116,
+        "phase_1MHz_deg": -19.88828943988593,
+        "max_band_amplitude_error_percent": 0.7580333796888161,
+        "minus3dB_Hz": 7244359.600749768
+      },
+      "v(b2)": {
+        "dc_gain": 1.0208614451503941,
+        "gain_1MHz": 1.0131229746420176,
+        "normalized_1MHz": 0.9924196662092215,
+        "phase_1MHz_deg": -19.888289439885927,
+        "max_band_amplitude_error_percent": 0.7580333790778271,
+        "minus3dB_Hz": 7244359.600749768
+      },
+      "v(b3)": {
+        "dc_gain": 1.0208614451515035,
+        "gain_1MHz": 1.013122974637594,
+        "normalized_1MHz": 0.99241966620381,
+        "phase_1MHz_deg": -19.888289439880754,
+        "max_band_amplitude_error_percent": 0.7580333796189942,
+        "minus3dB_Hz": 7244359.600749768
+      }
+    },
+    "netlist_sha256": "27985c2e8f6fc9f336dd847512809b789d15762ed685000e44521b0604c5a1c8"
+  },
+  {
+    "file": "a2_loaded_chain.cir",
+    "exitcode": 0,
+    "seconds": 15.639,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_loaded_chain.cir\nStart Time: Wed Sep 30 18:23:54 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.870 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_loaded_chain.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 1.020877073717815,
+        "gain_1MHz": 1.0131430207193497,
+        "normalized_1MHz": 0.992424109427495,
+        "phase_1MHz_deg": -19.894532022889987,
+        "max_band_amplitude_error_percent": 0.7575890572504851,
+        "minus3dB_Hz": 7244359.600749768
+      }
+    },
+    "netlist_sha256": "ab7e9dd855969c484b3aef3cf08dfb32115dad06d35bd92dbeb99d1f8c47c426"
+  },
+  {
+    "file": "a2_chain_negative.cir",
+    "exitcode": 0,
+    "seconds": 15.432,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_negative.cir\nStart Time: Wed Sep 30 18:23:54 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.671 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_negative.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 1.020843657871043,
+        "gain_1MHz": 1.0130926981846031,
+        "normalized_1MHz": 0.9924072999556031,
+        "phase_1MHz_deg": -20.127275231524067,
+        "max_band_amplitude_error_percent": 0.7592700044396716,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "netlist_sha256": "8e824a1d554cdc7abe1ed43c55cb1de699c6fded9dea6266b6980e02076daa87"
+  },
+  {
+    "file": "a2_chain_half.cir",
+    "exitcode": 0,
+    "seconds": 15.344,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_half.cir\nStart Time: Wed Sep 30 18:24:09 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.674 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_half.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 0.5104385368241956,
+        "gain_1MHz": 0.5065715103180085,
+        "normalized_1MHz": 0.9924241094133553,
+        "phase_1MHz_deg": -19.89453207625679,
+        "max_band_amplitude_error_percent": 0.7575890586644429,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "netlist_sha256": "1fced884e255814fab67d32f011cb7bc272ead04eabfded0f6110814ff3b52c3"
+  },
+  {
+    "file": "a2_chain_small.cir",
+    "exitcode": 0,
+    "seconds": 15.042,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_small.cir\nStart Time: Wed Sep 30 18:24:09 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.455 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_small.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 0.010208770735736823,
+        "gain_1MHz": 0.010131430205442995,
+        "normalized_1MHz": 0.9924241093961401,
+        "phase_1MHz_deg": -19.894531921138338,
+        "max_band_amplitude_error_percent": 0.7575890603859659,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "netlist_sha256": "a13189ba607228b664af758aedd6166afd367f5e0c6623d11386bfca055f19e4"
+  },
+  {
+    "file": "a2_chain_feed_1.cir",
+    "exitcode": 0,
+    "seconds": 15.346,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_feed_1.cir\nStart Time: Wed Sep 30 18:24:24 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.645 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_feed_1.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 0.9999999999919155,
+        "gain_1MHz": 0.9924398749517054,
+        "normalized_1MHz": 0.9924398749597287,
+        "phase_1MHz_deg": -19.571901597434934,
+        "max_band_amplitude_error_percent": 0.7560125040271037,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "netlist_sha256": "8bc4b167e66dab6bec09d5a7c597e45ad4a2dd1a6c8e10e80031c40adfa4b575"
+  },
+  {
+    "file": "a2_chain_feed_01.cir",
+    "exitcode": 0,
+    "seconds": 15.259,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_feed_01.cir\nStart Time: Wed Sep 30 18:24:24 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.567 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_feed_01.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 0.09999999998719161,
+        "gain_1MHz": 0.09940759748150389,
+        "normalized_1MHz": 0.994075974942364,
+        "phase_1MHz_deg": -16.598721591384834,
+        "max_band_amplitude_error_percent": 0.5924025057635784,
+        "minus3dB_Hz": 8317637.711026581
+      }
+    },
+    "netlist_sha256": "5b49fea3dd98cf5574be1048caa5bec2f249368dc8154bd2c7c37aa70de4a58c"
+  },
+  {
+    "file": "a2_chain_feed_001.cir",
+    "exitcode": 0,
+    "seconds": 15.07,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_feed_001.cir\nStart Time: Wed Sep 30 18:24:39 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.422 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_feed_001.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 0.00999999999875926,
+        "gain_1MHz": 0.011459234295493545,
+        "normalized_1MHz": 1.1459234296915337,
+        "phase_1MHz_deg": 10.09451833351017,
+        "max_band_amplitude_error_percent": 14.592342969153037,
+        "minus3dB_Hz": 32111949.093647677
+      }
+    },
+    "netlist_sha256": "68e814aeb2aa464c9dbd0c237c33809b61e6da16a06ec961675be12a775a3b99"
+  },
+  {
+    "file": "a2_chain_zero_feed.cir",
+    "exitcode": 0,
+    "seconds": 14.843,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_zero_feed.cir\nStart Time: Wed Sep 30 18:24:39 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.196 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_zero_feed.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 5.7729238847138817e-08,
+        "gain_1MHz": 0.00572918634603765,
+        "normalized_1MHz": 99242.36765372839,
+        "phase_1MHz_deg": -19.902663651351926,
+        "max_band_amplitude_error_percent": 9924136.76537271,
+        "minus3dB_Hz": 168525904.4750719
+      }
+    },
+    "netlist_sha256": "266f6e56bfd12d75bc5a2565a6579f34cd9d77a1f0d4b7bffdedcdf437c929e4"
+  },
+  {
+    "file": "a2_chain_corner_lowR.cir",
+    "exitcode": 0,
+    "seconds": 15.03,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_corner_lowR.cir\nStart Time: Wed Sep 30 18:24:54 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.382 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_corner_lowR.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 0.999959709328793,
+        "gain_1MHz": 0.9961234987860718,
+        "normalized_1MHz": 0.9961636348875534,
+        "phase_1MHz_deg": -17.891759412955402,
+        "max_band_amplitude_error_percent": 0.38363651124464493,
+        "minus3dB_Hz": 10964781.961431675
+      }
+    },
+    "netlist_sha256": "7aad6fd59f49f8828784232a8f138ca3f371946ce9e63604e8753c5f6462d917"
+  },
+  {
+    "file": "a2_chain_corner_highR.cir",
+    "exitcode": 0,
+    "seconds": 14.822,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_corner_highR.cir\nStart Time: Wed Sep 30 18:24:54 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 14.234 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_chain_corner_highR.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 1.000039710018557,
+        "gain_1MHz": 0.9926976652189298,
+        "normalized_1MHz": 0.9926582467415309,
+        "phase_1MHz_deg": -22.515883303762696,
+        "max_band_amplitude_error_percent": 0.7341753258468864,
+        "minus3dB_Hz": 6506288.748655473
+      }
+    },
+    "netlist_sha256": "c2dd662e58afb85139daa36e9a476fc0126dd623d1db8296c016987168f505ce"
+  },
+  {
+    "file": "a2_loaded_chain_rc.cir",
+    "exitcode": 0,
+    "seconds": 1.634,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_loaded_chain_rc.cir\nStart Time: Wed Sep 30 18:25:09 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 0.935 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_loaded_chain_rc.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\TMUX6219_static_RC.lib\n\n",
+    "measurements": {
+      "v(b0)": {
+        "dc_gain": 1.0208785735057555,
+        "gain_1MHz": 1.0134202484109014,
+        "normalized_1MHz": 0.9926942093913855,
+        "phase_1MHz_deg": -19.710814156127096,
+        "max_band_amplitude_error_percent": 0.7305790608614249,
+        "minus3dB_Hz": 7413102.41300904
+      }
+    },
+    "netlist_sha256": "ffbe8db0f35597fa5e9281c4ca014512a381a94369dc3db216a28018b99730fb"
+  },
+  {
+    "file": "a2_row_dc.cir",
+    "exitcode": 0,
+    "seconds": 24.243,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_row_dc.cir\nStart Time: Wed Sep 30 18:25:09 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nvernier = 0.5\nvernier = 0.25\nGmin = 0.000263576\nvernier = 0.125\nvernier = 0.0625\nvernier = 0.03125\nvernier = 0.015625\nvernier = 0.0078125\nGmin = 0.000277878\nvernier = 0.00390625\nvernier = 0.00195312\nGmin = 0.000276525\nvernier = 0.00260417\nvernier = 0.00347222\nGmin = 0.000274597\nvernier = 0.00462963\nvernier = 0.00617283\nGmin = 0.00027157\nvernier = 0.00823044\nGmin = 0.000266729\nvernier = 0.0109739\nvernier = 0.0146319\nGmin = 0.000258989\nvernier = 0.0195092\nvernier = 0.0260122\nGmin = 0.00024719\nvernier = 0.034683\nGmin = 0.000229197\nvernier = 0.0173415\nvernier = 0.00867074\nvernier = 0.00433537\nvernier = 0.00216769\nvernier = 0.00108384\nvernier = 0.000541921\nvernier = 0.000406441\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\n.step \nTotal elapsed time: 23.552 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_row_dc.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "netlist_sha256": "70de790ff72d099c1bcb82867aacaa1c392ab02ddb4b28e15aede270bbc164af"
+  },
+  {
+    "file": "a2_row_sine_rc.cir",
+    "exitcode": 0,
+    "seconds": 1.664,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_row_sine_rc.cir\nStart Time: Wed Sep 30 18:25:11 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 1.110 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_row_sine_rc.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\TMUX6219_static_RC.lib\n\n",
+    "netlist_sha256": "edba6ed4e0cb7a29356ed264ad016f39090c81a4459ad5da8e23c0f4e538aab8"
+  },
+  {
+    "file": "a2_row_step_rc.cir",
+    "exitcode": 0,
+    "seconds": 1.797,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_row_step_rc.cir\nStart Time: Wed Sep 30 18:25:13 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 1.105 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_row_step_rc.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\TMUX6219_static_RC.lib\n\n",
+    "netlist_sha256": "a90e87005021f645f0804e1090a9f86b98b90e12412bd06cdfa81c82c768ac97"
+  },
+  {
+    "file": "a2_row_step_capload_rc.cir",
+    "error": "Command '['C:\\\\Users\\\\Tim\\\\AppData\\\\Local\\\\Programs\\\\ADI\\\\LTspice\\\\LTspice.exe', '-b', 'C:\\\\Users\\\\Tim\\\\Desktop\\\\codex\\\\analog_adder\\\\spice\\\\benches\\\\a2_row_step_capload_rc.cir']' timed out after 65 seconds",
+    "netlist_sha256": "1b557fac49f66b722bcb0ac7c94a5a9bbeba00d80822491110c6a76381534603"
+  },
+  {
+    "file": "a2_input_buffer_loop.cir",
+    "exitcode": 0,
+    "seconds": 11.526,
+    "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_input_buffer_loop.cir\nStart Time: Wed Sep 30 18:25:34 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration for .op point succeeded.\nTotal elapsed time: 10.944 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_input_buffer_loop.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+    "measurements": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 66538249.18496836,
+            "phase_margin_deg": 58.99506483880889
+          }
+        ],
+        "min_phase_margin_deg": 58.99506483880889
+      }
+    ],
+    "netlist_sha256": "e2c56399062226389694119c88240ef712ea673082abf85c7c3e4a0028b3e237"
+  }
+]

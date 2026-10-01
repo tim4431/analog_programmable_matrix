@@ -1,0 +1,34 @@
+{
+  "KiCad_8_0_6_library_subset": {
+    "SMA_Amphenol_132134_Vertical": "Connector_Coaxial:SMA_Amphenol_132134_Vertical",
+    "R_0603_1608Metric": "Resistor_SMD:R_0603_1608Metric",
+    "SOIC-8_3.9x4.9mm_P1.27mm": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "C_0603_1608Metric": "Capacitor_SMD:C_0603_1608Metric",
+    "C_0805_2012Metric": "Capacitor_SMD:C_0805_2012Metric",
+    "SSOP-28_5.3x10.2mm_P0.65mm": "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm",
+    "VSSOP-8_3x3mm_P0.65mm": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+    "C_0402_1005Metric": "Capacitor_SMD:C_0402_1005Metric",
+    "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias": "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias",
+    "R_2512_6332Metric": "Resistor_SMD:R_2512_6332Metric",
+    "CP_EIA-3216-18_Kemet-A": "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A",
+    "SOIC-16_3.9x9.9mm_P1.27mm": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+    "TO-220-3_Vertical": "Package_TO_SOT_THT:TO-220-3_Vertical",
+    "D_DO-41_SOD81_P10.16mm_Horizontal": "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",
+    "C_Radial_D5.0mm_H11.0mm_P2.00mm": "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+  },
+  "custom": {
+    "ADA4899_RD8_EP2.29x2.29": "ADA4899-1 datasheet Rev C Fig 53, RD-8-1 EP 2.29x2.29mm",
+    "Pico_2x20_Socket_17.78mm": "Raspberry Pi Pico datasheet Fig 3 mechanical dimensions; carrier headers only"
+  },
+  "note": "3D models are optional external KiCad library assets; footprints themselves are local.",
+  "Rev_C_local_BNC": {
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical",
+    "source": "Amphenol catalog page 118 Fig 2 / pattern F, https://www.farnell.com/datasheets/1942962.pdf",
+    "pitch_square_mm": 6.9,
+    "drills_mm": {
+      "signal": 1.3,
+      "ground": 2.4
+    }
+  }
+}

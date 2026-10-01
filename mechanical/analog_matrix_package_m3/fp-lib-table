@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "AnalogMatrix") (type "KiCad") (uri "${KIPRJMOD}/AnalogMatrix.pretty") (options "") (descr "Local footprint subset and package-specific footprints")))

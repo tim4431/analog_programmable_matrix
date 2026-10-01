@@ -1,0 +1,54 @@
+* Reproducible circuit-level LTspice bench. See MODEL_SCOPE.txt.
+.include "../models/opa810/opa810_a.lib"
+.include "../models/ths3091_tina/THS3091.lib"
+.include "../models/ADA4899.sub"
+.include "../models/tmux6219/TMUX6219/TMUX6219.lib"
+.include "../models/opa197/OPAx197.LIB"
+.param rfb=6k rout=6k cout=35p cstray=5p cfextra=0.3p cload=20p cft=0
+VP vp 0 5
+VN vn 0 -5
+VHP hp 0 15
+VHN hn 0 -15
+VL logic 0 3.3
+VEN SIGNAL_EN 0 3.3
+VRUN OUTPUT_RUN 0 3.3
+VREF VREF_2V5 0 2.5
+.options plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u
+VIN a0 0 0 AC 0
+Rin a0 ai 33
+Rb a0 0 1Meg
+Xbuf ai buf buf vp vn OPA810
+Rp1 buf pd 499
+Rp2 pd 0 499
+Xpos pd pi p vp vn OPA810
+Rpf p pi 1k
+Rpg pi 0 1k
+Xneg 0 sense neg vp vn OPA810
+Rni buf ni 1k
+Rnf neg ni 1k
+Rbrp0 p sp0 150
+Rbrn0 neg sn0 150
+XSW0 ref0 sp0 0 vp logic 0 vn sn0 TMUX6219
+Rref0 ref0 0 6k
+Cref0 ref0 0 5p
+Rbrp1 p sp1 150
+Rbrn1 neg sn1 150
+XSW1 ref1 sp1 0 vp logic 0 vn sn1 TMUX6219
+Rref1 ref1 0 6k
+Cref1 ref1 0 5p
+Rbrp2 p sp2 150
+Rbrn2 neg sn2 150
+XSW2 ref2 sp2 0 vp logic 0 vn sn2 TMUX6219
+Rref2 ref2 0 6k
+Cref2 ref2 0 5p
+Rbrp3 p sp3 150
+Rbrn3 neg sn3 150
+XSW3 ref3 sp3 0 vp logic 0 vn sn3 TMUX6219
+Rref3 ref3 0 6k
+Cref3 ref3 0 5p
+VTEST sense ni DC 0 AC 1
+Eout out 0 sense 0 1
+Eraw raw 0 ni 0 1
+.save V(out) V(raw)
+.ac dec 100 10 3G
+.end

@@ -1,0 +1,106 @@
+REV A2 SPICE VALIDATION - READ BEFORE USING NUMERICAL RESULTS
+2026-09-30 | LTspice 24.1.3 | 27 degrees C
+
+The delivered final design uses 150-ohm RBRP/RBRN branch resistors. Earlier
+49.9-ohm results in this workspace are exploratory, not the final revision.
+Only a2_ signal-path benches and the listed 150-ohm input-loop cases report
+final signal-path performance. TIA/summer/driver/trim local loops are unchanged.
+
+MODEL BOUNDARIES
+OPA810, ADA4899, THS3091 and OPA197 use manufacturer macromodels. The original
+TMUX6219 manufacturer model is used for AC and DC tests. Analog rails, the
+2.5 V reference and digital controls are ideal sources. Regulators, USB,
+ground bounce, thermal coupling, PCB inductance and cable reflections are
+not simulated. Results describe nominal models, not production guarantees.
+
+No AD5544 manufacturer model was found in the searched product resources or
+installed LTspice library. Its analog equivalent is explicitly approximate:
+  IOUT = (D / 65536) * VREF / RFB
+  RREF = RFB = 6k nominal; sensitivity values 4k and 8k
+  IOUT-to-ground resistance = 6k nominal; sensitivity 2k, 6k, 1G
+  IOUT capacitance = 35p typical plus 5p assumed layout stray
+  External feedback C = 2.2p plus 0.3p assumed feedback stray
+The data-sheet 12 MHz multiplying bandwidth is measured with an amplifier
+and compensation, and is NOT added as a separate extra pole. Code-dependent
+ladder impedance, INL, temperature drift, switching glitches and nonlinear
+signal distortion are not represented. The Rout and stray-capacitance sweep
+values are sensitivity assumptions, not vendor-defined process corners.
+
+An OPTIONAL 0.15p VREF-to-IOUT feedthrough capacitor is used only in sensitivity
+cases. It approximates the data-sheet typical -65 dB zero-code feedthrough at
+100 kHz with 6k feedback. This is not a measured chip capacitance or worst-case
+bound. It reveals why full-scale flatness does not prove 1% RELATIVE accuracy
+for small coefficients. It also does not establish a complete +/-0.01 absolute
+error budget for all sixteen coefficients and their sums.
+
+NUMERICAL ADAPTATIONS
+The full matrix with the nonlinear trim bank did not converge reliably.
+The full-matrix signal test replaces the four trim outputs with ideal -1.25 V
+sources, while the trim amplifier is checked separately for DC and loop gain.
+
+The original TMUX6219 charge-injection/control subcircuits stalled LTspice
+transient analysis. TMUX6219_static_RC.lib retains the official +/-5 V Ron(V)
+table and terminal capacitances with the switch permanently enabled and in
+one state. It omits control delays, charge-injection events, ESD behavior and
+supply current. It is suitable only for the static-control analog checks here.
+Agreement with the original model is measured by the two loaded_chain AC
+benches; see validation_results.json. This is an authored model reduction,
+not a manufacturer-validated replacement. Manufacturer amplifiers are unchanged.
+
+The full-scale row DC/transient tests use one fully loaded input -> polarity
+-> DAC/TIA chain, with THREE IDEAL UNITY COPIES of its weight output driving
+the other summer resistors. This preserves summer loading/noise gain and the
+one modeled TIA's 1k load, and represents four matched, in-phase inputs. It is
+not a four-independent-TIA transient or a complete matrix transient. q is
+scaled by the measured nominal full-code DC gain. Trim remains at midpoint.
+The full-row sine and step results therefore test nominal summing and drive
+headroom, not independent channel mismatch or temperature/THD accuracy.
+
+LOOP MEASUREMENTS
+Return ratio is estimated with a DC-zero, AC-one series test source while
+the DC feedback remains closed: T = -V(raw)/V(out). The input buffer stages
+use feedback-input injection with output loading retained; local TIA, summer,
+driver and trim use output injection. These single-injection estimates depend
+on impedance separation at the injection point and macromodel fidelity.
+An early output-injection test on the polarity buffers showed extra GHz
+crossings and is not used for the final buffer margins. Feedback-input checks
+found low margin with 49.9-ohm branches; 150 ohms improves it in both sign states.
+
+The THS3091 model explicitly states that open-loop gain and distortion are
+not accurate, closed-loop bandwidth depends imperfectly on gain, and slew
+rate scaling is limited. Its calculated loop margin is a model diagnostic,
+not a dependable device phase-margin prediction. Check the physical driver
+with its actual output cable and load. Keep its 1.21k feedback resistor and
+49.9-ohm source termination; do not add a feedback capacitor to this CFA.
+
+An incomplete or timed-out waveform is never treated as a passing result.
+Failed/timeout cases are retained in the run manifest and report. The 1 nF
+load is an additional stress case, not the nominal 50-ohm / 20p load.
+
+REPRODUCING
+Keep benches/ and models/ beside one another. Open a .cir file in LTspice
+and run it, or use LTspice.exe -b filename.cir from the benches directory.
+The .raw files and log excerpts document the delivered run. Models are the
+manufacturers' property; original headers/disclaimers are retained.
+
+read_raw.py and analyze.py require Python + NumPy. plot_results.py also needs
+Matplotlib and recreates plots/ plus validation_results.json from completed
+traces. See BENCH_MANIFEST.json for file hashes and completion status.
+
+The KiCad exported netlist is audited against design_instances.json. The
+full matrix bench is derived from that same A2 component/pin list with the
+model substitutions above. Bench-only sources, loads and stray elements are
+not extra KiCad components. Firmware communication and startup behavior are
+not verified by these analog simulations.
+
+PRIMARY SOURCES
+AD5544 data sheet (RS-28 package and analog characteristics):
+https://www.analog.com/media/en/technical-documentation/data-sheets/AD5544_5554.pdf
+OPA810 model: https://www.ti.com/lit/zip/SBOMB73
+OPA197 model: https://www.ti.com/lit/zip/SBOMA34
+THS3091 model: https://www.ti.com/lit/zip/SLOM418
+TMUX6219 model: https://www.ti.com/lit/zip/SCDM270
+ADA4899 model: installed ADI LTspice library, copied without modification
+https://www.analog.com/en/products/ada4899-1.html
+Loop-injection background:
+https://www.ti.com/lit/pdf/sboa626

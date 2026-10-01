@@ -1,0 +1,96 @@
+LTspice 24.1.3 for Windows
+Circuit: C:\Users\Tim\Desktop\codex\analog_adder\spice\benches\a2_row_dc.cir
+Start Time: Wed Sep 30 18:25:09 2026
+Options: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u
+solver = Normal
+Maximum thread count: 24
+tnom = 27
+temp = 27
+method = trap
+reltol = 0.0001
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.402032
+vernier = 0.888888
+vernier = 1
+Gmin = 0.0567082
+Gmin = 0.006089
+Gmin = 0.000653801
+vernier = 0.5
+vernier = 0.25
+Gmin = 0.000263576
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 0.000277878
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 0.000276525
+vernier = 0.00260417
+vernier = 0.00347222
+Gmin = 0.000274597
+vernier = 0.00462963
+vernier = 0.00617283
+Gmin = 0.00027157
+vernier = 0.00823044
+Gmin = 0.000266729
+vernier = 0.0109739
+vernier = 0.0146319
+Gmin = 0.000258989
+vernier = 0.0195092
+vernier = 0.0260122
+Gmin = 0.00024719
+vernier = 0.034683
+Gmin = 0.000229197
+vernier = 0.0173415
+vernier = 0.00867074
+vernier = 0.00433537
+vernier = 0.00216769
+vernier = 0.00108384
+vernier = 0.000541921
+vernier = 0.000406441
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.402032
+vernier = 0.888888
+vernier = 1
+Gmin = 0.0567082
+Gmin = 0.006089
+Gmin = 0.000653801
+Gmin = 7.02013e-05
+Gmin = 7.53781e-06
+Gmin = 8.09366e-07
+Gmin = 8.6905e-08
+Gmin = 9.33136e-09
+Gmin = 1.00195e-09
+Gmin = 1.07583e-10
+Gmin = 1.15517e-11
+Gmin = 1.24035e-12
+Gmin = 1.33182e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step 
+Total elapsed time: 23.552 seconds.
+
+Files loaded:
+C:\Users\Tim\Desktop\codex\analog_adder\spice\benches\a2_row_dc.cir
+C:\Users\Tim\Desktop\codex\analog_adder\spice\models\opa810\opa810_a.lib
+C:\Users\Tim\Desktop\codex\analog_adder\spice\models\ths3091_tina\THS3091.lib
+C:\Users\Tim\Desktop\codex\analog_adder\spice\models\ADA4899.sub
+C:\Users\Tim\Desktop\codex\analog_adder\spice\models\tmux6219\TMUX6219\TMUX6219.lib
+C:\Users\Tim\Desktop\codex\analog_adder\spice\models\opa197\OPAx197.LIB
+

@@ -1,0 +1,342 @@
+{
+  "board_mm": [
+    160,
+    170
+  ],
+  "copper_layers": 4,
+  "components": 428,
+  "mounting_holes": 6,
+  "tracks_per_layer": {
+    "F.Cu": 5052,
+    "In2.Cu": 1679,
+    "B.Cu": 1228
+  },
+  "vias": 998,
+  "label_placement_failures": [],
+  "pad_net_mismatches": [],
+  "missing_pads": [],
+  "protected_inverting_nodes": [
+    {
+      "net": "Net-(U100A--)",
+      "copper_length_mm": 11.347,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U101A--)",
+      "copper_length_mm": 12.638,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U102A--)",
+      "copper_length_mm": 7.88,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U103A--)",
+      "copper_length_mm": 11.581,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U11A--)",
+      "copper_length_mm": 9.173,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U12A--)",
+      "copper_length_mm": 10.03,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U20A-IOUT)",
+      "copper_length_mm": 6.452,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U20B-IOUT)",
+      "copper_length_mm": 7.906,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U20C-IOUT)",
+      "copper_length_mm": 6.452,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U20D-IOUT)",
+      "copper_length_mm": 7.906,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U21A-IOUT)",
+      "copper_length_mm": 6.452,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U21B-IOUT)",
+      "copper_length_mm": 7.906,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U21C-IOUT)",
+      "copper_length_mm": 6.423,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U21D-IOUT)",
+      "copper_length_mm": 7.906,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U22A-IOUT)",
+      "copper_length_mm": 6.452,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U22B-IOUT)",
+      "copper_length_mm": 7.906,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U22C-IOUT)",
+      "copper_length_mm": 6.452,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U22D-IOUT)",
+      "copper_length_mm": 7.906,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U23A-IOUT)",
+      "copper_length_mm": 6.452,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U23B-IOUT)",
+      "copper_length_mm": 7.926,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U23C-IOUT)",
+      "copper_length_mm": 6.473,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U23D-IOUT)",
+      "copper_length_mm": 7.906,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U2A--)",
+      "copper_length_mm": 9.173,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U3A--)",
+      "copper_length_mm": 10.03,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U5A--)",
+      "copper_length_mm": 9.173,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U6A--)",
+      "copper_length_mm": 10.03,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U80A--)",
+      "copper_length_mm": 18.818,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U81A--)",
+      "copper_length_mm": 18.818,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U82A--)",
+      "copper_length_mm": 18.818,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U83A--)",
+      "copper_length_mm": 18.818,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U8A--)",
+      "copper_length_mm": 9.173,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U90A--)",
+      "copper_length_mm": 10.18,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U91A--)",
+      "copper_length_mm": 10.18,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U92A--)",
+      "copper_length_mm": 10.18,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U93A--)",
+      "copper_length_mm": 10.23,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "net": "Net-(U9A--)",
+      "copper_length_mm": 10.03,
+      "via_count": 0,
+      "layers": [
+        "F.Cu"
+      ]
+    }
+  ],
+  "via_in_pad_locations": 271,
+  "mounting_hole_centers_mm": {
+    "H6": [
+      156.0,
+      150.0
+    ],
+    "H2": [
+      156.0,
+      4.0
+    ],
+    "H3": [
+      4.0,
+      126.0
+    ],
+    "H4": [
+      156.0,
+      126.0
+    ],
+    "H1": [
+      4.0,
+      4.0
+    ],
+    "H5": [
+      4.0,
+      166.0
+    ]
+  },
+  "native_drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "board_sha256": "0bc346aeb27012868bfcf66266c1a55381e648ed224be89ea83ef740c1c2d8b5",
+  "ground_stitch_note": "Ground stitching retained where it fits; conflicting/outside vias removed during compaction. Ground fills discard isolated islands."
+}

@@ -1,0 +1,69 @@
+Pico control interface
+
+The Pico sends one JSON status object for each newline-terminated command.
+Use its MicroPython USB serial console. The 1 MHz SPI clock is a control
+interface setting, independent of the analog signal bandwidth.
+
+Start with analog supplies present, then power the Pico from USB. Its
+outputs remain muted until an explicit arm command. Set an identity matrix:
+
+{"cmd":"set","matrix":[[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]]}
+{"cmd":"arm"}
+
+Mute or inspect current settings:
+
+{"cmd":"mute"}
+{"cmd":"status"}
+
+Matrix indices start at zero; row i controls output b_i, column j input a_j.
+Entries must be finite numbers between -1 and +1. An update temporarily
+mutes outputs and restores the previous armed state after the DACs settle.
+
+GPIO assignments (GPIO names, not physical header pin numbers):
+GP2  SPI0 SCK                   GP3  SPI0 MOSI
+GP4  Row 0 DAC CS               GP5  Row 1 DAC CS
+GP6  Row 2 DAC CS               GP7  Row 3 DAC CS
+GP8  Shared LDAC                GP9  Shared DAC reset
+GP10 Sign serial data          GP11 Sign shift clock
+GP12 Sign latch clock          GP13 Sign-switch enable
+GP14 Output-run selector       GP15 Offset-trim DAC CS
+
+Offset trim: ground all signal inputs, connect the intended 50-ohm loads,
+arm the outputs and measure their DC voltage. Adjust the four trim codes
+until the offsets are minimized. Start at midscale:
+
+{"cmd":"trim","codes":[32768,32768,32768,32768]}
+
+Gain calibration: use one driven input and one active coefficient at a
+time, initially with a small DC or low-frequency signal. Measure input
+voltage at the input connector and output voltage across the external
+50-ohm termination. The raw command zeros the other signal DACs; trim
+settings remain active. For example:
+
+{"cmd":"raw","row":0,"column":0,"code":65535,"negative":false}
+{"cmd":"arm"}
+
+Repeat with negative=true. Subtract offsets or use the slope of output
+versus input. Repeat for all 16 cells and both signs. The calibration
+command accepts two 4x4 arrays of positive full-code gain MAGNITUDES:
+
+{"cmd":"calibration","positive":[[1.021,1.021,1.021,1.021],[1.021,1.021,1.021,1.021],[1.021,1.021,1.021,1.021],[1.021,1.021,1.021,1.021]],"negative":[[1.021,1.021,1.021,1.021],[1.021,1.021,1.021,1.021],[1.021,1.021,1.021,1.021],[1.021,1.021,1.021,1.021]]}
+
+These 1.021 values are illustrative estimates. Replace every entry with
+your measured value. Firmware accepts magnitudes in 0.9..1.2. A cell with
+measured full-code gain below 1 cannot reach a coefficient of magnitude 1.
+Applying calibration mutes outputs; issue set, then arm as needed.
+
+Save calibration and trim to Pico flash:
+
+{"cmd":"save"}
+
+Saving mutes the outputs. Matrix settings are not persisted. A subsequent
+boot loads calibration/trim, sets all coefficients to zero, and stays muted.
+Manual trim and coefficient adjustments use the same commands; no signal
+waveform is sampled or synthesized by the Pico.
+
+After DC calibration, verify gain and phase versus frequency up to 1 MHz
+for several coefficients and both signs. Static code calibration cannot
+correct frequency-dependent errors. Firmware timing is not a measured
+analog settling guarantee; adjust only after bench characterization.

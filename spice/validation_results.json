@@ -1,0 +1,579 @@
+{
+  "revision": "A2, 150-ohm branch isolation",
+  "simulator": "LTspice 24.1.3, 27 C, typical amplifier models",
+  "ac": {
+    "matrix_signal_positive": {
+      "v(b0)": {
+        "dc_gain": 1.0208614451503946,
+        "gain_1MHz": 1.0131229746420216,
+        "normalized_1MHz": 0.992419666209225,
+        "phase_1MHz_deg": -19.888289439885817,
+        "max_band_amplitude_error_percent": 0.7580333790774829,
+        "minus3dB_Hz": 7244359.600749768
+      },
+      "v(b1)": {
+        "dc_gain": 1.0208614451566775,
+        "gain_1MHz": 1.013122974642016,
+        "normalized_1MHz": 0.9924196662031116,
+        "phase_1MHz_deg": -19.88828943988593,
+        "max_band_amplitude_error_percent": 0.7580333796888161,
+        "minus3dB_Hz": 7244359.600749768
+      },
+      "v(b2)": {
+        "dc_gain": 1.0208614451503941,
+        "gain_1MHz": 1.0131229746420176,
+        "normalized_1MHz": 0.9924196662092215,
+        "phase_1MHz_deg": -19.888289439885927,
+        "max_band_amplitude_error_percent": 0.7580333790778271,
+        "minus3dB_Hz": 7244359.600749768
+      },
+      "v(b3)": {
+        "dc_gain": 1.0208614451515035,
+        "gain_1MHz": 1.013122974637594,
+        "normalized_1MHz": 0.99241966620381,
+        "phase_1MHz_deg": -19.888289439880754,
+        "max_band_amplitude_error_percent": 0.7580333796189942,
+        "minus3dB_Hz": 7244359.600749768
+      }
+    },
+    "loaded_chain": {
+      "v(b0)": {
+        "dc_gain": 1.020877073717815,
+        "gain_1MHz": 1.0131430207193497,
+        "normalized_1MHz": 0.992424109427495,
+        "phase_1MHz_deg": -19.894532022889987,
+        "max_band_amplitude_error_percent": 0.7575890572504851,
+        "minus3dB_Hz": 7244359.600749768
+      }
+    },
+    "chain_negative": {
+      "v(b0)": {
+        "dc_gain": 1.020843657871043,
+        "gain_1MHz": 1.0130926981846031,
+        "normalized_1MHz": 0.9924072999556031,
+        "phase_1MHz_deg": -20.127275231524067,
+        "max_band_amplitude_error_percent": 0.7592700044396716,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "chain_half": {
+      "v(b0)": {
+        "dc_gain": 0.5104385368241956,
+        "gain_1MHz": 0.5065715103180085,
+        "normalized_1MHz": 0.9924241094133553,
+        "phase_1MHz_deg": -19.89453207625679,
+        "max_band_amplitude_error_percent": 0.7575890586644429,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "chain_small": {
+      "v(b0)": {
+        "dc_gain": 0.010208770735736823,
+        "gain_1MHz": 0.010131430205442995,
+        "normalized_1MHz": 0.9924241093961401,
+        "phase_1MHz_deg": -19.894531921138338,
+        "max_band_amplitude_error_percent": 0.7575890603859659,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "chain_feed_1": {
+      "v(b0)": {
+        "dc_gain": 0.9999999999919155,
+        "gain_1MHz": 0.9924398749517054,
+        "normalized_1MHz": 0.9924398749597287,
+        "phase_1MHz_deg": -19.571901597434934,
+        "max_band_amplitude_error_percent": 0.7560125040271037,
+        "minus3dB_Hz": 7356422.5445962995
+      }
+    },
+    "chain_feed_01": {
+      "v(b0)": {
+        "dc_gain": 0.09999999998719161,
+        "gain_1MHz": 0.09940759748150389,
+        "normalized_1MHz": 0.994075974942364,
+        "phase_1MHz_deg": -16.598721591384834,
+        "max_band_amplitude_error_percent": 0.5924025057635784,
+        "minus3dB_Hz": 8317637.711026581
+      }
+    },
+    "chain_feed_001": {
+      "v(b0)": {
+        "dc_gain": 0.00999999999875926,
+        "gain_1MHz": 0.011459234295493545,
+        "normalized_1MHz": 1.1459234296915337,
+        "phase_1MHz_deg": 10.09451833351017,
+        "max_band_amplitude_error_percent": 14.592342969153037,
+        "minus3dB_Hz": 32111949.093647677
+      }
+    },
+    "chain_zero_feed": {
+      "v(b0)": {
+        "dc_gain": 5.7729238847138817e-08,
+        "gain_1MHz": 0.00572918634603765,
+        "normalized_1MHz": null,
+        "phase_1MHz_deg": null,
+        "max_band_amplitude_error_percent": null,
+        "minus3dB_Hz": null,
+        "note": "Zero commanded coefficient: normalize to input, not near-zero DC gain."
+      }
+    },
+    "chain_corner_lowR": {
+      "v(b0)": {
+        "dc_gain": 0.9875976528856862,
+        "gain_1MHz": 0.9839421200222882,
+        "normalized_1MHz": 0.9962985606003448,
+        "phase_1MHz_deg": -17.818854163359628,
+        "max_band_amplitude_error_percent": 0.370143939965506,
+        "minus3dB_Hz": 11306633.97949621
+      }
+    },
+    "chain_corner_highR": {
+      "v(b0)": {
+        "dc_gain": 1.0063380277282536,
+        "gain_1MHz": 0.9988802046648999,
+        "normalized_1MHz": 0.9925891471276412,
+        "phase_1MHz_deg": -22.55301704812697,
+        "max_band_amplitude_error_percent": 0.7410852872358542,
+        "minus3dB_Hz": 6506288.748655473
+      }
+    },
+    "loaded_chain_rc": {
+      "v(b0)": {
+        "dc_gain": 1.0208785735057555,
+        "gain_1MHz": 1.0134202484109014,
+        "normalized_1MHz": 0.9926942093913855,
+        "phase_1MHz_deg": -19.710814156127096,
+        "max_band_amplitude_error_percent": 0.7305790608614249,
+        "minus3dB_Hz": 7413102.41300904
+      }
+    }
+  },
+  "loops": {
+    "a2_input_buffer": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 66538249.18496836,
+            "phase_margin_deg": 58.99506483880889
+          }
+        ],
+        "min_phase_margin_deg": 58.99506483880889
+      }
+    ],
+    "input_positive_150_positive": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 26387322.199773885,
+            "phase_margin_deg": 61.190929484918
+          }
+        ],
+        "min_phase_margin_deg": 61.190929484918
+      }
+    ],
+    "input_positive_150_negative": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 28609355.295504935,
+            "phase_margin_deg": 63.938264413886984
+          }
+        ],
+        "min_phase_margin_deg": 63.938264413886984
+      }
+    ],
+    "input_negative_150_positive": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 28596695.979234245,
+            "phase_margin_deg": 65.54979405230534
+          }
+        ],
+        "min_phase_margin_deg": 65.54979405230534
+      }
+    ],
+    "input_negative_150_negative": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 26373913.99006158,
+            "phase_margin_deg": 62.658275763625184
+          }
+        ],
+        "min_phase_margin_deg": 62.658275763625184
+      }
+    ],
+    "tia_nominal": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 23920702.554641977,
+            "phase_margin_deg": 68.73519383923696
+          }
+        ],
+        "min_phase_margin_deg": 68.73519383923696
+      }
+    ],
+    "tia": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 27951629.949443556,
+            "phase_margin_deg": 65.35990438163576
+          }
+        ],
+        "min_phase_margin_deg": 65.35990438163576
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 26292517.159342084,
+            "phase_margin_deg": 73.0321386134508
+          }
+        ],
+        "min_phase_margin_deg": 73.0321386134508
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 25588311.106297255,
+            "phase_margin_deg": 77.6473634518615
+          }
+        ],
+        "min_phase_margin_deg": 77.6473634518615
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 28040812.4960145,
+            "phase_margin_deg": 62.840803321370956
+          }
+        ],
+        "min_phase_margin_deg": 62.840803321370956
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 26385626.955674317,
+            "phase_margin_deg": 70.34564379878601
+          }
+        ],
+        "min_phase_margin_deg": 70.34564379878601
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 25682969.098288596,
+            "phase_margin_deg": 74.87782860893454
+          }
+        ],
+        "min_phase_margin_deg": 74.87782860893454
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 28068062.12652985,
+            "phase_margin_deg": 61.568036872003574
+          }
+        ],
+        "min_phase_margin_deg": 61.568036872003574
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 26411997.40069409,
+            "phase_margin_deg": 68.99049053966618
+          }
+        ],
+        "min_phase_margin_deg": 68.99049053966618
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 25708562.54984568,
+            "phase_margin_deg": 73.48335312507106
+          }
+        ],
+        "min_phase_margin_deg": 73.48335312507106
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 17713692.756666034,
+            "phase_margin_deg": 54.004161243866335
+          }
+        ],
+        "min_phase_margin_deg": 54.004161243866335
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 15901311.666775687,
+            "phase_margin_deg": 62.641419142420204
+          }
+        ],
+        "min_phase_margin_deg": 62.641419142420204
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 15011553.651491424,
+            "phase_margin_deg": 68.62048259348754
+          }
+        ],
+        "min_phase_margin_deg": 68.62048259348754
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 17744830.538903255,
+            "phase_margin_deg": 51.81388638852076
+          }
+        ],
+        "min_phase_margin_deg": 51.81388638852076
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 15936084.862877091,
+            "phase_margin_deg": 60.21141745862012
+          }
+        ],
+        "min_phase_margin_deg": 60.21141745862012
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 15049050.789168714,
+            "phase_margin_deg": 66.0504317670144
+          }
+        ],
+        "min_phase_margin_deg": 66.0504317670144
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 17753375.284802705,
+            "phase_margin_deg": 50.70657683436204
+          }
+        ],
+        "min_phase_margin_deg": 50.70657683436204
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 15944776.844804812,
+            "phase_margin_deg": 58.98154194063811
+          }
+        ],
+        "min_phase_margin_deg": 58.98154194063811
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 15057907.581778193,
+            "phase_margin_deg": 64.74989964603041
+          }
+        ],
+        "min_phase_margin_deg": 64.74989964603041
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 14177653.354868665,
+            "phase_margin_deg": 47.63714606392054
+          }
+        ],
+        "min_phase_margin_deg": 47.63714606392054
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 12438554.136437083,
+            "phase_margin_deg": 56.03718274237848
+          }
+        ],
+        "min_phase_margin_deg": 56.03718274237848
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 11529694.948026182,
+            "phase_margin_deg": 62.22685985160277
+          }
+        ],
+        "min_phase_margin_deg": 62.22685985160277
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 14194703.856482541,
+            "phase_margin_deg": 45.64696368833941
+          }
+        ],
+        "min_phase_margin_deg": 45.64696368833941
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 12458088.362083035,
+            "phase_margin_deg": 53.78224276110123
+          }
+        ],
+        "min_phase_margin_deg": 53.78224276110123
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 11551315.207239382,
+            "phase_margin_deg": 59.80318440012073
+          }
+        ],
+        "min_phase_margin_deg": 59.80318440012073
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 14199038.162780793,
+            "phase_margin_deg": 44.64205379076904
+          }
+        ],
+        "min_phase_margin_deg": 44.64205379076904
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 12462580.092665644,
+            "phase_margin_deg": 52.64129917435362
+          }
+        ],
+        "min_phase_margin_deg": 52.64129917435362
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 11555992.718234068,
+            "phase_margin_deg": 58.57580334757425
+          }
+        ],
+        "min_phase_margin_deg": 58.57580334757425
+      }
+    ],
+    "summer": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 19279812.770162664,
+            "phase_margin_deg": 70.6462376883137
+          }
+        ],
+        "min_phase_margin_deg": 70.6462376883137
+      }
+    ],
+    "driver": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 136828831.64966086,
+            "phase_margin_deg": 70.65086579560531
+          }
+        ],
+        "min_phase_margin_deg": 70.65086579560531
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 135047977.9715687,
+            "phase_margin_deg": 70.76305980736969
+          }
+        ],
+        "min_phase_margin_deg": 70.76305980736969
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 133417379.17113838,
+            "phase_margin_deg": 72.23271824434326
+          }
+        ],
+        "min_phase_margin_deg": 72.23271824434326
+      },
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 134328334.85599756,
+            "phase_margin_deg": 72.85597435239183
+          }
+        ],
+        "min_phase_margin_deg": 72.85597435239183
+      }
+    ],
+    "trim": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 6775277.519812197,
+            "phase_margin_deg": 79.23711962980552
+          }
+        ],
+        "min_phase_margin_deg": 79.23711962980552
+      }
+    ]
+  },
+  "transient": {
+    "row_sine_rc": {
+      "status": "COMPLETE",
+      "amplitude_V": 3.970519801618972,
+      "offset_V": -0.00393338087423087,
+      "phase_deg": -19.71986812020673,
+      "end_time_s": 3e-06
+    },
+    "row_step_rc": {
+      "status": "COMPLETE",
+      "step_V": 3.9999250869631373,
+      "overshoot_percent": 7.858120329966233e-08,
+      "settling_1percent_s": 1.1933285794301294e-07,
+      "end_time_s": 2.4999999999999998e-06
+    },
+    "row_step_capload_rc": {
+      "status": "UNRESOLVED",
+      "reason": "Command '['C:\\\\Users\\\\Tim\\\\AppData\\\\Local\\\\Programs\\\\ADI\\\\LTspice\\\\LTspice.exe', '-b', 'C:\\\\Users\\\\Tim\\\\Desktop\\\\codex\\\\analog_adder\\\\spice\\\\benches\\\\a2_row_step_capload_rc.cir']' timed out after 65 seconds"
+    }
+  },
+  "input_revision_comparison": {
+    "old_49p9ohm_positive": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 29618433.577695157,
+            "phase_margin_deg": 32.99991941676723
+          }
+        ],
+        "min_phase_margin_deg": 32.99991941676723
+      }
+    ],
+    "new_150ohm_positive": [
+      {
+        "crossings": [
+          {
+            "crossover_Hz": 26387322.199773885,
+            "phase_margin_deg": 61.190929484918
+          }
+        ],
+        "min_phase_margin_deg": 61.190929484918
+      }
+    ]
+  },
+  "dc": {
+    "gain": 3.9997361149118933,
+    "offset_V": -0.00393688374499132,
+    "minimum_output_V": -4.003623181480191,
+    "maximum_output_V": 3.99580324644435,
+    "max_residual_V": 4.981717669316765e-05
+  },
+  "switch_reduction_agreement": {
+    "max_amplitude_difference_percent": 0.027363134906144282,
+    "max_phase_difference_deg": 0.1837197197774906
+  }
+}

@@ -1,0 +1,59 @@
+M3 COMPACT ENCLOSURE - ESTIMATE AND ACCEPTANCE, NOT A THERMAL TEST
+
+Nominal external analog supply: +15 V / -15 V. L7805CV and L7905CV generate
++5 V / -5 V. The high-current THS3091 output drivers run from +/-15 V directly.
+
+IDLE BUDGET
+16 ADA4899-1 at 14.7 mA typical: 235.2 mA per rail.
+16 OPA810 at 3.7 mA typical: 59.2 mA per rail.
+These two groups total 294.4 mA through each +/-5 V rail, before trim and
+reference devices and regulator ground current. This is not a maximum limit.
+Each regulator loses about (15-5)*0.30 = 3.0 W at idle.
+Front-end IC heat is roughly 10*0.2944 = 2.94 W; the two regulators add
+roughly 6 W. Four THS3091s add about 1.14 W idle, making approximately 10 W
+analog board heat at idle, excluding the USB-powered controller and small
+ancillary losses. A 1 MHz signal does not make the supply loss negligible.
+
+M3 DESIGN POINT
+The smaller board and case retain the same electrical heat budget. Reduced
+surface area and airflow paths require renewed thermal qualification.
+Reserve 4 W per regulator to allow signal-loading and quiescent variation.
+This is an engineering allowance, not a proven worst-case rail current.
+For a 35 C room, use:
+Tj = Troom + Preg * (R_sink_to_room + R_interface + R_junction_case)
+   = 35 + 4*(14 + 2 + 5) = 119 C.
+The 5 C/W TO-220 junction-case value is in both ST regulator datasheets.
+14 C/W must be an EFFECTIVE sink-to-room value with both regulators operating
+in the complete enclosure. It includes air warming and enclosure restriction.
+The interface must provide <=2 C/W under the selected mounting pressure.
+Target <=120 C estimated junction, below the L7805CV 125 C operating ceiling.
+
+38.1 MM FEASIBILITY
+Wakefield's 637-series catalog gives a 34.9 x 12.7 x 38.1 mm example with
+65 C rise at 6 W in natural convection, about 10.8 C/W at that test point.
+That supports exploring a 38.1 mm class sink; it does not rate our modeled
+fin geometry, lower-power convection, insulated mounting, or enclosure.
+The catalog example has PCB pins; it is NOT selected as a drop-in BOM part.
+Choose a compatible pinless bolted sink or a supplier-approved adaptation.
+
+FIRST-ARTICLE THERMAL ACCEPTANCE
+At the warmest intended ambient (design point 35 C), test both rails under
+the highest measured loading across matrix settings and simultaneous inputs.
+Include full DC output cases and 1 MHz waveforms with four external 50-ohm loads.
+Measure regulator input/output current, voltage drop and stabilized case/sink
+temperatures with the complete enclosure and representative cables installed.
+Compute actual regulator loss including ground current. Require <=4 W each
+for this design point; if higher, recalculate and change cooling before use.
+At 4 W / 35 C, sink base temperature must be <=91 C (35+4*14); case temperature
+must be <=99 C for a <=2 C/W interface. Estimate Tj from measured case + P*5.
+Require Tj<=120 C, stable +/-5 V, no thermal shutdown, and enclosure materials
+within their published temperature/creep ratings. Check all other devices too.
+If those limits are missed, use a better sink/ventilation or reduce regulator
+input voltage with a redesigned preregulator. Do not approve by height alone.
+
+PRIMARY SOURCES
+https://www.analog.com/en/products/ada4899-1.html
+https://www.ti.com/product/OPA810
+https://www.st.com/resource/en/datasheet/l78.pdf
+https://www.st.com/resource/en/datasheet/l79.pdf
+https://wakefieldthermal.com/content/data_sheets/292.pdf

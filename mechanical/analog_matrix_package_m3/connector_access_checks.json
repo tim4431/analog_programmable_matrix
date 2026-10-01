@@ -1,0 +1,9 @@
+{
+  "connector_neighbor_and_cable_intersections": [],
+  "bnc_plug_max_diameter_mm": 17,
+  "bnc_plug_envelope_bottom_z_mm": 17.22,
+  "power_wires_max_od_mm": 3,
+  "power_wire_direction": "+X",
+  "power_screw_access": "Remove independent power hood; screwdriver enters from above",
+  "scope": "Nominal CAD; verify actual purchased connector and cable tolerances on first article"
+}

@@ -1,0 +1,79 @@
+ANALOG MATRIX REV D - JLCPCB UPLOAD
+
+UPLOAD FILES
+1. Gerber_JLCPCB.zip: bare PCB fabrication upload. Four copper layers and
+   separate plated/non-plated drills. Do not upload this whole handoff ZIP.
+2. BOM_JLCPCB.csv: top-side SMT assembly component matching.
+3. CPL_JLCPCB.csv: top-side SMT component placement, millimetres.
+
+These files have been checked for matching reference designators. They are
+ready for upload and quotation; component selection and CAM acceptance must
+be completed before paying for an assembled-board order.
+
+ASSEMBLY SCOPE
+406 fitted SMT components in 30 BOM rows; all on the TOP side.
+18 through-hole/module items listed separately in MANUAL_ASSEMBLY.csv.
+4 deliberately omitted resistors in DO_NOT_POPULATE.csv.
+Pico installation additionally needs two 1x20 sockets and two mating 1x20
+headers. Heatsinks, insulation, supports and enclosure hardware are separate.
+
+PART MATCHING
+Six IC ordering codes have supplier identity matches, with source links in
+PART_MATCHING.csv. These are identity checks, not reserved JLC inventory.
+24 BOM rows still need exact supplier part matching, including OPA810ID,
+SN74HC595D and passive parts. Blank LCSC cells are intentional, never dummy
+numbers. Match all values, dielectric, tolerance, voltage, power and package.
+Do not replace the 0.1% thin-film resistors with generic 1% resistors.
+Do not replace a PowerPAD amplifier with a non-exposed-pad version.
+Small 2.2pF capacitors must be C0G/NP0, tolerance +/-0.1pF.
+The output 49.9-ohm 2512 resistors must be at least 1W.
+Tantalum/capacitor voltage and case size need exact part verification.
+
+BOARD ORDER SETTINGS
+160 x 170 mm; 4 layers; nominal 1.6 mm FR-4; Tg >=150C; ENIG recommended.
+L1 top signals, L2 GND, L3 signals/power, L4 bottom signals/GND.
+Select 35um copper on all four layers or have CAM confirm the chosen stack.
+No controlled impedance service is required by this release.
+Minimum 0.15mm trace/clearance; minimum drill 0.20mm; min annular ring 0.10mm.
+Use epoxy-filled and copper-capped via-in-pad service (POFV), not ordinary
+tenting or soldermask plugging. Get explicit CAM acceptance for this 4-layer
+board and the small thermal holes before releasing the order.
+
+VIA FILL INSTRUCTIONS FOR CAM
+All plated drills <=0.30mm are vias and should be filled and copper capped.
+The 0.20mm holes tagged ComponentDrill under THS3091 are thermal vias and
+must ALSO be filled/capped, despite that automatic drill attribute.
+Do not fill actual component lead holes >=0.80mm or any NPTH mounting hole.
+The conservative via_in_pad_locations.csv map is supplied for review.
+Ask CAM to provide the processed via-fill/drill plot for confirmation.
+
+PLACEMENT COORDINATES
+The CPL preserves native Gerber coordinates: X is rightward and Y is
+negative downward from the PCB top-left (0,0). This is intentional and
+matches these Gerbers. All rotations are KiCad CCW normalized to 0..359.
+JLC library zero-angle conventions can differ by selected part. Verify
+polarized devices and ALL IC pin-1 marks in the JLC placement preview.
+Use PIN1_ORIENTATION_REFERENCE.csv and assembly_front.svg as the reference.
+No vendor-specific angle corrections have been guessed. Do not approve an
+assembly until each selected library part is aligned in that preview.
+
+MECHANICAL HAND ASSEMBLY
+The PCB uses vertical Amphenol 031-5329-52RFX 50-ohm BNC connectors.
+Use the supplied Rev D footprint; verify purchased-part fit on first article.
+J9 power wire entry faces the right edge. Its pin order remains +15V/GND/-15V.
+Use the separate M3 enclosure with this PCB. The smaller 38.1 mm sink envelope
+is subject to full-load thermal qualification; see FABRICATION_AND_BRINGUP.txt.
+Trim soldered leads to <=2.5mm below PCB for the accompanying enclosure.
+Install regulator heatsinks and insulators before operation. Negative
+regulator tab is -15V, not ground. See FABRICATION_AND_BRINGUP.txt.
+
+VALIDATION
+Native PCB DRC: zero violations, zero unrouted, zero schematic mismatches.
+BOM and CPL reference sets match exactly; DNP and manual parts excluded.
+This is an unbuilt electrical prototype; hardware performance is unmeasured.
+
+FORMAT AND PROCESS SOURCES
+https://jlcpcb.com/help/article/bill-of-materials-for-pcb-assembly
+https://jlcpcb.com/help/article/how-to-generate-the-bom-and-centroid-file-from-kicad
+https://jlcpcb.com/help/article/pcb-via-covering
+https://github.com/JLCPCB/JLCPCB-SMT-Assembly-Components-orientation-fix

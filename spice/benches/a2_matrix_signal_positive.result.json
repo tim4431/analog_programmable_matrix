@@ -1,0 +1,41 @@
+{
+  "file": "a2_matrix_signal_positive.cir",
+  "exitcode": 0,
+  "seconds": 163.901,
+  "log_tail": "LTspice 24.1.3 for Windows\nCircuit: C:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_matrix_signal_positive.cir\nStart Time: Wed Sep 30 18:23:54 2026\nOptions: plotwinsize=0 numdgt=7 reltol=0.0001 abstol=1p vntol=1u\nsolver = Normal\nMaximum thread count: 24\ntnom = 27\ntemp = 27\nmethod = trap\nreltol = 0.0001\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nGmin = 1.07374\nvernier = 0.5\nvernier = 0.666667\nGmin = 0.402032\nvernier = 0.888888\nvernier = 1\nGmin = 0.0567082\nGmin = 0.006089\nGmin = 0.000653801\nGmin = 7.02013e-05\nGmin = 7.53781e-06\nGmin = 8.09366e-07\nGmin = 8.6905e-08\nGmin = 9.33136e-09\nGmin = 1.00195e-09\nGmin = 1.07583e-10\nGmin = 1.15517e-11\nGmin = 1.24035e-12\nGmin = 1.33182e-13\nGmin = 0\nGmin stepping succeeded in finding the operating point.\n\nTotal elapsed time: 163.154 seconds.\n\nFiles loaded:\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\benches\\a2_matrix_signal_positive.cir\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa810\\opa810_a.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ths3091_tina\\THS3091.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\ADA4899.sub\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\tmux6219\\TMUX6219\\TMUX6219.lib\nC:\\Users\\Tim\\Desktop\\codex\\analog_adder\\spice\\models\\opa197\\OPAx197.LIB\n\n",
+  "measurements": {
+    "v(b0)": {
+      "dc_gain": 1.0208614451503946,
+      "gain_1MHz": 1.0131229746420216,
+      "normalized_1MHz": 0.992419666209225,
+      "phase_1MHz_deg": -19.888289439885817,
+      "max_band_amplitude_error_percent": 0.7580333790774829,
+      "minus3dB_Hz": 7244359.600749768
+    },
+    "v(b1)": {
+      "dc_gain": 1.0208614451566775,
+      "gain_1MHz": 1.013122974642016,
+      "normalized_1MHz": 0.9924196662031116,
+      "phase_1MHz_deg": -19.88828943988593,
+      "max_band_amplitude_error_percent": 0.7580333796888161,
+      "minus3dB_Hz": 7244359.600749768
+    },
+    "v(b2)": {
+      "dc_gain": 1.0208614451503941,
+      "gain_1MHz": 1.0131229746420176,
+      "normalized_1MHz": 0.9924196662092215,
+      "phase_1MHz_deg": -19.888289439885927,
+      "max_band_amplitude_error_percent": 0.7580333790778271,
+      "minus3dB_Hz": 7244359.600749768
+    },
+    "v(b3)": {
+      "dc_gain": 1.0208614451515035,
+      "gain_1MHz": 1.013122974637594,
+      "normalized_1MHz": 0.99241966620381,
+      "phase_1MHz_deg": -19.888289439880754,
+      "max_band_amplitude_error_percent": 0.7580333796189942,
+      "minus3dB_Hz": 7244359.600749768
+    }
+  },
+  "netlist_sha256": "27985c2e8f6fc9f336dd847512809b789d15762ed685000e44521b0604c5a1c8"
+}

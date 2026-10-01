@@ -1,0 +1,132 @@
+[
+  {
+    "name": "opa810",
+    "url": "https://www.ti.com/lit/zip/SBOMB73",
+    "resolved": "https://www.ti.com/lit/zip/SBOMB73",
+    "sha256": "bee7ec13330e01d291d3e05c3b703647af276f3b174a51d40680d36905c4a0a0",
+    "files": [
+      "library/",
+      "library/opa810.olb",
+      "opa810_a.lib",
+      "opa810_pspice-PSpiceFiles/",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/AC_Sweep.1OP",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/AC_Sweep.cir",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/AC_Sweep.json",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/AC_Sweep.mif",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/AC_Sweep.mrk",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/AC_Sweep.out.1",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/AC_Sweep.prb",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep/Install_TIPSpice.json",
+      "opa810_pspice-PSpiceFiles/SCHEMATIC1/ac_sweep.sim",
+      "opa810_pspice.dsn",
+      "opa810_pspice.opj"
+    ]
+  },
+  {
+    "name": "opa197",
+    "url": "https://www.ti.com/lit/zip/SBOMA34",
+    "resolved": "https://www.ti.com/lit/mo/sboma34d/sboma34d.zip?ts=1790815184531",
+    "sha256": "9e55fcaa23d54cee025dda3fa9872b11c41c531f82e0802c2b93d51e943666e5",
+    "files": [
+      "OPAx197.LIB",
+      "OPAx197.LIBsig",
+      "OPAx197.OLB",
+      "OPAx197_Test_Circuit-PSpiceFiles/",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.mrk",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.prb",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain.sim",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.mrk",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.prb",
+      "OPAx197_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS.sim",
+      "OPAx197_Test_Circuit.DSN",
+      "OPAx197_Test_Circuit.OPJ"
+    ]
+  },
+  {
+    "name": "ths3091",
+    "url": "https://www.ti.com/lit/zip/SLOJ173",
+    "resolved": "https://www.ti.com/lit/zip/SLOJ173",
+    "sha256": "7c7540670c531f43e64eaa706ec051ca6228597d7746f74801c6d866d3842017",
+    "files": [
+      "library/",
+      "library/ths3091.olb",
+      "THS3091-PSpiceFiles/",
+      "THS3091-PSpiceFiles/SCHEMATIC1/",
+      "THS3091-PSpiceFiles/SCHEMATIC1/schematic1.net",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/Install_TIPSpice.json",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/THS3091.ind",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/THS3091.lib",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/THS3091.liberrorLog",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/THS3091.libsig",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.1OP",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.cir",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.dat",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.json",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.mif",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.mrk",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.out",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis_profile.inc",
+      "THS3091-PSpiceFiles/SCHEMATIC1/TransientAnalysis/transientanalysis_pspmetadata.db",
+      "THS3091-PSpiceFiles/SCHEMATIC1/transientanalysis.sim",
+      "ths3091.dsn",
+      "ths3091.opj"
+    ]
+  },
+  {
+    "name": "ths3091_tina",
+    "url": "https://www.ti.com/lit/zip/SLOM418",
+    "resolved": "https://www.ti.com/lit/zip/SLOM418",
+    "sha256": "4b60c784ecc9edeea065a1e70fe064cc87b8206531b5d1f2cac3096b36c08e58",
+    "files": [
+      "THS3091.TSM",
+      "THS3091.lib",
+      "THS3091.TLD"
+    ]
+  },
+  {
+    "name": "tmux6219",
+    "url": "https://www.ti.com/lit/zip/SCDM270",
+    "resolved": "https://www.ti.com/lit/zip/SCDM270",
+    "sha256": "548d669fb088ca14c899d1a14d54eb78d454805d4f370aed1e73bbc8be8bb447",
+    "files": [
+      "TMUX6219/",
+      "TMUX6219/TMUX6219-PSpiceFiles/",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/bias/",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/bias/bias.mrk",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/bias.sim",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/schematic1.net",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/Install_TIPSpice.json",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.1OP.bak",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.cir",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.dat",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.json",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.mif",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.mrk",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.out",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.out.1",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1/sim1.prb",
+      "TMUX6219/TMUX6219-PSpiceFiles/SCHEMATIC1/sim1.sim",
+      "TMUX6219/TMUX6219.dsn",
+      "TMUX6219/TMUX6219.lib",
+      "TMUX6219/TMUX6219.libsig",
+      "TMUX6219/TMUX6219.olb",
+      "TMUX6219/TMUX6219.opj",
+      "TMUX6219/TMUX6219_Disclaimer.txt"
+    ]
+  },
+  {
+    "name": "ADA4899",
+    "source": "Installed LTspice library: ADA4899.sub",
+    "source_page": "https://www.analog.com/en/products/ada4899-1.html",
+    "sha256": "8a39a4b6bbeefb22c7b05d16687a374a41cab68c9a2c260397e91e42da609733",
+    "note": "Installed ADI LTspice model; unmodified binary model. Pin order verified from ADA4899.asy."
+  }
+]

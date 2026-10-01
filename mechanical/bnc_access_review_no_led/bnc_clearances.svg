@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#f7f9fb"/>
+<style>text{font-family:Arial,sans-serif;fill:#223746} .small{font-size:16px}</style>
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#466474"/></marker></defs>
+<text x="44" y="52" font-size="29" text-anchor="start" fill="#223746">BNC CABLE ACCESS / PCB D + ENCLOSURE M3</text>
+<text x="44" y="83" font-size="19" text-anchor="start" fill="#223746">Nominal CAD check with all eight straight plugs attached</text>
+<rect x="90" y="126" width="460" height="104" rx="4" fill="#647c89"/>
+<text x="320" y="183" font-size="20" text-anchor="middle" fill="#ffffff">RAISED POWER HOOD</text>
+<circle cx="310" cy="328.4" r="72" fill="#dfe7eb" stroke="#64818f" stroke-width="1.5"/>
+<circle cx="310" cy="328.4" r="68" fill="#fff2d5" stroke="#b67b25" stroke-width="2"/>
+<circle cx="310" cy="328.4" r="58" fill="#c8e8dc" stroke="#367d64" stroke-width="1.5"/>
+<text x="310" y="334.4" font-size="22" text-anchor="middle" fill="#223746">b3</text>
+<line x1="302" y1="328.4" x2="318" y2="328.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="310" y1="320.4" x2="310" y2="336.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<circle cx="310" cy="568.4" r="72" fill="#dfe7eb" stroke="#64818f" stroke-width="1.5"/>
+<circle cx="310" cy="568.4" r="68" fill="#fff2d5" stroke="#b67b25" stroke-width="2"/>
+<circle cx="310" cy="568.4" r="58" fill="#c8e8dc" stroke="#367d64" stroke-width="1.5"/>
+<text x="310" y="574.4" font-size="22" text-anchor="middle" fill="#223746">b2</text>
+<line x1="302" y1="568.4" x2="318" y2="568.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="310" y1="560.4" x2="310" y2="576.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="154" y1="328.4" x2="232" y2="328.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="154" y1="568.4" x2="232" y2="568.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="155" y1="328.4" x2="155" y2="568.4" stroke="#466474" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="169" y="454.4" font-size="18" text-anchor="start" fill="#223746">30 mm</text>
+<line x1="383" y1="260.4" x2="482" y2="260.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="550" y1="230" x2="482" y2="230" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="482" y1="230" x2="482" y2="260.4" stroke="#466474" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="496" y="251.2" font-size="18" text-anchor="start" fill="#223746">3.8 mm</text>
+<line x1="383" y1="396.4" x2="474" y2="396.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="383" y1="500.4" x2="474" y2="500.4" stroke="#466474" stroke-width="1.5" stroke-dasharray=""/>
+<line x1="465" y1="396.4" x2="465" y2="500.4" stroke="#466474" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="479" y="454.4" font-size="18" text-anchor="start" fill="#223746">13 mm</text>
+<text x="320" y="677" font-size="16" text-anchor="middle" fill="#223746">TOP VIEW: closest pair; a3 / a2 have the same spacing</text>
+<text x="626" y="162" font-size="23" text-anchor="start" fill="#223746">Collar and aperture</text>
+<circle cx="640" cy="198" r="8" fill="#c8e8dc" stroke="#367d64"/>
+<text x="661" y="203" font-size="19" text-anchor="start" fill="#223746">14.5 mm typical collar</text>
+<circle cx="640" cy="240" r="8" fill="#fff2d5" stroke="#b67b25"/>
+<text x="661" y="245" font-size="19" text-anchor="start" fill="#223746">17 mm checked maximum envelope</text>
+<circle cx="640" cy="282" r="8" fill="#dfe7eb" stroke="#64818f"/>
+<text x="661" y="287" font-size="19" text-anchor="start" fill="#223746">18 mm opening through the cover</text>
+<text x="626" y="342" font-size="20" text-anchor="start" fill="#223746">With a typical 14.5 mm straight plug:</text>
+<text x="642" y="377" font-size="19" text-anchor="start" fill="#223746">15.5 mm between adjacent collars</text>
+<text x="642" y="410" font-size="19" text-anchor="start" fill="#223746">5.05 mm from rear collar to hood</text>
+<text x="642" y="443" font-size="19" text-anchor="start" fill="#223746">1.75 mm radial margin in the opening</text>
+<text x="626" y="496" font-size="22" text-anchor="start" fill="#223746">Use a side grip on a3 and b3.</text>
+<text x="626" y="530" font-size="18" text-anchor="start" fill="#223746">Rear finger access is restricted; regrip if needed.</text>
+<text x="626" y="563" font-size="18" text-anchor="start" fill="#223746">Plug rotation fits inside the circular envelope.</text>
+<text x="626" y="603" font-size="17" text-anchor="start" fill="#223746">Straight plugs only; bulky boots, tees and elbows</text>
+<text x="626" y="627" font-size="17" text-anchor="start" fill="#223746">need their own fit check. Confirm on the prototype.</text>
+<text x="626" y="679" font-size="15" text-anchor="start" fill="#223746">Reference: Amphenol 31-320-RFX, catalog p108.</text>
+</svg>

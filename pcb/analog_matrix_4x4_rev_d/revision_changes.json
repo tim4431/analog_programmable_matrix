@@ -1,0 +1,472 @@
+[
+  {
+    "reference": "J1",
+    "original_reference": "JIN0",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "J2",
+    "original_reference": "JIN1",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "J3",
+    "original_reference": "JIN2",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "J4",
+    "original_reference": "JIN3",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "U20",
+    "original_reference": "U20",
+    "changes": {
+      "footprint": {
+        "A1": "AnalogMatrix:TSSOP-28_4.4x9.7mm_P0.65mm",
+        "A2": "AnalogMatrix:SSOP-28_5.3x10.2mm_P0.65mm"
+      },
+      "package": {
+        "A1": "TSSOP-28",
+        "A2": "SSOP-28, RS-28, 5.3x10.2mm, 0.65mm pitch"
+      }
+    }
+  },
+  {
+    "reference": "R37",
+    "original_reference": "RBRP_00",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R38",
+    "original_reference": "RBRN_00",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R41",
+    "original_reference": "RBRP_01",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R42",
+    "original_reference": "RBRN_01",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R45",
+    "original_reference": "RBRP_02",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R46",
+    "original_reference": "RBRN_02",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R49",
+    "original_reference": "RBRP_03",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R50",
+    "original_reference": "RBRN_03",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "J5",
+    "original_reference": "JOUT0",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "U21",
+    "original_reference": "U21",
+    "changes": {
+      "footprint": {
+        "A1": "AnalogMatrix:TSSOP-28_4.4x9.7mm_P0.65mm",
+        "A2": "AnalogMatrix:SSOP-28_5.3x10.2mm_P0.65mm"
+      },
+      "package": {
+        "A1": "TSSOP-28",
+        "A2": "SSOP-28, RS-28, 5.3x10.2mm, 0.65mm pitch"
+      }
+    }
+  },
+  {
+    "reference": "R61",
+    "original_reference": "RBRP_10",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R62",
+    "original_reference": "RBRN_10",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R65",
+    "original_reference": "RBRP_11",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R66",
+    "original_reference": "RBRN_11",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R69",
+    "original_reference": "RBRP_12",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R70",
+    "original_reference": "RBRN_12",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R73",
+    "original_reference": "RBRP_13",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R74",
+    "original_reference": "RBRN_13",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "J6",
+    "original_reference": "JOUT1",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "U22",
+    "original_reference": "U22",
+    "changes": {
+      "footprint": {
+        "A1": "AnalogMatrix:TSSOP-28_4.4x9.7mm_P0.65mm",
+        "A2": "AnalogMatrix:SSOP-28_5.3x10.2mm_P0.65mm"
+      },
+      "package": {
+        "A1": "TSSOP-28",
+        "A2": "SSOP-28, RS-28, 5.3x10.2mm, 0.65mm pitch"
+      }
+    }
+  },
+  {
+    "reference": "R85",
+    "original_reference": "RBRP_20",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R86",
+    "original_reference": "RBRN_20",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R89",
+    "original_reference": "RBRP_21",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R90",
+    "original_reference": "RBRN_21",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R93",
+    "original_reference": "RBRP_22",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R94",
+    "original_reference": "RBRN_22",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R97",
+    "original_reference": "RBRP_23",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R98",
+    "original_reference": "RBRN_23",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "J7",
+    "original_reference": "JOUT2",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "U23",
+    "original_reference": "U23",
+    "changes": {
+      "footprint": {
+        "A1": "AnalogMatrix:TSSOP-28_4.4x9.7mm_P0.65mm",
+        "A2": "AnalogMatrix:SSOP-28_5.3x10.2mm_P0.65mm"
+      },
+      "package": {
+        "A1": "TSSOP-28",
+        "A2": "SSOP-28, RS-28, 5.3x10.2mm, 0.65mm pitch"
+      }
+    }
+  },
+  {
+    "reference": "R109",
+    "original_reference": "RBRP_30",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R110",
+    "original_reference": "RBRN_30",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R113",
+    "original_reference": "RBRP_31",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R114",
+    "original_reference": "RBRN_31",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R117",
+    "original_reference": "RBRP_32",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R118",
+    "original_reference": "RBRN_32",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R121",
+    "original_reference": "RBRP_33",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "R122",
+    "original_reference": "RBRN_33",
+    "changes": {
+      "value": {
+        "A1": "49.9 ohm",
+        "A2": "150R 0.1%"
+      }
+    }
+  },
+  {
+    "reference": "J8",
+    "original_reference": "JOUT3",
+    "changes": {
+      "value": {
+        "A1": "BNC/SMA",
+        "A2": "SMA 132134"
+      }
+    }
+  },
+  {
+    "reference": "U30",
+    "original_reference": "U30",
+    "changes": {
+      "footprint": {
+        "A1": "AnalogMatrix:TSSOP-28_4.4x9.7mm_P0.65mm",
+        "A2": "AnalogMatrix:SSOP-28_5.3x10.2mm_P0.65mm"
+      },
+      "package": {
+        "A1": "TSSOP-28",
+        "A2": "SSOP-28, RS-28, 5.3x10.2mm, 0.65mm pitch"
+      }
+    }
+  }
+]

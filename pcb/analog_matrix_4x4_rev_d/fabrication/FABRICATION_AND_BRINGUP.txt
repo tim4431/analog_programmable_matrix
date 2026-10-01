@@ -1,0 +1,114 @@
+4 x 4 ANALOG MATRIX - PCB D / ELECTRICAL A2
+
+FABRICATION
+Board: 160.00 x 170.00 mm, four copper layers, nominal 1.60 mm FR-4.
+Recommended copper: 35 um on all four layers; Tg >= 150 C; ENIG finish.
+Nominal dielectric stack: 0.20 mm / 1.06 mm / 0.20 mm. The fabricator may
+adjust this to its available 1.6 mm stack; confirm before fabrication.
+L1: components, short analog feedback paths, local bypass, other signals.
+L2: GND plane with small copper windows at fast-amplifier signal pins.
+L3: supply distribution and secondary signal routing.
+L4: remaining routing and stitched ground copper.
+Minimum permitted copper clearance/trace: 0.15 mm / 0.15 mm.
+Signal routing: 0.15/0.20 mm. Main supply trunks: 0.60 mm; local supply
+branches: 0.20/0.30 mm. Fine-pitch pad escapes may neck down to 0.15 mm.
+Normal vias: 0.60 mm copper / 0.30 mm finished hole.
+Fine-pitch signal escapes: 0.50 mm copper / 0.25 mm finished hole.
+Thermal vias: 0.50 mm copper / 0.20 mm finished hole (THS3091 footprint
+also includes 0.20 mm thermal holes). Minimum annular ring: 0.10 mm.
+Six 3.20 mm unplated M3 mounting holes. Use insulating spacers/washers;
+the holes provide mechanical mounting, not a chassis-ground terminal.
+Hole centers in mm from top-left: (4,4), (156,4), (4,126), (156,126),
+(4,166), (156,150). The lower-right hole is offset to clear its heatsink.
+Use the supplied Excellon PTH and NPTH files separately. Do not merge
+mounting holes into plated electrical holes.
+Fill and cap all via-in-pad holes, including those beneath ADA4899 and
+THS3091 exposed pads and signal escapes within SMD lands, or agree an
+assembly-qualified anti-wicking process with the fabricator/assembler.
+See via_in_pad_locations.csv for the conservative via-in-pad location map.
+Ordinary open holes within solder-mask openings can drain solder paste.
+Tent ordinary signal/ground vias. Exposed pads MUST be soldered to GND.
+The Gerbers contain the nominal outline and all four copper layers.
+No controlled-impedance fabrication requirement is claimed for this board.
+
+ASSEMBLY
+All components are on the front. The placement file includes through-hole
+parts; exclude those from an SMT-only assembly job. Four input termination
+resistors are intentionally DNP: the inputs are high impedance by default.
+The BOM specifies IC ordering codes and passive values, packages and
+ratings. Select actual purchasable passive MPNs before placing an assembly
+order; it is not a turnkey procurement BOM.
+Output source termination: 49.9 ohm, 2512, >= 1 W, each channel.
+At 4 V DC into a 50-ohm load, its dissipation is approximately 0.32 W.
+Use original Raspberry Pi Pico with two matching 20-position sockets.
+J1-J8: Amphenol 031-5329-52RFX vertical 50-ohm BNC, hand soldered.
+The local footprint uses the Amphenol catalog p118 Fig2 / pattern F:
+6.90 mm square ground-pin pitch, 2.40 mm ground drills, 1.30 mm center drill.
+Do not substitute the former SMA connector or a generic BNC footprint.
+J9 now faces outward at the right edge. Pin 1 +15 V: (155,143), pin 2 GND:
+(155,137.92), pin 3 -15 V: (155,132.84), in PCB coordinates. Check polarity
+by pin number; its visual order has changed because the connector rotated.
+AD5544BRSZ is SSOP-28, not TSSOP-28. ADA4899-1YRDZ uses the supplied custom
+2.29 x 2.29 mm exposed-pad footprint. Do not substitute a generic SOIC.
+
+REGULATOR COOLING AND MECHANICS
+Fit heatsinks on both L7805CV and L7905CV. Budget 4 W per regulator for
+initial mechanical design. This is a design allowance, not a measured load.
+M3 reserves two 35 x 13 x 38.1 mm sink envelopes, each starting 0.5 mm
+above the PCB. See the M3 thermal calculation and first-article acceptance.
+The reduced PCB/enclosure area requires renewed full-load thermal testing.
+The front-end ICs alone draw about 294 mA from EACH 5 V rail at idle;
+the 15-to-5 V regulators therefore dissipate roughly 3 W EACH at idle.
+4 W is a design allowance, not a verified maximum. Measure loaded currents.
+At 35 C room ambient, 4 W with an effective sink-to-room resistance of
+14 C/W, 2 C/W interface and 5 C/W junction-case predicts Tj=119 C.
+Require that resistance or better WITH THE ENCLOSURE FITTED and both rails
+loaded; a catalog free-air number does not establish enclosure performance.
+Heatsink bases must remain <=91 C at that 4 W / 35 C acceptance point.
+Reject the smaller sink if junction estimate exceeds 120 C, either rail
+dissipation exceeds 4 W, or enclosure material temperatures exceed rating.
+Mounting-plane CAD Y=13.54; PCB X centers 102.46 and 140.46 mm.
+Select bolted sinks that fit the envelope without incompatible locating pins.
+The included fin shapes are clearance models, not qualified thermal parts.
+The M3 3 mm G10 bridge uses two 50 mm M3 posts and compliant top pads.
+No new heatsink locating-pin holes have been added to the PCB.
+L7805 tab is GND. L7905 tab is -15 V. Use separate sinks or insulating
+mounting hardware; never bolt both bare tabs to the same conductive sink.
+The THS3091 drivers dissipate roughly 0.85 W each at the worst full-scale
+DC output under nominal supplies, including approximately 0.285 W idle.
+Their soldered PowerPADs and ground-plane thermal connections are essential.
+
+POWER AND FIRST CHECKS
+1. Inspect fine-pitch ICs, exposed pads, diode bands and capacitor polarity.
+   Check each supply to GND for accidental shorts before applying power.
+2. Connect a current-limited, regulated +/-15 V supply to J9, following the
+   +15V / GND / -15V markings. Allow roughly 1 A available per rail for the
+   complete board; determine the final current limits from measurements.
+3. Apply analog supplies before USB power to the Pico. Verify +5A=+5 V and
+   -5A=-5 V. These are voltage-net names, not five-ampere current ratings.
+   The design has no analog-supply supervisor; retain this power sequence.
+4. Load the included MicroPython firmware on the original Pico. Firmware
+   starts with output mute asserted. See firmware/CONTROL.txt for commands.
+5. With external 50-ohm terminations fitted, check DC offsets at zero matrix,
+   then test one coefficient/path at a time using a small low-frequency input.
+6. Calibrate both coefficient signs and row DC offsets. Factory coefficient
+   scale 1.021 is an estimate. Replace it with measured calibration values.
+7. Verify gain flatness to 1 MHz, step ringing/settling, channel crosstalk,
+   output loading, and regulator/driver temperatures before full-scale use.
+
+OPERATING CONVENTIONS
+Inputs: +/-1 V peak, DC coupled. Outputs: +/-4 V peak INTO EXTERNAL 50 OHMS.
+The onboard 49.9-ohm resistor is a series source termination. A high-
+impedance oscilloscope input sees nearly twice the specified loaded output.
+Digital magnitude/sign controls set static analog gains; the Pico does not
+sample the signal. Keep the digital interface idle during sensitive captures.
+The inherited A2 SPICE model supports the circuit choice, but is NOT an
+extracted PCB simulation or a hardware measurement. PCB parasitics and
+thermal/assembly behavior still require prototype validation. Small-
+coefficient relative error is not a design acceptance target for this build.
+
+PRIMARY LAYOUT / THERMAL REFERENCES
+https://www.ti.com/lit/gpn/ths3091
+https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4899-1.pdf
+https://www.analog.com/media/en/technical-documentation/data-sheets/AD5544_5554.pdf
+https://wakefieldthermal.com/content/data_sheets/292.pdf

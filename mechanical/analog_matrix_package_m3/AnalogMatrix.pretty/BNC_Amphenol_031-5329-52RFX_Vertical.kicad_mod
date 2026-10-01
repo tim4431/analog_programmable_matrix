@@ -1,0 +1,140 @@
+(footprint "BNC_Amphenol_031-5329-52RFX_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Amphenol 031-5329-52RFX, 50 ohm vertical BNC; catalog p118 Fig2 pattern F")
+	(property "Reference" "REF**"
+		(at 0 11 0)
+		(layer "F.SilkS")
+		(uuid "6fd8d952-4f8e-4341-ae80-47ed1145a163")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "BNC 031-5329-52RFX"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d612c649-6381-43f6-b17a-4b4db0a3eb0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ce2fc23-0f47-4543-8231-c47f36bac1f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e0ab8b8-90a9-4f6f-93df-9aec9532af69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a73b400-a084-49ad-9a9b-12138ccbd6e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ea7f5b7e-c894-4933-a415-6c3331d2cd08")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d82abd49-819d-4870-a50d-234284b95da1")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9b326eb-ab4d-4214-8d98-3a22296427b2")
+	)
+	(pad "2" thru_hole circle
+		(at -3.45 -3.45)
+		(size 3.4 3.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4c3bc99-b8ed-49ff-810a-bb6808f2b62b")
+	)
+	(pad "2" thru_hole circle
+		(at -3.45 3.45)
+		(size 3.4 3.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0fb54ce-86ef-4b61-9eef-e7df5b6ccc85")
+	)
+	(pad "2" thru_hole circle
+		(at 3.45 -3.45)
+		(size 3.4 3.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a16b2a2-b6b8-485f-bc03-4d6022880404")
+	)
+	(pad "2" thru_hole circle
+		(at 3.45 3.45)
+		(size 3.4 3.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a9800c6-278b-44f4-ba60-9c43c0cc80cf")
+	)
+	(model "${KIPRJMOD}/models/BNC_Amphenol_031-5329-52RFX_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

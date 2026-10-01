@@ -1,0 +1,257 @@
+{
+  "revision": "A2",
+  "benches": [
+    {
+      "name": "a2_chain_corner_highR",
+      "status": "COMPLETE",
+      "netlist_sha256": "70f13d8aa2a485d65bdc4830f3a547c0eab68b17914e87b9df4cf4e0109d2f0c",
+      "seconds": 14.661,
+      "reason": null,
+      "raw_sha256": "b5dcbd31eb1c6eb08fe6132b0b22501e158a1a549466a2e7715e08efccd6b42c"
+    },
+    {
+      "name": "a2_chain_corner_lowR",
+      "status": "COMPLETE",
+      "netlist_sha256": "dcc7e61b7a6cd40e45c0a74a438993e2290e881278c3d13e9e7c89f84c8b09f8",
+      "seconds": 14.625,
+      "reason": null,
+      "raw_sha256": "e3db77d219ef22fc5cf48538e425dcaa33cdd202a3fa064bd41935f85a1154ae"
+    },
+    {
+      "name": "a2_chain_feed_001",
+      "status": "COMPLETE",
+      "netlist_sha256": "68e814aeb2aa464c9dbd0c237c33809b61e6da16a06ec961675be12a775a3b99",
+      "seconds": 15.07,
+      "reason": null,
+      "raw_sha256": "0c8a64f103921a6abd322dbbf6b4540687d629d7fb43613448be2c4a4eb95684"
+    },
+    {
+      "name": "a2_chain_feed_01",
+      "status": "COMPLETE",
+      "netlist_sha256": "5b49fea3dd98cf5574be1048caa5bec2f249368dc8154bd2c7c37aa70de4a58c",
+      "seconds": 15.259,
+      "reason": null,
+      "raw_sha256": "39103fb2a8fdd18bd72a5ae002989cafb1f01bdf41ecf23cf92cf211b75579a6"
+    },
+    {
+      "name": "a2_chain_feed_1",
+      "status": "COMPLETE",
+      "netlist_sha256": "8bc4b167e66dab6bec09d5a7c597e45ad4a2dd1a6c8e10e80031c40adfa4b575",
+      "seconds": 15.346,
+      "reason": null,
+      "raw_sha256": "e775f6a164dcfd474b944f57d7a86523072d538f3252f6f68e830b96636c43b3"
+    },
+    {
+      "name": "a2_chain_half",
+      "status": "COMPLETE",
+      "netlist_sha256": "1fced884e255814fab67d32f011cb7bc272ead04eabfded0f6110814ff3b52c3",
+      "seconds": 15.344,
+      "reason": null,
+      "raw_sha256": "a5cb0002a49a29468cfb12ccce86952eac140f9436a76ce062391b767f7c242d"
+    },
+    {
+      "name": "a2_chain_negative",
+      "status": "COMPLETE",
+      "netlist_sha256": "8e824a1d554cdc7abe1ed43c55cb1de699c6fded9dea6266b6980e02076daa87",
+      "seconds": 15.432,
+      "reason": null,
+      "raw_sha256": "70dedcc6424c45f9147e635f0e6d1b0bb68c0f2d1350a425b4d315a5ecc3efa6"
+    },
+    {
+      "name": "a2_chain_small",
+      "status": "COMPLETE",
+      "netlist_sha256": "a13189ba607228b664af758aedd6166afd367f5e0c6623d11386bfca055f19e4",
+      "seconds": 15.042,
+      "reason": null,
+      "raw_sha256": "9c8071647488ff5b362b6ed6d49cb02c3e239062d3fa5413b215940bd5d2eef1"
+    },
+    {
+      "name": "a2_chain_zero_feed",
+      "status": "COMPLETE",
+      "netlist_sha256": "266f6e56bfd12d75bc5a2565a6579f34cd9d77a1f0d4b7bffdedcdf437c929e4",
+      "seconds": 14.843,
+      "reason": null,
+      "raw_sha256": "30939b4d14b8b2de1c3b209c8ccb33380a3dbc085a8410946f2035779148bf41"
+    },
+    {
+      "name": "a2_input_buffer_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "e2c56399062226389694119c88240ef712ea673082abf85c7c3e4a0028b3e237",
+      "seconds": 11.526,
+      "reason": null,
+      "raw_sha256": "fb1a5764df78bb1b3d49e9f6c0c3758c796108c37106a2ce26be1857834c7a88"
+    },
+    {
+      "name": "a2_loaded_chain",
+      "status": "COMPLETE",
+      "netlist_sha256": "ab7e9dd855969c484b3aef3cf08dfb32115dad06d35bd92dbeb99d1f8c47c426",
+      "seconds": 15.639,
+      "reason": null,
+      "raw_sha256": "d0647c546e0d3beb132ab043192464f776da51cb99286d1326df35304475fafe"
+    },
+    {
+      "name": "a2_loaded_chain_rc",
+      "status": "COMPLETE",
+      "netlist_sha256": "ffbe8db0f35597fa5e9281c4ca014512a381a94369dc3db216a28018b99730fb",
+      "seconds": 1.634,
+      "reason": null,
+      "raw_sha256": "ccd992e17259eedc7f2ccbf4970067043c442562443fca4fff9a63fe8ec38535"
+    },
+    {
+      "name": "a2_matrix_signal_positive",
+      "status": "COMPLETE",
+      "netlist_sha256": "27985c2e8f6fc9f336dd847512809b789d15762ed685000e44521b0604c5a1c8",
+      "seconds": 163.901,
+      "reason": null,
+      "raw_sha256": "a490734b1f42b5ae67a2ec964c77f962806995d055b1610a03693b85a5b720a9"
+    },
+    {
+      "name": "a2_row_dc",
+      "status": "COMPLETE",
+      "netlist_sha256": "70de790ff72d099c1bcb82867aacaa1c392ab02ddb4b28e15aede270bbc164af",
+      "seconds": 24.243,
+      "reason": null,
+      "raw_sha256": "51dcb7087467a3353e3f3699ea14c459ee7245f23914c19b077fee1f753e3769"
+    },
+    {
+      "name": "a2_row_sine_rc",
+      "status": "COMPLETE",
+      "netlist_sha256": "edba6ed4e0cb7a29356ed264ad016f39090c81a4459ad5da8e23c0f4e538aab8",
+      "seconds": 1.664,
+      "reason": null,
+      "raw_sha256": "221ae9b55b54ff8125cd4447fa421e9286651eae726e9cec6c357beefd7a87b8"
+    },
+    {
+      "name": "a2_row_step_capload_rc",
+      "status": "UNRESOLVED",
+      "netlist_sha256": "1b557fac49f66b722bcb0ac7c94a5a9bbeba00d80822491110c6a76381534603",
+      "seconds": null,
+      "reason": "Command '['C:\\\\Users\\\\Tim\\\\AppData\\\\Local\\\\Programs\\\\ADI\\\\LTspice\\\\LTspice.exe', '-b', 'C:\\\\Users\\\\Tim\\\\Desktop\\\\codex\\\\analog_adder\\\\spice\\\\benches\\\\a2_row_step_capload_rc.cir']' timed out after 65 seconds"
+    },
+    {
+      "name": "a2_row_step_rc",
+      "status": "COMPLETE",
+      "netlist_sha256": "a90e87005021f645f0804e1090a9f86b98b90e12412bd06cdfa81c82c768ac97",
+      "seconds": 1.797,
+      "reason": null,
+      "raw_sha256": "c98d89e7ffdc600ec46103bba1b7d6f3361b655801371d6c7f102b4cc530c8fc"
+    },
+    {
+      "name": "driver_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "288250ee6c31307ba97122237bf4b525dd0e9e8cc10fbee7eec6159483cc269b",
+      "seconds": null,
+      "reason": null,
+      "raw_sha256": "9a4688f98e88e49728bf3d69be89ea89927c7086cd03df044bd757d8d5d9910f"
+    },
+    {
+      "name": "input_negative_150_negative_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "41083941cede82b13989299327db72c767e6f31fd70f6aef54f2a5f6104002ca",
+      "seconds": 14.457,
+      "reason": null,
+      "raw_sha256": "9ca01ec472c92ffe6aa3c3d4305c06ad839f476f1ca42926faf7cd8679dd9b08"
+    },
+    {
+      "name": "input_negative_150_positive_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "7e7fa67e5fd8ea2c04171676409e4d28a7a3edc2e34b13e615d429a7ec6abfe1",
+      "seconds": 13.515,
+      "reason": null,
+      "raw_sha256": "dd7afb36e0d5101627ab6ab6cfd7aa142b85f503d9a0bb8b82fb5491b70d6358"
+    },
+    {
+      "name": "input_positive_150_negative_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "8e0724e7ada1e1bd6f43a8676832daef35d8cbba1393cf3a60b1f67e3dc47478",
+      "seconds": 14.268,
+      "reason": null,
+      "raw_sha256": "d34310523ca7d0cbb3067b3a1b3fe59df271270bb5843c053bdb6e1b61edf430"
+    },
+    {
+      "name": "input_positive_150_positive_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "ff78440a5c42a1694c16c3d1e099357daf00338d4239107938855a2bd5aee882",
+      "seconds": 13.854,
+      "reason": null,
+      "raw_sha256": "16ec280fa4aa2ab91186fee3e883a5d39dd07fd4a43e21ca1aa885e01116a4d2"
+    },
+    {
+      "name": "input_positive_feedback_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "ca44db5b62de6ddf2d0f2a7f097bba5dfdd6bde87320c95882eca7204855b3a3",
+      "seconds": 11.472,
+      "reason": null,
+      "raw_sha256": "d6250f8e4256abf9a6580bffb4f39d926e4b14595e9d8422202f4e119bfb87e1"
+    },
+    {
+      "name": "summer_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "2e2737cb19aa44be3482fbeed3298ca85319541cf3d88d826680d01c72dcc3df",
+      "seconds": null,
+      "reason": null,
+      "raw_sha256": "374adb4ede4c084ee64205463d99448480e52deba25515cd63e5141a12c44ba5"
+    },
+    {
+      "name": "tia_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "f6d3c8348942b18413c91b52531074cfcd09eb02fbd6fbb2a7634db83adcf6ee",
+      "seconds": null,
+      "reason": null,
+      "raw_sha256": "99a27e96338aed99b759e7a5262c8b09078a917445c674c85993cce965105a85"
+    },
+    {
+      "name": "tia_nominal_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "aea5d51b9bb182f74cfe9ae205f1c34943957e0a3b7149aefe51bf994c0a6bc4",
+      "seconds": 0.969,
+      "reason": null,
+      "raw_sha256": "aa8639b2050690e40f1f38e69c0e72dc65d192218b3e0849c1ae493ece471f07"
+    },
+    {
+      "name": "trim_biased",
+      "status": "COMPLETE",
+      "netlist_sha256": "2bea018888f0aa562f405811ee9e704e53c2d20da0c199108dfd2aff6b20365f",
+      "seconds": null,
+      "reason": null,
+      "raw_sha256": "b860d3eb9b22ef6f777bfcc73096cd0c59c033610397bab06e9eb01aad8fcdc5"
+    },
+    {
+      "name": "trim_loop",
+      "status": "COMPLETE",
+      "netlist_sha256": "0c033f3440d79e00fd4fc8e973a775daa2cf05975490fbf2eacdd8d1e483bb7f",
+      "seconds": null,
+      "reason": null,
+      "raw_sha256": "70d0bd696db432150b4a73c16b523bc93ece278e7db1a5b01c338d3d2f9ada7d"
+    }
+  ],
+  "exploratory_failures": [
+    {
+      "case": "full matrix with nonlinear offset-trim bank",
+      "status": "Nonconvergent / timed out; replaced trim voltages with ideal sources for final signal AC"
+    },
+    {
+      "case": "original TMUX6219 transient control/charge-injection model",
+      "status": "Timestep failures; final static waveforms use documented RC reduction"
+    },
+    {
+      "case": "earlier TMUX analog-only reductions",
+      "status": "Timed out; not used for delivered waveform claims"
+    },
+    {
+      "case": "polarity-buffer output-node injection",
+      "status": "Extra GHz unity crossings; replaced by feedback-input injection for buffer estimates"
+    }
+  ],
+  "models": {
+    "models/ADA4899.sub": "8a39a4b6bbeefb22c7b05d16687a374a41cab68c9a2c260397e91e42da609733",
+    "models/opa810/opa810_a.lib": "5d50aba881078eb8ed3c47933df4a94d4a64d0cfb7ff67301ad6ef41efe982a2",
+    "models/opa197/OPAx197.LIB": "fc5b020e63346e511bd808bf41c856b0150b000bcf8a41fe00eeececb1f422a5",
+    "models/ths3091_tina/THS3091.lib": "b3bc310315cff534751126bcf8ea4b53774f95cc476a99226680d743d0b337a5",
+    "models/tmux6219/TMUX6219/TMUX6219.lib": "7d91c53ea497c5522afcbe482639a50aca7c06b575806db0ff36c89c057162d8",
+    "models/tmux6219/TMUX6219/TMUX6219_Disclaimer.txt": "e3d9cbb08179bea1684474372a5d23b549399c5d13c272f488d5b1b71cd6a238",
+    "models/TMUX6219_static_RC.lib": "6c857bbc19dcf43aab556f9a20bf12d1818756297eb09d987e1838a6bfacdb45",
+    "models/provenance.json": "1fd49dbc41c5b3906dfb041964564de6ce884e265d790bd999b518609822e834"
+  },
+  "provenance_note": "Local ADA4899 source path was replaced with a portable library description for publication; model data and netlist hashes are unchanged."
+}

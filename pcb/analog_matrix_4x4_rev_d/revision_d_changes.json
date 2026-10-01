@@ -1,0 +1,38 @@
+{
+  "pcb_revision": "D",
+  "enclosure_revision": "M3",
+  "previous_pcb_mm": [
+    180,
+    210
+  ],
+  "pcb_mm": [
+    160,
+    170
+  ],
+  "pcb_area_reduction_percent": 28.04,
+  "previous_enclosure_mm": [
+    200,
+    232,
+    60
+  ],
+  "enclosure_mm": [
+    180,
+    192,
+    60
+  ],
+  "enclosure_footprint_reduction_percent": 25.52,
+  "bnc_pitch_mm": 30,
+  "power_inlet_direction": "+X, outward at right edge",
+  "circuit_values_and_firmware_changed": false,
+  "heatsink_envelope_mm": [
+    35,
+    13,
+    38.1
+  ],
+  "limitations": [
+    "Prototype thermal qualification in smaller case required",
+    "Circuit-level A2 SPICE inherited; no PCB parasitic extraction",
+    "JLC supplier matching, placement rotation review and via-fill CAM acceptance remain pending"
+  ],
+  "pcb_sha256": "0bc346aeb27012868bfcf66266c1a55381e648ed224be89ea83ef740c1c2d8b5"
+}

@@ -1,0 +1,26 @@
+# Local working state
+__pycache__/
+*.py[cod]
+.venv/
+.work/
+tmp/
+*.kicad_prl
+*.lck
+*.bak
+*.blend1
+*-backups/
+pcb/work*/
+spice/reruns/
+
+# Downloaded vendor macromodels stay local; use spice/fetch_models.py.
+spice/models/*
+!spice/models/TMUX6219_static_RC.lib
+!spice/models/provenance.json
+
+# Large generated assembly STEP exports and release archives are GitHub assets.
+mechanical/analog_matrix_package_m3/cad/complete_assembly.step
+mechanical/analog_matrix_package_m3/cad/populated_pcb.step
+output/*.zip
+
+# Machine-local provenance reports
+docs/workspace_cleanup.json

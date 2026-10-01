@@ -1,0 +1,100 @@
+{
+  "pcb_source_sha256": "0bc346aeb27012868bfcf66266c1a55381e648ed224be89ea83ef740c1c2d8b5",
+  "fitted_components": 424,
+  "housing_mm": [
+    180,
+    192,
+    60
+  ],
+  "nominal_wall_mm": 3,
+  "pcb_underside_height_mm": 9.0,
+  "native_pcb_thickness_mm": 1.62,
+  "pcb_standoff_height_mm": 6,
+  "mount_centres_cad_xy_mm": [
+    [
+      4,
+      166
+    ],
+    [
+      156,
+      166
+    ],
+    [
+      4,
+      44
+    ],
+    [
+      156,
+      44
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      156,
+      20
+    ]
+  ],
+  "bnc_access_diameter_mm": 18,
+  "bnc_above_lid_mm": 8.22,
+  "usb_access_yz_mm": [
+    [
+      19,
+      39
+    ],
+    [
+      18.5,
+      30.5
+    ]
+  ],
+  "pico_board_underside_above_carrier_mm": 11,
+  "heatsink_roof_gap_mm": 7.78,
+  "power_entry": {
+    "direction": "+X / right edge",
+    "pin1_xy": [
+      155,
+      143
+    ],
+    "window_cad_yz_mm": [
+      [
+        22,
+        42
+      ],
+      [
+        12.5,
+        25.5
+      ]
+    ]
+  },
+  "heatsink_height_mm": 38.1,
+  "solid_intersections": [],
+  "case_solid_validity": {
+    "base_tray": true,
+    "signal_cover": true,
+    "power_hood": true
+  },
+  "retainer_material": "3 mm G10/FR4, unplated; do not print the hot retaining bridge",
+  "sink_support_posts_mm": {
+    "centres": [
+      [
+        78,
+        -4
+      ],
+      [
+        156,
+        -4
+      ]
+    ],
+    "length": 50,
+    "thread": "M3",
+    "max_hex_af": 6
+  },
+  "limitations": [
+    "Heatsinks are reserved envelopes; supplier choice and retainer pad fit remain to be qualified.",
+    "No thermal airflow simulation or printed-fit test has been performed.",
+    "Generic IC exterior models do not certify exposed-pad land patterns.",
+    "Cable plug envelopes assume <=17 mm BNC coupling sleeve OD and <=18x10 mm USB overmould.",
+    "Use actual 8.5 mm socket + 2.5 mm header spacer stack. Recheck if substituted."
+  ]
+}

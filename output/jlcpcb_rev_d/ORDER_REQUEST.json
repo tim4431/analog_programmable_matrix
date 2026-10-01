@@ -1,0 +1,17 @@
+{
+  "assembled_quantity": 2,
+  "assembly_side": "Top",
+  "pcb_revision": "D",
+  "enclosure_revision": "M3",
+  "bare_pcb_quantity": null,
+  "order_created": false,
+  "order_paid": false,
+  "live_assembly_inventory_verified": false,
+  "pending": [
+    "Browser-control connection",
+    "Part matching and availability",
+    "Vendor rotation preview",
+    "Via-fill CAM acceptance",
+    "Price and shipping review"
+  ]
+}

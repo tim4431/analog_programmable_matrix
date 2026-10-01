@@ -1,0 +1,2122 @@
+[
+  {
+    "reference": "C88",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R110",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C80",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R74",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C163",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C9",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C106",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R2",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R98",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C104",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R58",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C87",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C178",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C5",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C99",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "J1",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "C57",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U102",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "U54",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "R53",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U61",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "R23",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R54",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R85",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R8",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "J9",
+    "model": "TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.step",
+    "footprint": "TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+  },
+  {
+    "reference": "C82",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U71",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "R39",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C112",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C161",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R125",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C187",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U8",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C177",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C146",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C157",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C69",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C194",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C189",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C148",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "U43",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "R133",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C44",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U51",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C120",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C93",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U73",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "C164",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R44",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U53",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "R114",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C183",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R145",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U10",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "D1",
+    "model": "D_DO-41_SOD81_P10.16mm_Horizontal.step",
+    "footprint": "D_DO-41_SOD81_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "C77",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R119",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U45",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "U101",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C150",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R11",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R139",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C165",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R10",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R36",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C170",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C142",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C109",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R115",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C113",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R37",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U83",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C101",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C181",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C153",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "C127",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U80",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C138",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R104",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C149",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C182",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C92",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C188",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C19",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U30",
+    "model": "SSOP-28_5.3x10.2mm_P0.65mm.step",
+    "footprint": "SSOP-28_5.3x10.2mm_P0.65mm"
+  },
+  {
+    "reference": "R38",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R19",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "D2",
+    "model": "D_DO-41_SOD81_P10.16mm_Horizontal.step",
+    "footprint": "D_DO-41_SOD81_P10.16mm_Horizontal"
+  },
+  {
+    "reference": "R111",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C98",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R93",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C62",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C134",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "C124",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R118",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C31",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C174",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C89",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C186",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "U52",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "U75",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "R131",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C159",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C103",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U90",
+    "model": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm.step",
+    "footprint": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+  },
+  {
+    "reference": "C169",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R16",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R64",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C15",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C42",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C2",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C176",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R67",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C48",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C196",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R5",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U110",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "U64",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "U23",
+    "model": "SSOP-28_5.3x10.2mm_P0.65mm.step",
+    "footprint": "SSOP-28_5.3x10.2mm_P0.65mm"
+  },
+  {
+    "reference": "R13",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R101",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C39",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C141",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C51",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "C34",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R26",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R33",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U3",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C94",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R18",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R142",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C144",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R63",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C200",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R96",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C110",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R80",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R102",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R20",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C1",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R82",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C63",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C18",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C97",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R86",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C12",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R122",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C151",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C10",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C111",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U103",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "J2",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "R35",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R55",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "J8",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "J7",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "R25",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R69",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C129",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R45",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R14",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U47",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C133",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "R65",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C53",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C168",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "C29",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R6",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R113",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C36",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C171",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C78",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C68",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R136",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R62",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C3",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C132",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "U21",
+    "model": "SSOP-28_5.3x10.2mm_P0.65mm.step",
+    "footprint": "SSOP-28_5.3x10.2mm_P0.65mm"
+  },
+  {
+    "reference": "J5",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "C119",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R59",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C35",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R106",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R70",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R135",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R128",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C137",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C49",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R1",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R84",
+    "model": "R_2512_6332Metric.step",
+    "footprint": "R_2512_6332Metric"
+  },
+  {
+    "reference": "R73",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U9",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C180",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C96",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R112",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C185",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "U81",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C79",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U42",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C130",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U48",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C64",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "U67",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "U12",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "R94",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R123",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C162",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C71",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C173",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U5",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "R83",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C175",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R138",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U65",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "R124",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C33",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R31",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C172",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R77",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U40",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C125",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R107",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R130",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C90",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "U4",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C143",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R72",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R9",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C184",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C72",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R43",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R56",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R137",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C136",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "J3",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "C75",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R7",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R79",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C128",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C59",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C28",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R34",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C147",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C193",
+    "model": "C_Radial_D5.0mm_H11.0mm_P2.00mm.step",
+    "footprint": "C_Radial_D5.0mm_H11.0mm_P2.00mm"
+  },
+  {
+    "reference": "C105",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U6",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "U92",
+    "model": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm.step",
+    "footprint": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+  },
+  {
+    "reference": "R75",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R144",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R61",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R141",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R15",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R41",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R78",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C70",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R42",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R108",
+    "model": "R_2512_6332Metric.step",
+    "footprint": "R_2512_6332Metric"
+  },
+  {
+    "reference": "U93",
+    "model": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm.step",
+    "footprint": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+  },
+  {
+    "reference": "U85",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C95",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C21",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C45",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C30",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C83",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U62",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "U2",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C198",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "R66",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C195",
+    "model": "C_Radial_D5.0mm_H11.0mm_P2.00mm.step",
+    "footprint": "C_Radial_D5.0mm_H11.0mm_P2.00mm"
+  },
+  {
+    "reference": "R99",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R140",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C13",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C55",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C167",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "C61",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C131",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R28",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U60",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "C116",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C76",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "J6",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "R87",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C8",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C154",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C155",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R92",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C91",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C27",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R17",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C4",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C123",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C190",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R71",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R127",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C85",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "U50",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "U74",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "U121",
+    "model": "SOIC-16_3.9x9.9mm_P1.27mm.step",
+    "footprint": "SOIC-16_3.9x9.9mm_P1.27mm"
+  },
+  {
+    "reference": "U86",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "U69",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "R47",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R109",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U82",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C47",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U68",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "C135",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C11",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R146",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C73",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C52",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C86",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C126",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U131",
+    "model": "TO-220-3_Vertical_Trimmed.step",
+    "footprint": "TO-220-3_Vertical"
+  },
+  {
+    "reference": "C114",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "C100",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "C26",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U46",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C81",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U20",
+    "model": "SSOP-28_5.3x10.2mm_P0.65mm.step",
+    "footprint": "SSOP-28_5.3x10.2mm_P0.65mm"
+  },
+  {
+    "reference": "U66",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "C22",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R27",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U49",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "U44",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C14",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U7",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "R57",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R24",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C60",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C65",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "R129",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R68",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U11",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C152",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U91",
+    "model": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm.step",
+    "footprint": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+  },
+  {
+    "reference": "R32",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C145",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R22",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R143",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C179",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C199",
+    "model": "C_Radial_D5.0mm_H11.0mm_P2.00mm.step",
+    "footprint": "C_Radial_D5.0mm_H11.0mm_P2.00mm"
+  },
+  {
+    "reference": "R132",
+    "model": "R_2512_6332Metric.step",
+    "footprint": "R_2512_6332Metric"
+  },
+  {
+    "reference": "C139",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R49",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R100",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C54",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R120",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C102",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R95",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R134",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U84",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "R91",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R105",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R60",
+    "model": "R_2512_6332Metric.step",
+    "footprint": "R_2512_6332Metric"
+  },
+  {
+    "reference": "U100",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "R103",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R126",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C43",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C117",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C115",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C25",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C58",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U55",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C7",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "R89",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C192",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U120",
+    "model": "Pico_2x20_Socket_17.78mm.step",
+    "footprint": "Pico_2x20_Socket_17.78mm"
+  },
+  {
+    "reference": "C24",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C66",
+    "model": "CP_EIA-3216-18_Kemet-A.step",
+    "footprint": "CP_EIA-3216-18_Kemet-A"
+  },
+  {
+    "reference": "C156",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C121",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C140",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U70",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "C158",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "U63",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "U122",
+    "model": "SOIC-16_3.9x9.9mm_P1.27mm.step",
+    "footprint": "SOIC-16_3.9x9.9mm_P1.27mm"
+  },
+  {
+    "reference": "C191",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C38",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C40",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R81",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C16",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C20",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R88",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C108",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U1",
+    "model": "SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "reference": "C118",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C23",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C197",
+    "model": "C_Radial_D5.0mm_H11.0mm_P2.00mm.step",
+    "footprint": "C_Radial_D5.0mm_H11.0mm_P2.00mm"
+  },
+  {
+    "reference": "C74",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U22",
+    "model": "SSOP-28_5.3x10.2mm_P0.65mm.step",
+    "footprint": "SSOP-28_5.3x10.2mm_P0.65mm"
+  },
+  {
+    "reference": "C107",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C46",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R117",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C50",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "U87",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "R46",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R97",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R48",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R52",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U130",
+    "model": "TO-220-3_Vertical_Trimmed.step",
+    "footprint": "TO-220-3_Vertical"
+  },
+  {
+    "reference": "C32",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C166",
+    "model": "C_0805_2012Metric.step",
+    "footprint": "C_0805_2012Metric"
+  },
+  {
+    "reference": "C122",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R121",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "J4",
+    "model": "BNC_Amphenol_031-5329-52RFX_Vertical.step",
+    "footprint": "BNC_Amphenol_031-5329-52RFX_Vertical"
+  },
+  {
+    "reference": "R90",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R29",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R50",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C160",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C67",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C84",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R76",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U41",
+    "model": "VSSOP-8_3x3mm_P0.65mm.step",
+    "footprint": "VSSOP-8_3x3mm_P0.65mm"
+  },
+  {
+    "reference": "C17",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R4",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "U72",
+    "model": "ADA4899_RD8_EP2.29x2.29.step",
+    "footprint": "ADA4899_RD8_EP2.29x2.29"
+  },
+  {
+    "reference": "C37",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "C41",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  },
+  {
+    "reference": "R51",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C6",
+    "model": "C_0603_1608Metric.step",
+    "footprint": "C_0603_1608Metric"
+  },
+  {
+    "reference": "R40",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "R116",
+    "model": "R_0603_1608Metric.step",
+    "footprint": "R_0603_1608Metric"
+  },
+  {
+    "reference": "C56",
+    "model": "C_0402_1005Metric.step",
+    "footprint": "C_0402_1005Metric"
+  }
+]

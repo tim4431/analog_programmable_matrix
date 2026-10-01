@@ -1,0 +1,27 @@
+{
+  "fitted_smt": 406,
+  "smt_bom_rows": 30,
+  "supplier_identity_matches": 6,
+  "unmatched_bom_rows": 24,
+  "manual_items": 18,
+  "dnp": 4,
+  "bom_cpl_references_identical": true,
+  "duplicate_cpl_references": 0,
+  "gerber_files": [
+    "analog_matrix_4x4-B_Cu.gbl",
+    "analog_matrix_4x4-B_Mask.gbs",
+    "analog_matrix_4x4-B_Silkscreen.gbo",
+    "analog_matrix_4x4-Edge_Cuts.gm1",
+    "analog_matrix_4x4-F_Cu.gtl",
+    "analog_matrix_4x4-F_Mask.gts",
+    "analog_matrix_4x4-F_Paste.gtp",
+    "analog_matrix_4x4-F_Silkscreen.gto",
+    "analog_matrix_4x4-In1_Cu.g2",
+    "analog_matrix_4x4-In2_Cu.g3",
+    "analog_matrix_4x4-job.gbrjob",
+    "analog_matrix_4x4-NPTH.drl",
+    "analog_matrix_4x4-PTH.drl"
+  ],
+  "source_pcb_sha256": "0bc346aeb27012868bfcf66266c1a55381e648ed224be89ea83ef740c1c2d8b5",
+  "order_release_status": "Await component matching, vendor rotation preview and via-fill CAM acceptance"
+}
