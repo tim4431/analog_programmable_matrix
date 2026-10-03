@@ -1,0 +1,9 @@
+simulation/vendor/
+simulation/work/
+hardware/*.kicad_prl
+hardware/*-backups/
+*.lck
+simulation/benches/*.raw
+simulation/benches/*.log
+mechanical/*.blend
+mechanical/*.blend1

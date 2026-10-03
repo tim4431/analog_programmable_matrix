@@ -1,0 +1,49 @@
+[
+  {
+    "name": "opa2810",
+    "url": "https://www.ti.com/lit/zip/SBOMB66",
+    "sha256": "61d3c1e15c2caeea8a292d2092ae9dd00b7bc01c4197193314ebe89041e690c5",
+    "files": [
+      "opa2810_a.lib",
+      "OPA2810_PSPICE-PSpiceFiles/",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/AC_Sweep/",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/AC_Sweep/AC_Sweep.1OP",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/AC_Sweep/AC_Sweep.cir",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/AC_Sweep/AC_Sweep.mif",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/AC_Sweep/AC_Sweep.mrk",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/AC_Sweep/AC_Sweep.out.1",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/AC_Sweep/AC_Sweep.prb",
+      "OPA2810_PSPICE-PSpiceFiles/SCHEMATIC1/ac_sweep.sim",
+      "opa2810_pspice.dsn",
+      "opa2810_pspice.opj"
+    ]
+  },
+  {
+    "name": "dac7811",
+    "url": "https://www.ti.com/lit/zip/SBAM488",
+    "sha256": "726bc5ca41881b69cbf6a9ab8737392a778e35f4a58cdfb9cc050e20ce200722",
+    "files": [
+      "dac7811.lib",
+      "dac7811.libsig",
+      "dac7811_tb_release-PSpiceFiles/",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.1OP",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.cir",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.dat",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.mif",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.mrk",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.out",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.out.1",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans/dac7811_tb_trans.prb",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_tb_trans.sim",
+      "dac7811_tb_release-PSpiceFiles/DAC7811_TOP_tb/dac7811_top_tb.net",
+      "dac7811_tb_release.dsn",
+      "dac7811_tb_release.opj",
+      "library/",
+      "library/dac7811.olb",
+      "opax277.lib"
+    ]
+  }
+]

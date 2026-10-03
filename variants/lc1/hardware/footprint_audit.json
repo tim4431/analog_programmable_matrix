@@ -1,0 +1,5203 @@
+{
+  "components": 387,
+  "footprints": 20,
+  "pad_number_errors": [],
+  "polarized_capacitor_orientation": "checked: pad 1 positive, pad 2 negative",
+  "assignments": [
+    {
+      "reference": "J1",
+      "original": "JIN0",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "R1",
+      "original": "RIN_0",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R2",
+      "original": "RBIAS_0",
+      "value": "1 M",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R3",
+      "original": "RTERM_0",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": true,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C1",
+      "original": "C_U1_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C2",
+      "original": "C_U1_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C3",
+      "original": "C_U2_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C4",
+      "original": "C_U2_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R4",
+      "original": "RPDIVT_0",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R5",
+      "original": "RPDIVB_0",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R6",
+      "original": "RPF_0",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R7",
+      "original": "RPG_0",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R8",
+      "original": "RNI_0",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R9",
+      "original": "RNF_0",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C7",
+      "original": "C_IN0_+5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C8",
+      "original": "C_IN0_-5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "J2",
+      "original": "JIN1",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "R10",
+      "original": "RIN_1",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R11",
+      "original": "RBIAS_1",
+      "value": "1 M",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R12",
+      "original": "RTERM_1",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": true,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C11",
+      "original": "C_U5_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C12",
+      "original": "C_U5_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R13",
+      "original": "RPDIVT_1",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R14",
+      "original": "RPDIVB_1",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R15",
+      "original": "RPF_1",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R16",
+      "original": "RPG_1",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R17",
+      "original": "RNI_1",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R18",
+      "original": "RNF_1",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C15",
+      "original": "C_IN1_+5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C16",
+      "original": "C_IN1_-5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "J3",
+      "original": "JIN2",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "R19",
+      "original": "RIN_2",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R20",
+      "original": "RBIAS_2",
+      "value": "1 M",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R21",
+      "original": "RTERM_2",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": true,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C17",
+      "original": "C_U7_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C18",
+      "original": "C_U7_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C19",
+      "original": "C_U8_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C20",
+      "original": "C_U8_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R22",
+      "original": "RPDIVT_2",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R23",
+      "original": "RPDIVB_2",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R24",
+      "original": "RPF_2",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R25",
+      "original": "RPG_2",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R26",
+      "original": "RNI_2",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R27",
+      "original": "RNF_2",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C23",
+      "original": "C_IN2_+5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C24",
+      "original": "C_IN2_-5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "J4",
+      "original": "JIN3",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "R28",
+      "original": "RIN_3",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R29",
+      "original": "RBIAS_3",
+      "value": "1 M",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R30",
+      "original": "RTERM_3",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": true,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C27",
+      "original": "C_U11_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C28",
+      "original": "C_U11_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R31",
+      "original": "RPDIVT_3",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R32",
+      "original": "RPDIVB_3",
+      "value": "499 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R33",
+      "original": "RPF_3",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R34",
+      "original": "RPG_3",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R35",
+      "original": "RNI_3",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R36",
+      "original": "RNF_3",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C31",
+      "original": "C_IN3_+5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C32",
+      "original": "C_IN3_-5A",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C33",
+      "original": "C_U20_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C34",
+      "original": "CB_U20_P",
+      "value": "1 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R37",
+      "original": "RBRP_00",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R38",
+      "original": "RBRN_00",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C37",
+      "original": "C_U40_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C38",
+      "original": "C_U40_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R39",
+      "original": "RSEL_00",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U60",
+      "original": "U60",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C39",
+      "original": "C_U60_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C40",
+      "original": "C_U60_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C41",
+      "original": "C_WEIGHT_00",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R40",
+      "original": "RSUM_00",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R41",
+      "original": "RBRP_01",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R42",
+      "original": "RBRN_01",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R43",
+      "original": "RSEL_01",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U61",
+      "original": "U61",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C44",
+      "original": "C_U61_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C45",
+      "original": "C_U61_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C46",
+      "original": "C_WEIGHT_01",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R44",
+      "original": "RSUM_01",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R45",
+      "original": "RBRP_02",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R46",
+      "original": "RBRN_02",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C47",
+      "original": "C_U42_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C48",
+      "original": "C_U42_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R47",
+      "original": "RSEL_02",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U62",
+      "original": "U62",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C49",
+      "original": "C_U62_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C50",
+      "original": "C_U62_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C51",
+      "original": "C_WEIGHT_02",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R48",
+      "original": "RSUM_02",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R49",
+      "original": "RBRP_03",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R50",
+      "original": "RBRN_03",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R51",
+      "original": "RSEL_03",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U63",
+      "original": "U63",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C54",
+      "original": "C_U63_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C55",
+      "original": "C_U63_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C56",
+      "original": "C_WEIGHT_03",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R52",
+      "original": "RSUM_03",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C57",
+      "original": "C_U80_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C58",
+      "original": "C_U80_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R53",
+      "original": "RSF_0",
+      "value": "549 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R54",
+      "original": "RTRIM_0",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R55",
+      "original": "RREF_0",
+      "value": "20.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R56",
+      "original": "RMUTE_0",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C59",
+      "original": "C_U84_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C60",
+      "original": "C_U84_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R57",
+      "original": "RDRVB_0",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U90",
+      "original": "U90",
+      "value": "THS3091DDAR",
+      "footprint": "AnalogMatrix:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C61",
+      "original": "C_U90_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C62",
+      "original": "C_U90_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R58",
+      "original": "RDF_0",
+      "value": "1.21 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R59",
+      "original": "RDG_0",
+      "value": "402 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R60",
+      "original": "R_OUT_0",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_2512_6332Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; >=1W"
+    },
+    {
+      "reference": "J5",
+      "original": "JOUT0",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C63",
+      "original": "C_ROW0_P",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C64",
+      "original": "C_ROW0_N",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C65",
+      "original": "C_DRIVER0_P",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "C66",
+      "original": "C_DRIVER0_N",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "C67",
+      "original": "C_U21_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C68",
+      "original": "CB_U21_P",
+      "value": "1 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R61",
+      "original": "RBRP_10",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R62",
+      "original": "RBRN_10",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C71",
+      "original": "C_U44_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C72",
+      "original": "C_U44_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R63",
+      "original": "RSEL_10",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U64",
+      "original": "U64",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C73",
+      "original": "C_U64_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C74",
+      "original": "C_U64_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C75",
+      "original": "C_WEIGHT_10",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R64",
+      "original": "RSUM_10",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R65",
+      "original": "RBRP_11",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R66",
+      "original": "RBRN_11",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R67",
+      "original": "RSEL_11",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U65",
+      "original": "U65",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C78",
+      "original": "C_U65_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C79",
+      "original": "C_U65_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C80",
+      "original": "C_WEIGHT_11",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R68",
+      "original": "RSUM_11",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R69",
+      "original": "RBRP_12",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R70",
+      "original": "RBRN_12",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C81",
+      "original": "C_U46_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C82",
+      "original": "C_U46_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R71",
+      "original": "RSEL_12",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U66",
+      "original": "U66",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C83",
+      "original": "C_U66_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C84",
+      "original": "C_U66_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C85",
+      "original": "C_WEIGHT_12",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R72",
+      "original": "RSUM_12",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R73",
+      "original": "RBRP_13",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R74",
+      "original": "RBRN_13",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R75",
+      "original": "RSEL_13",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U67",
+      "original": "U67",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C88",
+      "original": "C_U67_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C89",
+      "original": "C_U67_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C90",
+      "original": "C_WEIGHT_13",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R76",
+      "original": "RSUM_13",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R77",
+      "original": "RSF_1",
+      "value": "549 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R78",
+      "original": "RTRIM_1",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R79",
+      "original": "RREF_1",
+      "value": "20.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R80",
+      "original": "RMUTE_1",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R81",
+      "original": "RDRVB_1",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U91",
+      "original": "U91",
+      "value": "THS3091DDAR",
+      "footprint": "AnalogMatrix:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C95",
+      "original": "C_U91_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C96",
+      "original": "C_U91_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R82",
+      "original": "RDF_1",
+      "value": "1.21 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R83",
+      "original": "RDG_1",
+      "value": "402 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R84",
+      "original": "R_OUT_1",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_2512_6332Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; >=1W"
+    },
+    {
+      "reference": "J6",
+      "original": "JOUT1",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C97",
+      "original": "C_ROW1_P",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C98",
+      "original": "C_ROW1_N",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C99",
+      "original": "C_DRIVER1_P",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "C100",
+      "original": "C_DRIVER1_N",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "C101",
+      "original": "C_U22_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C102",
+      "original": "CB_U22_P",
+      "value": "1 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R85",
+      "original": "RBRP_20",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R86",
+      "original": "RBRN_20",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C105",
+      "original": "C_U48_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C106",
+      "original": "C_U48_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R87",
+      "original": "RSEL_20",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U68",
+      "original": "U68",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C107",
+      "original": "C_U68_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C108",
+      "original": "C_U68_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C109",
+      "original": "C_WEIGHT_20",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R88",
+      "original": "RSUM_20",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R89",
+      "original": "RBRP_21",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R90",
+      "original": "RBRN_21",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R91",
+      "original": "RSEL_21",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U69",
+      "original": "U69",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C112",
+      "original": "C_U69_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C113",
+      "original": "C_U69_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C114",
+      "original": "C_WEIGHT_21",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R92",
+      "original": "RSUM_21",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R93",
+      "original": "RBRP_22",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R94",
+      "original": "RBRN_22",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C115",
+      "original": "C_U50_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C116",
+      "original": "C_U50_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R95",
+      "original": "RSEL_22",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U70",
+      "original": "U70",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C117",
+      "original": "C_U70_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C118",
+      "original": "C_U70_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C119",
+      "original": "C_WEIGHT_22",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R96",
+      "original": "RSUM_22",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R97",
+      "original": "RBRP_23",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R98",
+      "original": "RBRN_23",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R99",
+      "original": "RSEL_23",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U71",
+      "original": "U71",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C122",
+      "original": "C_U71_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C123",
+      "original": "C_U71_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C124",
+      "original": "C_WEIGHT_23",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R100",
+      "original": "RSUM_23",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C125",
+      "original": "C_U82_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C126",
+      "original": "C_U82_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R101",
+      "original": "RSF_2",
+      "value": "549 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R102",
+      "original": "RTRIM_2",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R103",
+      "original": "RREF_2",
+      "value": "20.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R104",
+      "original": "RMUTE_2",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C127",
+      "original": "C_U86_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C128",
+      "original": "C_U86_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R105",
+      "original": "RDRVB_2",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U92",
+      "original": "U92",
+      "value": "THS3091DDAR",
+      "footprint": "AnalogMatrix:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C129",
+      "original": "C_U92_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C130",
+      "original": "C_U92_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R106",
+      "original": "RDF_2",
+      "value": "1.21 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R107",
+      "original": "RDG_2",
+      "value": "402 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R108",
+      "original": "R_OUT_2",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_2512_6332Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; >=1W"
+    },
+    {
+      "reference": "J7",
+      "original": "JOUT2",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C131",
+      "original": "C_ROW2_P",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C132",
+      "original": "C_ROW2_N",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C133",
+      "original": "C_DRIVER2_P",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "C134",
+      "original": "C_DRIVER2_N",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "C135",
+      "original": "C_U23_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C136",
+      "original": "CB_U23_P",
+      "value": "1 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R109",
+      "original": "RBRP_30",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R110",
+      "original": "RBRN_30",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C139",
+      "original": "C_U52_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C140",
+      "original": "C_U52_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R111",
+      "original": "RSEL_30",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U72",
+      "original": "U72",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C141",
+      "original": "C_U72_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C142",
+      "original": "C_U72_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C143",
+      "original": "C_WEIGHT_30",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R112",
+      "original": "RSUM_30",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R113",
+      "original": "RBRP_31",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R114",
+      "original": "RBRN_31",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R115",
+      "original": "RSEL_31",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U73",
+      "original": "U73",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C146",
+      "original": "C_U73_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C147",
+      "original": "C_U73_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C148",
+      "original": "C_WEIGHT_31",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R116",
+      "original": "RSUM_31",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R117",
+      "original": "RBRP_32",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R118",
+      "original": "RBRN_32",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "C149",
+      "original": "C_U54_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C150",
+      "original": "C_U54_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R119",
+      "original": "RSEL_32",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U74",
+      "original": "U74",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C151",
+      "original": "C_U74_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C152",
+      "original": "C_U74_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C153",
+      "original": "C_WEIGHT_32",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R120",
+      "original": "RSUM_32",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R121",
+      "original": "RBRP_33",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R122",
+      "original": "RBRN_33",
+      "value": "150R 0.1%",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R123",
+      "original": "RSEL_33",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U75",
+      "original": "U75",
+      "value": "ADA4899-1YRDZ",
+      "footprint": "AnalogMatrix:ADA4899_RD8_EP2.29x2.29",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C156",
+      "original": "C_U75_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C157",
+      "original": "C_U75_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C158",
+      "original": "C_WEIGHT_33",
+      "value": "1.0 pF C0G",
+      "footprint": "AnalogMatrix:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "50V C0G, +/-0.1pF; stray capacitance included in simulation"
+    },
+    {
+      "reference": "R124",
+      "original": "RSUM_33",
+      "value": "1.00 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R125",
+      "original": "RSF_3",
+      "value": "549 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R126",
+      "original": "RTRIM_3",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R127",
+      "original": "RREF_3",
+      "value": "20.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R128",
+      "original": "RMUTE_3",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R129",
+      "original": "RDRVB_3",
+      "value": "100 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U93",
+      "original": "U93",
+      "value": "THS3091DDAR",
+      "footprint": "AnalogMatrix:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C163",
+      "original": "C_U93_P",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C164",
+      "original": "C_U93_N",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R130",
+      "original": "RDF_3",
+      "value": "1.21 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R131",
+      "original": "RDG_3",
+      "value": "402 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R132",
+      "original": "R_OUT_3",
+      "value": "49.9 ohm",
+      "footprint": "AnalogMatrix:R_2512_6332Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; >=1W"
+    },
+    {
+      "reference": "J8",
+      "original": "JOUT3",
+      "value": "BNC 031-5329-52RFX",
+      "footprint": "AnalogMatrix:BNC_Amphenol_031-5329-52RFX_Vertical",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C165",
+      "original": "C_ROW3_P",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C166",
+      "original": "C_ROW3_N",
+      "value": "10 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C167",
+      "original": "C_DRIVER3_P",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "C168",
+      "original": "C_DRIVER3_N",
+      "value": "6.8 uF / 25 V",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V polarized"
+    },
+    {
+      "reference": "U120",
+      "original": "U120",
+      "value": "Raspberry Pi Pico",
+      "footprint": "AnalogMatrix:Pico_2x20_Socket_17.78mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "2",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "3",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "4",
+        "40",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "R133",
+      "original": "RD_SCK",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R134",
+      "original": "RD_MOSI",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R135",
+      "original": "RD_SIGN_DATA",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R136",
+      "original": "RD_SIGN_CLK",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R137",
+      "original": "RD_SIGN_LATCH",
+      "value": "33 ohm",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "U121",
+      "original": "U121",
+      "value": "SN74HC595D",
+      "footprint": "AnalogMatrix:SOIC-16_3.9x9.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C191",
+      "original": "C_595_0",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "U122",
+      "original": "U122",
+      "value": "SN74HC595D",
+      "footprint": "AnalogMatrix:SOIC-16_3.9x9.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C192",
+      "original": "C_595_1",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "R138",
+      "original": "RPU_ROW0_CS",
+      "value": "10 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R139",
+      "original": "RPU_ROW1_CS",
+      "value": "10 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R140",
+      "original": "RPU_ROW2_CS",
+      "value": "10 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R141",
+      "original": "RPU_ROW3_CS",
+      "value": "10 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "R146",
+      "original": "RPD_OUTPUT_RUN",
+      "value": "10 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, <=25ppm/C; 0.1W minimum"
+    },
+    {
+      "reference": "J9",
+      "original": "JPWR",
+      "value": "3-pin terminal",
+      "footprint": "AnalogMatrix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+      "pads": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U130",
+      "original": "U130",
+      "value": "L7805CV",
+      "footprint": "AnalogMatrix:TO-220-3_Vertical",
+      "pads": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U131",
+      "original": "U131",
+      "value": "L7905CV",
+      "footprint": "AnalogMatrix:TO-220-3_Vertical",
+      "pads": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "D1",
+      "original": "D130",
+      "value": "1N4002",
+      "footprint": "AnalogMatrix:D_DO-41_SOD81_P10.16mm_Horizontal",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "D2",
+      "original": "D131",
+      "value": "1N4002",
+      "footprint": "AnalogMatrix:D_DO-41_SOD81_P10.16mm_Horizontal",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C193",
+      "original": "CPWR_+",
+      "value": "47 uF / 35 V",
+      "footprint": "AnalogMatrix:C_Radial_D5.0mm_H11.0mm_P2.00mm",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "35V polarized"
+    },
+    {
+      "reference": "C194",
+      "original": "CREGIN_+",
+      "value": "330 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C195",
+      "original": "CREGOUT_+",
+      "value": "10 uF / 16 V",
+      "footprint": "AnalogMatrix:C_Radial_D5.0mm_H11.0mm_P2.00mm",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "16V polarized"
+    },
+    {
+      "reference": "C196",
+      "original": "CREGOUT_HF_+",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C197",
+      "original": "CPWR_-",
+      "value": "47 uF / 35 V",
+      "footprint": "AnalogMatrix:C_Radial_D5.0mm_H11.0mm_P2.00mm",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "35V polarized"
+    },
+    {
+      "reference": "C198",
+      "original": "CREGIN_-",
+      "value": "2.2 uF",
+      "footprint": "AnalogMatrix:CP_EIA-3216-18_Kemet-A",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "35V polarized"
+    },
+    {
+      "reference": "C199",
+      "original": "CREGOUT_-",
+      "value": "10 uF / 16 V",
+      "footprint": "AnalogMatrix:C_Radial_D5.0mm_H11.0mm_P2.00mm",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "16V polarized"
+    },
+    {
+      "reference": "C200",
+      "original": "CREGOUT_HF_-",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "U200",
+      "original": "U200",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U201",
+      "original": "U201",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U202",
+      "original": "U202",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U203",
+      "original": "U203",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U204",
+      "original": "U204",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U205",
+      "original": "U205",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U206",
+      "original": "U206",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U207",
+      "original": "U207",
+      "value": "OPA2810IDR",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U220",
+      "original": "U220",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U221",
+      "original": "U221",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U222",
+      "original": "U222",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U223",
+      "original": "U223",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U224",
+      "original": "U224",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U225",
+      "original": "U225",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U226",
+      "original": "U226",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U227",
+      "original": "U227",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U228",
+      "original": "U228",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U229",
+      "original": "U229",
+      "value": "TMUX6136PWR",
+      "footprint": "AnalogMatrix:TSSOP-16_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U300",
+      "original": "U300",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C300",
+      "original": "C300",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U301",
+      "original": "U301",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C301",
+      "original": "C301",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U302",
+      "original": "U302",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C302",
+      "original": "C302",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U303",
+      "original": "U303",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C303",
+      "original": "C303",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U304",
+      "original": "U304",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C304",
+      "original": "C304",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U305",
+      "original": "U305",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C305",
+      "original": "C305",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U306",
+      "original": "U306",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C306",
+      "original": "C306",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U307",
+      "original": "U307",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C307",
+      "original": "C307",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U308",
+      "original": "U308",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C308",
+      "original": "C308",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U309",
+      "original": "U309",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C309",
+      "original": "C309",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U310",
+      "original": "U310",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C310",
+      "original": "C310",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U311",
+      "original": "U311",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C311",
+      "original": "C311",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U312",
+      "original": "U312",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C312",
+      "original": "C312",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U313",
+      "original": "U313",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C313",
+      "original": "C313",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U314",
+      "original": "U314",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C314",
+      "original": "C314",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U315",
+      "original": "U315",
+      "value": "DAC7811IDGSR",
+      "footprint": "AnalogMatrix:VSSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C315",
+      "original": "C315",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "U400",
+      "original": "U400",
+      "value": "MCP4728T-E_UN",
+      "footprint": "AnalogMatrix:MSOP-10_3x3mm_P0.5mm",
+      "pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "U401",
+      "original": "U401",
+      "value": "OPA4197IPWR",
+      "footprint": "AnalogMatrix:TSSOP-14_4.4x5mm_P0.65mm",
+      "pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "R300",
+      "original": "R300",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "R301",
+      "original": "R301",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "C320",
+      "original": "C320",
+      "value": "10 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R; trim filter only"
+    },
+    {
+      "reference": "R302",
+      "original": "R302",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "R303",
+      "original": "R303",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "C321",
+      "original": "C321",
+      "value": "10 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R; trim filter only"
+    },
+    {
+      "reference": "R304",
+      "original": "R304",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "R305",
+      "original": "R305",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "C322",
+      "original": "C322",
+      "value": "10 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R; trim filter only"
+    },
+    {
+      "reference": "R306",
+      "original": "R306",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "R307",
+      "original": "R307",
+      "value": "10.0 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "0.1%, 25ppm/C"
+    },
+    {
+      "reference": "C323",
+      "original": "C323",
+      "value": "10 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R; trim filter only"
+    },
+    {
+      "reference": "C324",
+      "original": "C324",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "C325",
+      "original": "C325",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "C326",
+      "original": "C326",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "C327",
+      "original": "C327",
+      "value": "1 uF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R"
+    },
+    {
+      "reference": "R308",
+      "original": "R308",
+      "value": "4.70 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "1%, 0.1W"
+    },
+    {
+      "reference": "R309",
+      "original": "R309",
+      "value": "4.70 k",
+      "footprint": "AnalogMatrix:R_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "1%, 0.1W"
+    },
+    {
+      "reference": "U110",
+      "original": "U110",
+      "value": "ADR4525BRZ",
+      "footprint": "AnalogMatrix:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dnp": false,
+      "rating": ""
+    },
+    {
+      "reference": "C187",
+      "original": "C_REF_IN",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C188",
+      "original": "CB_REF_IN",
+      "value": "1 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C189",
+      "original": "C_REF_OUT",
+      "value": "100 nF",
+      "footprint": "AnalogMatrix:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    },
+    {
+      "reference": "C190",
+      "original": "CB_REF_OUT",
+      "value": "1 uF",
+      "footprint": "AnalogMatrix:C_0805_2012Metric",
+      "pads": [
+        "1",
+        "2"
+      ],
+      "dnp": false,
+      "rating": "25V X7R minimum; effective C after bias"
+    }
+  ]
+}

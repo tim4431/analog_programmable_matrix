@@ -1,0 +1,36 @@
+﻿Designator,Quantity,Required part/value,Package,Required rating,LCSC Part #,Action
+"C1,C2,C3,C4,C11,C12,C17,C18,C19,C20,C27,C28,C33,C37,C38,C39,C40,C44,C45,C47,C48,C49,C50,C54,C55,C57,C58,C59,C60,C61,C62,C67,C71,C72,C73,C74,C78,C79,C81,C82,C83,C84,C88,C89,C95,C96,C101,C105,C106,C107,C108,C112,C113,C115,C116,C117,C118,C122,C123,C125,C126,C127,C128,C129,C130,C135,C139,C140,C141,C142,C146,C147,C149,C150,C151,C152,C156,C157,C163,C164,C187,C189,C191,C192,C196,C200",86,100 nF,C_0603_1608Metric,25V X7R minimum; effective C after bias,,Select exact supplier part
+"C7,C8,C15,C16,C23,C24,C31,C32,C63,C64,C97,C98,C131,C132,C165,C166",16,10 uF,C_0805_2012Metric,25V X7R minimum; effective C after bias,,Select exact supplier part
+"C34,C68,C102,C136,C188,C190",6,1 uF,C_0805_2012Metric,25V X7R minimum; effective C after bias,,Select exact supplier part
+"C41,C46,C51,C56,C75,C80,C85,C90,C109,C114,C119,C124,C143,C148,C153,C158",16,1.0 pF C0G,C_0402_1005Metric,"50V C0G, +/-0.1pF; stray capacitance included in simulation",,Select exact supplier part
+"C65,C66,C99,C100,C133,C134,C167,C168",8,6.8 uF / 25 V,CP_EIA-3216-18_Kemet-A,25V polarized,,Select exact supplier part
+C194,1,330 nF,C_0603_1608Metric,25V X7R minimum; effective C after bias,,Select exact supplier part
+C198,1,2.2 uF,CP_EIA-3216-18_Kemet-A,35V polarized,,Select exact supplier part
+"C300,C301,C302,C303,C304,C305,C306,C307,C308,C309,C310,C311,C312,C313,C314,C315,C324,C325,C326",19,100 nF,C_0603_1608Metric,25V X7R,,Select exact supplier part
+"C320,C321,C322,C323",4,10 nF,C_0603_1608Metric,25V X7R; trim filter only,,Select exact supplier part
+C327,1,1 uF,C_0603_1608Metric,25V X7R,,Select exact supplier part
+"R1,R10,R19,R28,R133,R134,R135,R136,R137",9,33 ohm,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R2,R11,R20,R29",4,1 M,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R4,R5,R13,R14,R22,R23,R31,R32",8,499 ohm,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R6,R7,R8,R9,R15,R16,R17,R18,R24,R25,R26,R27,R33,R34,R35,R36,R40,R44,R48,R52,R64,R68,R72,R76,R88,R92,R96,R100,R112,R116,R120,R124",32,1.00 k,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R37,R38,R41,R42,R45,R46,R49,R50,R61,R62,R65,R66,R69,R70,R73,R74,R85,R86,R89,R90,R93,R94,R97,R98,R109,R110,R113,R114,R117,R118,R121,R122",32,150R 0.1%,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R39,R43,R47,R51,R57,R63,R67,R71,R75,R81,R87,R91,R95,R99,R105,R111,R115,R119,R123,R129",20,100 k,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R53,R77,R101,R125",4,549 ohm,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R54,R78,R102,R126",4,10.0 k,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R55,R79,R103,R127",4,20.0 k,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R56,R80,R104,R128",4,49.9 ohm,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R58,R82,R106,R130",4,1.21 k,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R59,R83,R107,R131",4,402 ohm,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R60,R84,R108,R132",4,49.9 ohm,R_2512_6332Metric,"0.1%, <=25ppm/C; >=1W",,Select exact supplier part
+"R138,R139,R140,R141,R146",5,10 k,R_0603_1608Metric,"0.1%, <=25ppm/C; 0.1W minimum",,Select exact supplier part
+"R300,R301,R302,R303,R304,R305,R306,R307",8,10.0 k,R_0603_1608Metric,"0.1%, 25ppm/C",,Select exact supplier part
+"R308,R309",2,4.70 k,R_0603_1608Metric,"1%, 0.1W",,Select exact supplier part
+"U60,U61,U62,U63,U64,U65,U66,U67,U68,U69,U70,U71,U72,U73,U74,U75",16,ADA4899-1YRDZ,ADA4899_RD8_EP2.29x2.29,,C654315,"Verify exact manufacturer, stock and placement"
+"U90,U91,U92,U93",4,THS3091DDAR,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias,,C181226,"Verify exact manufacturer, stock and placement"
+U110,1,ADR4525BRZ,SOIC-8_3.9x4.9mm_P1.27mm,,C395112,"Verify exact manufacturer, stock and placement"
+"U121,U122",2,SN74HC595D,SOIC-16_3.9x9.9mm_P1.27mm,,,Select exact supplier part
+"U200,U201,U202,U203,U204,U205,U206,U207",8,OPA2810IDR,SOIC-8_3.9x4.9mm_P1.27mm,,C1849413,"Verify exact manufacturer, stock and placement"
+"U220,U221,U222,U223,U224,U225,U226,U227,U228,U229",10,TMUX6136PWR,TSSOP-16_4.4x5mm_P0.65mm,,C2673380,"Verify exact manufacturer, stock and placement"
+"U300,U301,U302,U303,U304,U305,U306,U307,U308,U309,U310,U311,U312,U313,U314,U315",16,DAC7811IDGSR,VSSOP-10_3x3mm_P0.5mm,,C390090,"Verify exact manufacturer, stock and placement"
+U400,1,MCP4728T-E/UN,MSOP-10_3x3mm_P0.5mm,,C478093,"Verify exact manufacturer, stock and placement"
+U401,1,OPA4197IPWR,TSSOP-14_4.4x5mm_P0.65mm,,C2057327,"Verify exact manufacturer, stock and placement"

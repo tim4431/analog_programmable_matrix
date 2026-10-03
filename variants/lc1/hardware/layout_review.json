@@ -1,0 +1,158 @@
+{
+  "source_pcb_sha256": "a68d071ce6692b13731b821ba24a73ddd0baef12d0a73b238c79da2133c784b0",
+  "ground_layer": "In1.Cu",
+  "ground_plane_connected_regions": 1,
+  "tracks_on_ground_layer": 0,
+  "mdac_current_output_routes": [
+    {
+      "row": 0,
+      "column": 0,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "length_mm": 5.163172183607149,
+      "layer": "F.Cu",
+      "vias": 0
+    }
+  ],
+  "power_trace_length_mm_by_width": {
+    "+15V": {
+      "0.200 mm": 71.468,
+      "0.250 mm": 63.893,
+      "0.300 mm": 57.149,
+      "0.400 mm": 36.369,
+      "0.401 mm": 2.69,
+      "0.600 mm": 99.555,
+      "0.800 mm": 279.141
+    },
+    "-15V": {
+      "0.150 mm": 50.229,
+      "0.200 mm": 36.296,
+      "0.250 mm": 22.168,
+      "0.300 mm": 47.42,
+      "0.400 mm": 158.034,
+      "0.600 mm": 49.666,
+      "0.800 mm": 243.217
+    },
+    "+5A": {
+      "0.150 mm": 27.095,
+      "0.200 mm": 35.417,
+      "0.250 mm": 89.558,
+      "0.300 mm": 124.02,
+      "0.400 mm": 135.38,
+      "0.600 mm": 160.055,
+      "0.800 mm": 440.522
+    },
+    "-5A": {
+      "0.200 mm": 40.212,
+      "0.250 mm": 16.439,
+      "0.300 mm": 97.034,
+      "0.400 mm": 69.513,
+      "0.600 mm": 98.213,
+      "0.800 mm": 389.79
+    }
+  },
+  "scope": "Native geometry only. Continuous inner ground plane and short current-output feedback paths checked; high-frequency parasitics, rail impedance under load and thermal behavior still require prototype measurement."
+}

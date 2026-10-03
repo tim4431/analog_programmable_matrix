@@ -1,0 +1,11 @@
+{
+  "bench": "row_sine.cir",
+  "sha256": "2e2987d68a478ed367259459672f4ebdfe8774cbeb94b14c61ef2535d357ce0f",
+  "returncode": 0,
+  "points": 6290,
+  "end_time": 1.2e-05,
+  "minimum": -3.9772732822358234,
+  "maximum": 3.9663287057768466,
+  "status": "completed",
+  "seconds": 9.38921819999814
+}

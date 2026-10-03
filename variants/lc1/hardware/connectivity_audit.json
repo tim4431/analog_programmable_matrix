@@ -1,0 +1,7 @@
+{
+  "components": 387,
+  "expected_connected_pins": 1233,
+  "expected_nets": 205,
+  "connectivity_errors": [],
+  "erc_counts": {}
+}

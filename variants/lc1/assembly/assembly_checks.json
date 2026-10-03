@@ -1,0 +1,15 @@
+{
+  "source_pcb_sha256": "a68d071ce6692b13731b821ba24a73ddd0baef12d0a73b238c79da2133c784b0",
+  "smt": 365,
+  "manual": 18,
+  "dnp": 4,
+  "bom_groups": 35,
+  "manufacturing_release": false,
+  "native_drc_violations": 0,
+  "unrouted": 0,
+  "schematic_mismatches": 0,
+  "gerber_zip_sha256": "9ca337bf3632630d7a1240a48da0c4a38b9da85d6954a3c3ecad2ff0892e1ee6",
+  "fabrication_export_checks_passed": true,
+  "hardware_qualified": false,
+  "via_in_pad_review_locations": 269
+}

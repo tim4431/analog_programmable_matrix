@@ -6,6 +6,8 @@ $$b_i = \sum_{j=0}^{3} M_{ij}a_j, \qquad -1 \leq M_{ij} \leq 1$$
 
 This first public version contains **PCB D and enclosure M3**, without the added power-indicator LED. It is an **unbuilt prototype**: the 1 MHz bandwidth and approximately 1% gain accuracy are design targets supported by circuit simulations, not measured hardware specifications.
 
+A separate **[LC1 lower-cost 12-bit design](variants/lc1/README.md)** is also included. It preserves the original design and enclosure interface, reduces the listed component count from 428 to 387, and replaces the expensive multiplying DACs. LC1 has its own schematic, PCB, firmware, sourcing notes and simulation evidence. The renders below show the original Revision D.
+
 ## PCB and enclosure
 
 These are renders generated from the CAD, not photographs of manufactured hardware.

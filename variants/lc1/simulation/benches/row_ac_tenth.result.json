@@ -1,0 +1,13 @@
+{
+  "bench": "row_ac_tenth.cir",
+  "sha256": "33df97d2b62ca4fd2de3a1258c9f148634184e410a21254a4cb19f5af58d0146",
+  "returncode": 0,
+  "points": 961,
+  "dc_gain": 0.10689280228760004,
+  "gain_at_1mhz": 0.10614126925985376,
+  "normalized_gain_at_1mhz": 0.9929692831354142,
+  "magnitude_error_1mhz_percent": -0.7030716864585784,
+  "passband_peak_percent": -1.1102230246251565e-14,
+  "status": "completed",
+  "seconds": 6.779382799984887
+}

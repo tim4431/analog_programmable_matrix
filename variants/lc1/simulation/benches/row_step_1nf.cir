@@ -1,0 +1,246 @@
+* LC1: datasheet-derived static MDAC and switch model; vendor op amps.
+.include "../vendor/opa2810/opa2810_a.lib"
+.include "../../../../spice/models/ADA4899.sub"
+.include "../../../../spice/models/ths3091_tina/THS3091.lib"
+.include "../../../../spice/models/opa197/OPAx197.LIB"
+.param rdac=10k ron=120 csw=7.5p cout=5p cstray=5p cf=1p cfstray=.3p fbw=10Meg q=.93552 sg=0 cload=1n
+VP vp 0 5
+VN vn 0 -5
+VHP hp 0 15
+VHN hn 0 -15
+VREF vref 0 2.5
+.options plotwinsize=0 numdgt=7 reltol=.001 abstol=1p vntol=1u method=gear
+VIN0 a0 0 PULSE(0 1 1u 10n 10n 5u 12u)
+Rin0 a0 ai0 33
+Rb0 a0 0 1Meg
+Xbuf0 ai0 buf0 buf0 vp vn OPA2810
+Rp1_0 buf0 pd0 499
+Rp2_0 pd0 0 499
+Xpos0 pd0 pi0 p0 vp vn OPA2810
+Rpf0 p0 pi0 1k
+Rpg0 pi0 0 1k
+Xneg0 0 ni0 n0 vp vn OPA2810
+Rni0 buf0 ni0 1k
+Rnf0 n0 ni0 1k
+Rbp0_0 p0 sp0_0 150
+Rbn0_0 n0 sn0_0 150
+Cp0_0 sp0_0 0 {csw}
+Cn0_0 sn0_0 0 {csw}
+Rswp0_0 sp0_0 ref0_0 {if(sg<.5,ron,1T)}
+Rswn0_0 sn0_0 ref0_0 {if(sg>.5,ron,1T)}
+Rref0_0 ref0_0 0 {rdac}
+Cref0_0 ref0_0 0 5p
+Rbp0_1 p0 sp0_1 150
+Rbn0_1 n0 sn0_1 150
+Cp0_1 sp0_1 0 {csw}
+Cn0_1 sn0_1 0 {csw}
+Rswp0_1 sp0_1 ref0_1 {if(sg<.5,ron,1T)}
+Rswn0_1 sn0_1 ref0_1 {if(sg>.5,ron,1T)}
+Rref0_1 ref0_1 0 {rdac}
+Cref0_1 ref0_1 0 5p
+Rbp0_2 p0 sp0_2 150
+Rbn0_2 n0 sn0_2 150
+Cp0_2 sp0_2 0 {csw}
+Cn0_2 sn0_2 0 {csw}
+Rswp0_2 sp0_2 ref0_2 {if(sg<.5,ron,1T)}
+Rswn0_2 sn0_2 ref0_2 {if(sg>.5,ron,1T)}
+Rref0_2 ref0_2 0 {rdac}
+Cref0_2 ref0_2 0 5p
+Rbp0_3 p0 sp0_3 150
+Rbn0_3 n0 sn0_3 150
+Cp0_3 sp0_3 0 {csw}
+Cn0_3 sn0_3 0 {csw}
+Rswp0_3 sp0_3 ref0_3 {if(sg<.5,ron,1T)}
+Rswn0_3 sn0_3 ref0_3 {if(sg>.5,ron,1T)}
+Rref0_3 ref0_3 0 {rdac}
+Cref0_3 ref0_3 0 5p
+Ebw0 bwsource0 0 ref0_0 0 1
+Rbw0 bwsource0 filt0 1k
+Cbw0 filt0 0 {1/(2*pi*1k*fbw)}
+Gdac0 0 inn0 filt0 0 {q/rdac}
+Rfb0 weight0 inn0 {rdac}
+Rout0 inn0 0 {rdac}
+Co0 inn0 0 {cout+cstray}
+Cf0 weight0 inn0 {cf+cfstray}
+Xamp0 0 inn0 vp vn weight0 weight0 vp ADA4899
+Rsum0 weight0 snode 1k
+VIN1 a1 0 PULSE(0 1 1u 10n 10n 5u 12u)
+Rin1 a1 ai1 33
+Rb1 a1 0 1Meg
+Xbuf1 ai1 buf1 buf1 vp vn OPA2810
+Rp1_1 buf1 pd1 499
+Rp2_1 pd1 0 499
+Xpos1 pd1 pi1 p1 vp vn OPA2810
+Rpf1 p1 pi1 1k
+Rpg1 pi1 0 1k
+Xneg1 0 ni1 n1 vp vn OPA2810
+Rni1 buf1 ni1 1k
+Rnf1 n1 ni1 1k
+Rbp1_0 p1 sp1_0 150
+Rbn1_0 n1 sn1_0 150
+Cp1_0 sp1_0 0 {csw}
+Cn1_0 sn1_0 0 {csw}
+Rswp1_0 sp1_0 ref1_0 {if(sg<.5,ron,1T)}
+Rswn1_0 sn1_0 ref1_0 {if(sg>.5,ron,1T)}
+Rref1_0 ref1_0 0 {rdac}
+Cref1_0 ref1_0 0 5p
+Rbp1_1 p1 sp1_1 150
+Rbn1_1 n1 sn1_1 150
+Cp1_1 sp1_1 0 {csw}
+Cn1_1 sn1_1 0 {csw}
+Rswp1_1 sp1_1 ref1_1 {if(sg<.5,ron,1T)}
+Rswn1_1 sn1_1 ref1_1 {if(sg>.5,ron,1T)}
+Rref1_1 ref1_1 0 {rdac}
+Cref1_1 ref1_1 0 5p
+Rbp1_2 p1 sp1_2 150
+Rbn1_2 n1 sn1_2 150
+Cp1_2 sp1_2 0 {csw}
+Cn1_2 sn1_2 0 {csw}
+Rswp1_2 sp1_2 ref1_2 {if(sg<.5,ron,1T)}
+Rswn1_2 sn1_2 ref1_2 {if(sg>.5,ron,1T)}
+Rref1_2 ref1_2 0 {rdac}
+Cref1_2 ref1_2 0 5p
+Rbp1_3 p1 sp1_3 150
+Rbn1_3 n1 sn1_3 150
+Cp1_3 sp1_3 0 {csw}
+Cn1_3 sn1_3 0 {csw}
+Rswp1_3 sp1_3 ref1_3 {if(sg<.5,ron,1T)}
+Rswn1_3 sn1_3 ref1_3 {if(sg>.5,ron,1T)}
+Rref1_3 ref1_3 0 {rdac}
+Cref1_3 ref1_3 0 5p
+Ebw1 bwsource1 0 ref1_0 0 1
+Rbw1 bwsource1 filt1 1k
+Cbw1 filt1 0 {1/(2*pi*1k*fbw)}
+Gdac1 0 inn1 filt1 0 {q/rdac}
+Rfb1 weight1 inn1 {rdac}
+Rout1 inn1 0 {rdac}
+Co1 inn1 0 {cout+cstray}
+Cf1 weight1 inn1 {cf+cfstray}
+Xamp1 0 inn1 vp vn weight1 weight1 vp ADA4899
+Rsum1 weight1 snode 1k
+VIN2 a2 0 PULSE(0 1 1u 10n 10n 5u 12u)
+Rin2 a2 ai2 33
+Rb2 a2 0 1Meg
+Xbuf2 ai2 buf2 buf2 vp vn OPA2810
+Rp1_2 buf2 pd2 499
+Rp2_2 pd2 0 499
+Xpos2 pd2 pi2 p2 vp vn OPA2810
+Rpf2 p2 pi2 1k
+Rpg2 pi2 0 1k
+Xneg2 0 ni2 n2 vp vn OPA2810
+Rni2 buf2 ni2 1k
+Rnf2 n2 ni2 1k
+Rbp2_0 p2 sp2_0 150
+Rbn2_0 n2 sn2_0 150
+Cp2_0 sp2_0 0 {csw}
+Cn2_0 sn2_0 0 {csw}
+Rswp2_0 sp2_0 ref2_0 {if(sg<.5,ron,1T)}
+Rswn2_0 sn2_0 ref2_0 {if(sg>.5,ron,1T)}
+Rref2_0 ref2_0 0 {rdac}
+Cref2_0 ref2_0 0 5p
+Rbp2_1 p2 sp2_1 150
+Rbn2_1 n2 sn2_1 150
+Cp2_1 sp2_1 0 {csw}
+Cn2_1 sn2_1 0 {csw}
+Rswp2_1 sp2_1 ref2_1 {if(sg<.5,ron,1T)}
+Rswn2_1 sn2_1 ref2_1 {if(sg>.5,ron,1T)}
+Rref2_1 ref2_1 0 {rdac}
+Cref2_1 ref2_1 0 5p
+Rbp2_2 p2 sp2_2 150
+Rbn2_2 n2 sn2_2 150
+Cp2_2 sp2_2 0 {csw}
+Cn2_2 sn2_2 0 {csw}
+Rswp2_2 sp2_2 ref2_2 {if(sg<.5,ron,1T)}
+Rswn2_2 sn2_2 ref2_2 {if(sg>.5,ron,1T)}
+Rref2_2 ref2_2 0 {rdac}
+Cref2_2 ref2_2 0 5p
+Rbp2_3 p2 sp2_3 150
+Rbn2_3 n2 sn2_3 150
+Cp2_3 sp2_3 0 {csw}
+Cn2_3 sn2_3 0 {csw}
+Rswp2_3 sp2_3 ref2_3 {if(sg<.5,ron,1T)}
+Rswn2_3 sn2_3 ref2_3 {if(sg>.5,ron,1T)}
+Rref2_3 ref2_3 0 {rdac}
+Cref2_3 ref2_3 0 5p
+Ebw2 bwsource2 0 ref2_0 0 1
+Rbw2 bwsource2 filt2 1k
+Cbw2 filt2 0 {1/(2*pi*1k*fbw)}
+Gdac2 0 inn2 filt2 0 {q/rdac}
+Rfb2 weight2 inn2 {rdac}
+Rout2 inn2 0 {rdac}
+Co2 inn2 0 {cout+cstray}
+Cf2 weight2 inn2 {cf+cfstray}
+Xamp2 0 inn2 vp vn weight2 weight2 vp ADA4899
+Rsum2 weight2 snode 1k
+VIN3 a3 0 PULSE(0 1 1u 10n 10n 5u 12u)
+Rin3 a3 ai3 33
+Rb3 a3 0 1Meg
+Xbuf3 ai3 buf3 buf3 vp vn OPA2810
+Rp1_3 buf3 pd3 499
+Rp2_3 pd3 0 499
+Xpos3 pd3 pi3 p3 vp vn OPA2810
+Rpf3 p3 pi3 1k
+Rpg3 pi3 0 1k
+Xneg3 0 ni3 n3 vp vn OPA2810
+Rni3 buf3 ni3 1k
+Rnf3 n3 ni3 1k
+Rbp3_0 p3 sp3_0 150
+Rbn3_0 n3 sn3_0 150
+Cp3_0 sp3_0 0 {csw}
+Cn3_0 sn3_0 0 {csw}
+Rswp3_0 sp3_0 ref3_0 {if(sg<.5,ron,1T)}
+Rswn3_0 sn3_0 ref3_0 {if(sg>.5,ron,1T)}
+Rref3_0 ref3_0 0 {rdac}
+Cref3_0 ref3_0 0 5p
+Rbp3_1 p3 sp3_1 150
+Rbn3_1 n3 sn3_1 150
+Cp3_1 sp3_1 0 {csw}
+Cn3_1 sn3_1 0 {csw}
+Rswp3_1 sp3_1 ref3_1 {if(sg<.5,ron,1T)}
+Rswn3_1 sn3_1 ref3_1 {if(sg>.5,ron,1T)}
+Rref3_1 ref3_1 0 {rdac}
+Cref3_1 ref3_1 0 5p
+Rbp3_2 p3 sp3_2 150
+Rbn3_2 n3 sn3_2 150
+Cp3_2 sp3_2 0 {csw}
+Cn3_2 sn3_2 0 {csw}
+Rswp3_2 sp3_2 ref3_2 {if(sg<.5,ron,1T)}
+Rswn3_2 sn3_2 ref3_2 {if(sg>.5,ron,1T)}
+Rref3_2 ref3_2 0 {rdac}
+Cref3_2 ref3_2 0 5p
+Rbp3_3 p3 sp3_3 150
+Rbn3_3 n3 sn3_3 150
+Cp3_3 sp3_3 0 {csw}
+Cn3_3 sn3_3 0 {csw}
+Rswp3_3 sp3_3 ref3_3 {if(sg<.5,ron,1T)}
+Rswn3_3 sn3_3 ref3_3 {if(sg>.5,ron,1T)}
+Rref3_3 ref3_3 0 {rdac}
+Cref3_3 ref3_3 0 5p
+Ebw3 bwsource3 0 ref3_0 0 1
+Rbw3 bwsource3 filt3 1k
+Cbw3 filt3 0 {1/(2*pi*1k*fbw)}
+Gdac3 0 inn3 filt3 0 {q/rdac}
+Rfb3 weight3 inn3 {rdac}
+Rout3 inn3 0 {rdac}
+Co3 inn3 0 {cout+cstray}
+Cf3 weight3 inn3 {cf+cfstray}
+Xamp3 0 inn3 vp vn weight3 weight3 vp ADA4899
+Rsum3 weight3 snode 1k
+Rt snode trim 10k
+Vtrim trim 0 -1.25
+Rrefsum snode vref 20k
+Rsf sum snode 549
+Xsum 0 snode sum vp vn OPA2810
+Rmute sum mute_source 49.9
+Rmuteon mute_source drv {ron}
+Cmuteload drv 0 {csw+10p}
+Rbias drv 0 100k
+Xdrv drv dn dout hp hn THS3091
+Rdf dout dn 1210
+Rdg dn 0 402
+Rser dout b0 49.9
+Rl b0 0 50
+Cl b0 0 {cload}
+.save V(a0) V(ref0_0) V(weight0) V(sum) V(dout) V(b0)
+.tran 0 12u 0 2n
+.end

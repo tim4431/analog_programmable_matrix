@@ -1,0 +1,23 @@
+* LC1: datasheet-derived static MDAC and switch model; vendor op amps.
+.include "../vendor/opa2810/opa2810_a.lib"
+.include "../../../../spice/models/ADA4899.sub"
+.include "../../../../spice/models/ths3091_tina/THS3091.lib"
+.include "../../../../spice/models/opa197/OPAx197.LIB"
+.param rdac=10k ron=120 csw=7.5p cout=5p cstray=5p cf=1p cfstray=.3p fbw=10Meg q=.93552 sg=0 cload=20p
+VP vp 0 5
+VN vn 0 -5
+VHP hp 0 15
+VHN hn 0 -15
+VREF vref 0 2.5
+.options plotwinsize=0 numdgt=7 reltol=.001 abstol=1p vntol=1u method=gear
+XAMP 0 inn vp vn raw raw vp ADA4899
+RF out inn 8000
+RO inn 0 8000
+CO inn 0 10p
+CF out inn 1.1p
+RL out 0 1k
+CL out 0 20p
+VTEST out raw DC 0 AC 1
+.ac dec 150 10 3G
+.save V(out) V(raw)
+.end

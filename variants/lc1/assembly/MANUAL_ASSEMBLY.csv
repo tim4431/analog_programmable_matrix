@@ -1,0 +1,19 @@
+﻿Designator,Value,Footprint,Note
+C193,47 uF / 35 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,
+C195,10 uF / 16 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,
+C197,47 uF / 35 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,
+C199,10 uF / 16 V,C_Radial_D5.0mm_H11.0mm_P2.00mm,
+D1,1N4002,D_DO-41_SOD81_P10.16mm_Horizontal,
+D2,1N4002,D_DO-41_SOD81_P10.16mm_Horizontal,
+J1,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J2,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J3,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J4,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,
+J5,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,External 50 ohm load; not a fitted on-board shunt
+J6,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,External 50 ohm load; not a fitted on-board shunt
+J7,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,External 50 ohm load; not a fitted on-board shunt
+J8,BNC 031-5329-52RFX,BNC_Amphenol_031-5329-52RFX_Vertical,External 50 ohm load; not a fitted on-board shunt
+J9,3-pin terminal,"TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+U120,Raspberry Pi Pico,Pico_2x20_Socket_17.78mm,Unlisted pins unconnected; USB power; do not join VBUS to +5A
+U130,L7805CV,TO-220-3_Vertical,
+U131,L7905CV,TO-220-3_Vertical,

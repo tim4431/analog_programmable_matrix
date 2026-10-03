@@ -1,0 +1,80 @@
+LC1 CIRCUIT SIMULATION SCOPE
+===========================
+
+Simulator: LTspice 24.1.3 (Windows).
+35 completed benches: 13 row tests and 22 individual feedback-loop tests.
+Each recorded result includes its circuit SHA-256. results.json is rebuilt
+from per-bench records; evidence_matches_netlist must be true for every case.
+Raw simulation waveforms and simulator logs are local generated files and
+are excluded from Git; rerun the benches to reproduce the report plots.
+
+VENDOR MODELS
+ADA4899-1, OPA2810, THS3091 and OPAx197 vendor macromodels are used.
+They model amplifier behavior, not a complete manufactured multichannel PCB.
+OPA2810 channels use separate instances and do not model interchannel coupling.
+OPA4197 trim loops use the family OPAx197 single-channel model.
+Model provenance is recorded; download scripts keep licensed models out of Git.
+
+DAC7811 APPROXIMATION
+The TI-downloadable DAC7811 TINA model is encrypted and is not used in
+LTspice. A behavioral current source implements q*Vref/Rdac, with an
+8/10/12 kohm matched reference/feedback resistance, output resistance,
+code-dependent capacitance allowance, and a separate first-order bandwidth
+pole. The nominal pole is 10 MHz, based on the datasheet typical multiplying
+bandwidth. This is an engineering approximation, not a validated vendor model
+or a guaranteed minimum bandwidth. A 5 MHz pole stress is included and fails
+the 1% magnitude target at 1 MHz (2.15% droop).
+
+The modeled full coefficient is q=0.93552, yielding approximately unity
+loaded transfer after the analog gain reserve. Actual firmware uses integer
+12-bit codes and measured positive/negative full-code gains. INL, DNL,
+reference feedthrough, digital glitches and silicon process distributions
+are not comprehensively modeled. Codes 0.1, 0.5 and near full range are
+included as linear transfer checks, not as an exhaustive code sweep.
+
+SWITCH APPROXIMATION
+TMUX6136 uses static selected/unselected resistances and terminal capacitance,
+with 120 ohm nominal and a conservative 245 ohm resistance stress. Board
+supplies are +/-15 V. Charge injection, switching transients, leakage over
+temperature and powered-off behavior require measurements.
+
+PARASITIC ASSUMPTIONS
+Nominal summing-node DAC capacitance: 5 pF device + 5 pF stray.
+Stress: 10 pF device + 10 pF stray.
+Nominal feedback compensation: 1.0 pF component + 0.3 pF stray.
+Loop sweep: total feedback capacitance 1.1 pF and 1.5 pF.
+These are assumed bounds, not extracted PCB parasitics. The real board must
+be checked for ringing/oscillation and frequency response at all 16 cells.
+
+The modeled input stage drives all four row reference loads, including both
+selected and unselected switch capacitances. Four independent weighted
+paths feed a representative row. Four coherent input tones/steps test full
+summation. The complete four-output board is not an EM/crosstalk simulation.
+
+OUTPUT LOAD
+The THS3091 uses 1210 ohm feedback, 402 ohm gain resistor, +/-15 V rails,
+49.9 ohm series source termination and external 50 ohm load. Capacitive-load
+checks use 20 pF and 1 nF in parallel with the external 50 ohm termination.
+The 1 nF case is a stress model, not a substitute for a transmission-line
+model of arbitrary cables and mismatched loads. High-impedance loads can
+see roughly twice the specified loaded voltage.
+
+ANALYSIS
+AC gain is normalized to the low-frequency magnitude. Thus reported 1 MHz
+droop is amplitude flatness after scalar gain calibration, not absolute
+uncalibrated accuracy or complex transfer error. No deep cancellation or
+phase-matching specification is claimed.
+Loop gain is measured through an AC series injection preserving DC bias.
+Phase margin is reported at downward unity crossings.
+Transient solver uses Gear integration, reltol=0.001; runs reach 12 us and
+include both rising and falling full-sum transitions. Model numerical
+damping and ideal sources can differ from measured high-frequency ringing.
+DC sweeps cover 0 to +1 V and 0 to -1 V with both coefficient signs.
+
+REQUIRED HARDWARE WORK
+Gain/offset calibration; response through 1 MHz for each sign/path;
+zero-code feedthrough; simultaneous full-sum output swing; spectral noise;
+cross-channel cancellation if needed; output cable/loading behavior;
+power/USB sequencing and mute transients; power integrity and thermal soak
+inside the enclosure. Current-limited first power-up and insulated heatsinks
+remain required. Simulation does not establish production yield or safety.

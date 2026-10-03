@@ -1,0 +1,15 @@
+{
+  "bench": "loop_trim.cir",
+  "sha256": "385d6211e39a95ba53b717cc3f6d82f3fb798a98172e6d4deeade341fcaba376",
+  "returncode": 0,
+  "points": 1273,
+  "loop_crossings": [
+    {
+      "crossover_hz": 9720584.140029162,
+      "phase_margin_deg": 71.31834155769808
+    }
+  ],
+  "min_phase_margin_deg": 71.31834155769808,
+  "status": "completed",
+  "seconds": 0.6822763001546264
+}

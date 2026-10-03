@@ -1,0 +1,13 @@
+{
+  "bench": "row_step_1nf.cir",
+  "sha256": "f437b9f5445b658fc99dcec235f5ce96aa89a70a555a55e3c564877915efc74c",
+  "returncode": 0,
+  "points": 6192,
+  "end_time": 1.2e-05,
+  "minimum": -0.005472450382864193,
+  "maximum": 3.9944582480630633,
+  "steady_voltage": 3.9944582461685503,
+  "overshoot_percent": 4.7428527771842255e-08,
+  "status": "completed",
+  "seconds": 8.428216199856251
+}

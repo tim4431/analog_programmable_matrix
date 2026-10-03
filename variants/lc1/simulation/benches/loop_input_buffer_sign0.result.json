@@ -1,0 +1,15 @@
+{
+  "bench": "loop_input_buffer_sign0.cir",
+  "sha256": "e6a9210c14df7df949e04accd91842e30e0abb42dd03bffc3190a8241c0a2c0e",
+  "returncode": 0,
+  "points": 1273,
+  "loop_crossings": [
+    {
+      "crossover_hz": 59607139.52434053,
+      "phase_margin_deg": 57.58808986218862
+    }
+  ],
+  "min_phase_margin_deg": 57.58808986218862,
+  "status": "completed",
+  "seconds": 1.3636644000653177
+}

@@ -1,0 +1,42 @@
+LC1 ASSEMBLY DATA - SEPARATE FROM REVISION D
+
+Use only with the LC1 PCB and LC1 firmware. The original JLCPCB order has
+not been changed. Catalog part identities are not reserved assembly stock.
+
+365 fitted SMT components, 35 grouped BOM rows, all on top.
+18 through-hole/module items are in MANUAL_ASSEMBLY.csv.
+4 resistors are intentionally DNP and excluded from BOM/CPL.
+Additional Pico sockets/headers, heatsinks, tab insulators and enclosure
+hardware are separate. See the original M3 mechanical instructions.
+
+Read ../SOURCING.md before quoting. OPA4197IPWR catalog stock was only one
+piece when checked, insufficient for two boards. OPA2810IDR JLC availability
+and price remain unconfirmed. Blank LCSC cells need exact part selection.
+Do not silently replace TI amplifiers with another manufacturer or family.
+
+Coordinates preserve native board origins: X rightward, Y negative downward
+from the PCB top-left. KiCad CCW rotation is normalized to 0..359 degrees.
+JLC library zero-angle conventions may differ; inspect every IC pin 1,
+polarized capacitor and connector against PIN1_ORIENTATION_REFERENCE.csv
+and the native PCB/assembly drawing. No vendor rotation offsets are guessed.
+
+Analog resistors: preserve the listed precision and temperature coefficient.
+TIA feedback capacitors: 1.0 pF C0G +/-0.1 pF; these differ from Revision D.
+Output source resistors: 49.9 ohm, 0.1%, at least 1 W, 2512.
+The MCP4728 must have default I2C address 0x60.
+
+PCB target: 160 x 170 mm, 4 layers, 1.6 mm nominal FR-4, Tg >=150 C,
+35 um copper on all four layers or explicit CAM confirmation, ENIG.
+L1 signals, L2 ground, L3 signals/power, L4 signals/ground.
+Filled and copper-capped thermal/via-in-pad holes are still required.
+Use POFV service, not ordinary tenting/plugging. Obtain CAM acceptance for
+small thermal holes under exposed-pad amplifiers. Do not fill component
+lead holes or nonplated mounting holes. No assembly order is authorized by
+a catalog identity match or a successful design-rule check alone.
+
+Qualification: unbuilt prototype. Complete rail/offset checks, individual
+positive/negative coefficient calibration with a 50 ohm load, 1 MHz response,
+full-sum swing, oscillation checks and enclosure thermal soak. Apply analog
+power before USB. Install insulated regulator heatsinks before operation;
+the negative regulator tab is not ground. See the simulation review PDF and
+LC1 firmware/CONTROL.md for calibration and model limitations.

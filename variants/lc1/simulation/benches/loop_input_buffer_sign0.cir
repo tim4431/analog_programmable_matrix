@@ -1,0 +1,62 @@
+* LC1: datasheet-derived static MDAC and switch model; vendor op amps.
+.include "../vendor/opa2810/opa2810_a.lib"
+.include "../../../../spice/models/ADA4899.sub"
+.include "../../../../spice/models/ths3091_tina/THS3091.lib"
+.include "../../../../spice/models/opa197/OPAx197.LIB"
+.param rdac=10k ron=120 csw=7.5p cout=5p cstray=5p cf=1p cfstray=.3p fbw=10Meg q=.93552 sg=0 cload=20p
+VP vp 0 5
+VN vn 0 -5
+VHP hp 0 15
+VHN hn 0 -15
+VREF vref 0 2.5
+.options plotwinsize=0 numdgt=7 reltol=.001 abstol=1p vntol=1u method=gear
+VIN0 a0 0 0
+Rin0 a0 ai0 33
+Rb0 a0 0 1Meg
+Xbuf0 ai0 sense buf0 vp vn OPA2810
+Rp1_0 buf0 pd0 499
+Rp2_0 pd0 0 499
+Xpos0 pd0 pi0 p0 vp vn OPA2810
+Rpf0 p0 pi0 1k
+Rpg0 pi0 0 1k
+Xneg0 0 ni0 n0 vp vn OPA2810
+Rni0 buf0 ni0 1k
+Rnf0 n0 ni0 1k
+Rbp0_0 p0 sp0_0 150
+Rbn0_0 n0 sn0_0 150
+Cp0_0 sp0_0 0 {csw}
+Cn0_0 sn0_0 0 {csw}
+Rswp0_0 sp0_0 ref0_0 {if(sg<.5,ron,1T)}
+Rswn0_0 sn0_0 ref0_0 {if(sg>.5,ron,1T)}
+Rref0_0 ref0_0 0 {rdac}
+Cref0_0 ref0_0 0 5p
+Rbp0_1 p0 sp0_1 150
+Rbn0_1 n0 sn0_1 150
+Cp0_1 sp0_1 0 {csw}
+Cn0_1 sn0_1 0 {csw}
+Rswp0_1 sp0_1 ref0_1 {if(sg<.5,ron,1T)}
+Rswn0_1 sn0_1 ref0_1 {if(sg>.5,ron,1T)}
+Rref0_1 ref0_1 0 {rdac}
+Cref0_1 ref0_1 0 5p
+Rbp0_2 p0 sp0_2 150
+Rbn0_2 n0 sn0_2 150
+Cp0_2 sp0_2 0 {csw}
+Cn0_2 sn0_2 0 {csw}
+Rswp0_2 sp0_2 ref0_2 {if(sg<.5,ron,1T)}
+Rswn0_2 sn0_2 ref0_2 {if(sg>.5,ron,1T)}
+Rref0_2 ref0_2 0 {rdac}
+Cref0_2 ref0_2 0 5p
+Rbp0_3 p0 sp0_3 150
+Rbn0_3 n0 sn0_3 150
+Cp0_3 sp0_3 0 {csw}
+Cn0_3 sn0_3 0 {csw}
+Rswp0_3 sp0_3 ref0_3 {if(sg<.5,ron,1T)}
+Rswn0_3 sn0_3 ref0_3 {if(sg>.5,ron,1T)}
+Rref0_3 ref0_3 0 {rdac}
+Cref0_3 ref0_3 0 5p
+VTEST sense buf0 DC 0 AC 1
+EOUT out 0 sense 0 1
+ERAW raw 0 buf0 0 1
+.ac dec 150 10 3G
+.save V(out) V(raw)
+.end

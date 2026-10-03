@@ -1,0 +1,15 @@
+{
+  "bench": "loop_summer.cir",
+  "sha256": "defffaddedd8090e70bcc45259b6961f905970855342376f5d227b7ba600dbcf",
+  "returncode": 0,
+  "points": 1273,
+  "loop_crossings": [
+    {
+      "crossover_hz": 19635022.701158557,
+      "phase_margin_deg": 62.74086229965492
+    }
+  ],
+  "min_phase_margin_deg": 62.74086229965492,
+  "status": "completed",
+  "seconds": 0.9897620999254286
+}

@@ -1,0 +1,15 @@
+{
+  "bench": "loop_driver_1000p.cir",
+  "sha256": "018c14175e944f23699659b13f35326528d3ef5a55c6e3f9056cc7653311a6ec",
+  "returncode": 0,
+  "points": 1273,
+  "loop_crossings": [
+    {
+      "crossover_hz": 134328334.8559877,
+      "phase_margin_deg": 72.8559743523107
+    }
+  ],
+  "min_phase_margin_deg": 72.8559743523107,
+  "status": "completed",
+  "seconds": 0.5929157000500709
+}

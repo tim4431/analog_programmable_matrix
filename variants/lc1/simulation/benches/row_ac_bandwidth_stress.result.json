@@ -1,0 +1,13 @@
+{
+  "bench": "row_ac_bandwidth_stress.cir",
+  "sha256": "c400dcadb873c73787f5560b2008cb105c3793613b322c4513bb28cfb80aaccb",
+  "returncode": 0,
+  "points": 961,
+  "dc_gain": 1.0000035438668309,
+  "gain_at_1mhz": 0.978546280421303,
+  "normalized_gain_at_1mhz": 0.9785428125958866,
+  "magnitude_error_1mhz_percent": -2.14571874041134,
+  "passband_peak_percent": 0.0,
+  "status": "completed",
+  "seconds": 5.211508500156924
+}

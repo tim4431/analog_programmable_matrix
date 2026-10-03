@@ -1,0 +1,11 @@
+{
+  "bench": "row_dc.cir",
+  "sha256": "92e0c801ae068c8bbf704fb411c2b9c20c735135977c6b5cab9dbbc589c646a3",
+  "returncode": 0,
+  "points": 101,
+  "dc_slope": 0.9999994141903004,
+  "dc_offset": -0.005471515904606179,
+  "max_residual_v": 1.4926050497798826e-06,
+  "status": "completed",
+  "seconds": 7.459312800085172
+}

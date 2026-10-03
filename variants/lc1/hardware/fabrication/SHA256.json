@@ -1,0 +1,16 @@
+{
+  "analog_matrix_lc1-B_Cu.gbl": "d39de7ce61fc41d2468aef8f3dd0daf727239e0e1a34536aba2ade9a5aeea7cf",
+  "analog_matrix_lc1-B_Mask.gbs": "12bad9748da13937ba75974905092616c88ef05b7c745d7da0a2a28104efab31",
+  "analog_matrix_lc1-B_Paste.gbp": "770ce9fd0bc0a60c8a44ced8279ee454094cfa2a8774386bb0e25c536c2ea4df",
+  "analog_matrix_lc1-B_Silkscreen.gbo": "178a42fc25df57c4bf7b6988a1dddc38991be82c5949bc504ae66f16dd7be6c6",
+  "analog_matrix_lc1-Edge_Cuts.gm1": "30fa41c38ddc67c4aa7b77e1c71d147c955e0132360d6cd692451785ff8905e4",
+  "analog_matrix_lc1-F_Cu.gtl": "798e11ec976a91fee20e805b347feb6189c27775a294e2b0a2dc0ab078bae893",
+  "analog_matrix_lc1-F_Mask.gts": "ba6a09fc925ec1b6b861dadc6c27d34f3c60f85746abf09d92a2ed8d36bbd610",
+  "analog_matrix_lc1-F_Paste.gtp": "c9804a54c73650efe49d2b969db576e9efd86136aa660f52794bd37ec98826d8",
+  "analog_matrix_lc1-F_Silkscreen.gto": "82d43fa87bc193e435906f843241faf18fb1ea1cc9769321eb7e247c0c235a6d",
+  "analog_matrix_lc1-In1_Cu.g2": "f6ed663942ea34b6eb6a1deb6b697cde99db3a1baf4efe7b5700898434cfdf73",
+  "analog_matrix_lc1-In2_Cu.g3": "10ff80340b178ac90f164cbaec7e0e09573abe08d15aeca7dbd9c474c4eaff20",
+  "analog_matrix_lc1-job.gbrjob": "6c3836120e6ed4b312f5e6fa282168750261d03886e90d6915fe6e52d2d6229a",
+  "analog_matrix_lc1-NPTH.drl": "f1423df3d4491f72a7b43c0b0353ff82b851f7d0a6b41d28ae056f6155a9692d",
+  "analog_matrix_lc1-PTH.drl": "438c20a3472bb62613713e84d839ed661f4eda96304f2c132b4be47d1e450f58"
+}

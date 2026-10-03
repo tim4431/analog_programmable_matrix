@@ -1,0 +1,15 @@
+{
+  "bench": "loop_tia_r8000_c20_f1.5.cir",
+  "sha256": "930c0f90ba516a04da6a7e98687b2c94c9e8ff708dfca317cb69a835a66bcc49",
+  "returncode": 0,
+  "points": 1273,
+  "loop_crossings": [
+    {
+      "crossover_hz": 25347653.48917777,
+      "phase_margin_deg": 68.69882598661269
+    }
+  ],
+  "min_phase_margin_deg": 68.69882598661269,
+  "status": "completed",
+  "seconds": 1.0125980998855084
+}
